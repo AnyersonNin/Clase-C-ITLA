@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\PracticaITLA\\PracticaITLA.csproj": {}
+    "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\Programacion Condicional\\Programacion Condicional.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\PracticaITLA\\PracticaITLA.csproj": {
+    "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\Programacion Condicional\\Programacion Condicional.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\PracticaITLA\\PracticaITLA.csproj",
-        "projectName": "PracticaITLA",
-        "projectPath": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\PracticaITLA\\PracticaITLA.csproj",
+        "projectUniqueName": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\Programacion Condicional\\Programacion Condicional.csproj",
+        "projectName": "Programacion Condicional",
+        "projectPath": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\Programacion Condicional\\Programacion Condicional.csproj",
         "packagesPath": "C:\\Users\\Anyerson Nin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\PracticaITLA\\obj\\",
+        "outputPath": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\Programacion Condicional\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
