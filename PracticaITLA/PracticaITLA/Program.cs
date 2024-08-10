@@ -18,3 +18,4 @@ Console.WriteLine($"El resultado de la suma es {Resultado}");
 Resultado= num1 * num2;
 Console.WriteLine($"El resultado de la multiplicacion es {Resultado}");
 Console.WriteLine("Fin");
+

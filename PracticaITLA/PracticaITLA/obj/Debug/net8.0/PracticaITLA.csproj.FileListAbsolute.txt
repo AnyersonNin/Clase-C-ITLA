@@ -12,3 +12,18 @@ C:\Users\Anyerson Nin\Desktop\C# Basico\PracticaITLA\PracticaITLA\obj\Debug\net8
 C:\Users\Anyerson Nin\Desktop\C# Basico\PracticaITLA\PracticaITLA\obj\Debug\net8.0\PracticaITLA.pdb
 C:\Users\Anyerson Nin\Desktop\C# Basico\PracticaITLA\PracticaITLA\obj\Debug\net8.0\PracticaITLA.genruntimeconfig.cache
 C:\Users\Anyerson Nin\Desktop\C# Basico\PracticaITLA\PracticaITLA\obj\Debug\net8.0\ref\PracticaITLA.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\PracticaITLA\bin\Debug\net8.0\PracticaITLA.exe
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\PracticaITLA\bin\Debug\net8.0\PracticaITLA.deps.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\PracticaITLA\bin\Debug\net8.0\PracticaITLA.runtimeconfig.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\PracticaITLA\bin\Debug\net8.0\PracticaITLA.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\PracticaITLA\bin\Debug\net8.0\PracticaITLA.pdb
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\PracticaITLA\obj\Debug\net8.0\PracticaITLA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\PracticaITLA\obj\Debug\net8.0\PracticaITLA.AssemblyInfoInputs.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\PracticaITLA\obj\Debug\net8.0\PracticaITLA.AssemblyInfo.cs
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\PracticaITLA\obj\Debug\net8.0\PracticaITLA.csproj.CoreCompileInputs.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\PracticaITLA\obj\Debug\net8.0\PracticaITLA.sourcelink.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\PracticaITLA\obj\Debug\net8.0\PracticaITLA.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\PracticaITLA\obj\Debug\net8.0\refint\PracticaITLA.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\PracticaITLA\obj\Debug\net8.0\PracticaITLA.pdb
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\PracticaITLA\obj\Debug\net8.0\PracticaITLA.genruntimeconfig.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\PracticaITLA\obj\Debug\net8.0\ref\PracticaITLA.dll

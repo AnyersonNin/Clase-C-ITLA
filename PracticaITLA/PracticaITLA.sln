@@ -5,7 +5,11 @@ VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PracticaITLA", "PracticaITLA\PracticaITLA.csproj", "{5DFE73D3-6685-45DB-8512-0E6A88457ABA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Programacion Condicional", "Programacion Condicional\Programacion Condicional.csproj", "{4A03C193-1FAC-43EA-970F-305F6CBAA818}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Programacion Condicional", "Programacion Condicional\Programacion Condicional.csproj", "{4A03C193-1FAC-43EA-970F-305F6CBAA818}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bucle For", "Bucle For\Bucle For.csproj", "{074FA34C-FE50-4D7C-94C3-49E157CF692E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bucle while", "bucle while\bucle while.csproj", "{FB9074D8-145D-4BF7-8F68-BE5F3479D3B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{4A03C193-1FAC-43EA-970F-305F6CBAA818}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A03C193-1FAC-43EA-970F-305F6CBAA818}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A03C193-1FAC-43EA-970F-305F6CBAA818}.Release|Any CPU.Build.0 = Release|Any CPU
+		{074FA34C-FE50-4D7C-94C3-49E157CF692E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{074FA34C-FE50-4D7C-94C3-49E157CF692E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{074FA34C-FE50-4D7C-94C3-49E157CF692E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{074FA34C-FE50-4D7C-94C3-49E157CF692E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB9074D8-145D-4BF7-8F68-BE5F3479D3B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB9074D8-145D-4BF7-8F68-BE5F3479D3B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB9074D8-145D-4BF7-8F68-BE5F3479D3B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB9074D8-145D-4BF7-8F68-BE5F3479D3B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

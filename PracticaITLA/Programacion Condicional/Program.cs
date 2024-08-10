@@ -1,116 +1,167 @@
-﻿//Ejercicio #1
-try
+﻿
+using System;
+
+class Program
 {
-    Console.Write("Ingrese el primer número: ");
-    int num1 = int.Parse(Console.ReadLine());
-
-    Console.Write("Ingrese el segundo número: ");
-    int num2 = int.Parse(Console.ReadLine());
-
-    int resultado;
-
-    if (num1 > num2)
+    static void Main()
     {
-        resultado = num1 + num2;
-        Console.WriteLine($"El resultado de la suma es {resultado}");
+        bool salir = false;
 
-        resultado = num1 - num2;
-        Console.WriteLine($"La diferencia es {resultado}");
-    }
-    else
-    {
-        resultado = num1 * num2;
-        Console.WriteLine($"El producto es {resultado}");
-
-        if (num2 != 0)
+        while (!salir)
         {
-            resultado = num1 / num2;
-            Console.WriteLine($"La división es {resultado}");
+            Console.WriteLine("Seleccione una opción del menú:");
+            Console.WriteLine("1. Calcular suma/resta o producto/cociente");
+            Console.WriteLine("2. Calcular promedio de calificaciones");
+            Console.WriteLine("3. Calcular nivel del postulante");
+            Console.WriteLine("4. Salir");
+
+            int opcion;
+            if (int.TryParse(Console.ReadLine(), out opcion))
+            {
+                switch (opcion)
+                {
+                    case 1:
+                        CalcularSumaORestaOProductoOCociente();
+                        break;
+                    case 2:
+                        CalcularPromedio();
+                        break;
+                    case 3:
+                        DeterminarNivel();
+                        break;
+                    case 4:
+                        salir = true;
+                        Console.WriteLine("Saliendo del programa...");
+                        break;
+                    default:
+                        Console.WriteLine("Opción no válida. Intente de nuevo.");
+                        break;
+                }
+            }
+            else
+            {
+                Console.WriteLine("Entrada no válida. Por favor, ingrese un número.");
+            }
+
+            Console.WriteLine();
+        }
+    }
+
+    static void CalcularSumaORestaOProductoOCociente()
+    {
+        int numero1, numero2;
+
+        Console.WriteLine("Ingrese el primer número:");
+        if (int.TryParse(Console.ReadLine(), out numero1))
+        {
+            Console.WriteLine("Ingrese el segundo número:");
+            if (int.TryParse(Console.ReadLine(), out numero2))
+            {
+                if (numero1 > numero2)
+                {
+                    int suma = numero1 + numero2;
+                    int resta = numero1 - numero2;
+                    Console.WriteLine($"La suma es: {suma}");
+                    Console.WriteLine($"La resta es: {resta}");
+                }
+                else
+                {
+                    int producto = numero1 * numero2;
+                    double cociente = (double)numero1 / numero2;
+                    Console.WriteLine($"El producto es: {producto}");
+                    Console.WriteLine($"El cociente es: {cociente:F2}");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Entrada no válida. Por favor, ingrese un número válido.");
+            }
         }
         else
         {
-            Console.WriteLine("Error: División por cero.");
+            Console.WriteLine("Entrada no válida. Por favor, ingrese un número válido.");
         }
     }
-}
-catch (FormatException)
-{
-    Console.WriteLine("Error: Entrada no válida. Ingrese números enteros.");
-}
 
-// Ejercicio #2
-try
-{
-    Console.WriteLine("Introduzca 3 notas del 0 al 10 para ver el promedio de su alumno:");
-
-    Console.Write("Nota número 1: ");
-    int nota1 = int.Parse(Console.ReadLine());
-
-    Console.Write("Nota número 2: ");
-    int nota2 = int.Parse(Console.ReadLine());
-
-    Console.Write("Nota número 3: ");
-    int nota3 = int.Parse(Console.ReadLine());
-
-    // Calcular promedio
-    double promedio = (nota1 + nota2 + nota3) / 3.0; // Asegurarse de que el promedio sea un double
-
-    Console.WriteLine($"Promedio: {promedio:F2}");
-
-    if (promedio >= 7)
+    static void CalcularPromedio()
     {
-        Console.WriteLine("¡Promocionado!");
-    }
-    else if (promedio >= 4)
-    {
-        Console.WriteLine("Regular");
-    }
-    else
-    {
-        Console.WriteLine("Reprobado");
-    }
-}
-catch (FormatException)
-{
-    Console.WriteLine("Error: Entrada no válida. Ingrese notas numéricas.");
-}
+        double calificacion1, calificacion2, calificacion3;
 
-// Ejercicio #3
-try
-{
-    Console.Write("Ingrese el número total de preguntas: ");
-    int totalPreguntas = int.Parse(Console.ReadLine());
+        Console.WriteLine("Ingrese la primera calificación:");
+        if (double.TryParse(Console.ReadLine(), out calificacion1))
+        {
+            Console.WriteLine("Ingrese la segunda calificación:");
+            if (double.TryParse(Console.ReadLine(), out calificacion2))
+            {
+                Console.WriteLine("Ingrese la tercera calificación:");
+                if (double.TryParse(Console.ReadLine(), out calificacion3))
+                {
+                    double promedio = (calificacion1 + calificacion2 + calificacion3) / 3;
+                    Console.WriteLine($"El promedio es: {promedio:F2}");
 
-    Console.Write("Ingrese el número de respuestas correctas: ");
-    int respuestasCorrectas = int.Parse(Console.ReadLine());
-
-    if (totalPreguntas <= 0)
-    {
-        Console.WriteLine("Error: El número total de preguntas debe ser mayor a cero.");
-        return;
+                    if (promedio >= 7)
+                    {
+                        Console.WriteLine("El alumno ha aprobado.");
+                    }
+                    else
+                    {
+                        Console.WriteLine("El alumno no ha aprobado.");
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Entrada no válida. Por favor, ingrese una calificación válida.");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Entrada no válida. Por favor, ingrese una calificación válida.");
+            }
+        }
+        else
+        {
+            Console.WriteLine("Entrada no válida. Por favor, ingrese una calificación válida.");
+        }
     }
 
-    double porcentaje = (respuestasCorrectas / (double)totalPreguntas) * 100;
-    Console.WriteLine($"Porcentaje de aciertos: {porcentaje:F2}%");
+    static void DeterminarNivel()
+    {
+        int totalPreguntas, respuestasCorrectas;
 
-    if (porcentaje >= 90)
-    {
-        Console.WriteLine("Nivel máximo.");
+        Console.WriteLine("Ingrese el número total de preguntas:");
+        if (int.TryParse(Console.ReadLine(), out totalPreguntas))
+        {
+            Console.WriteLine("Ingrese el número de respuestas correctas:");
+            if (int.TryParse(Console.ReadLine(), out respuestasCorrectas))
+            {
+                double porcentaje = (double)respuestasCorrectas / totalPreguntas * 100;
+                Console.WriteLine($"El porcentaje de aciertos es: {porcentaje:F2}%");
+
+                if (porcentaje >= 90)
+                {
+                    Console.WriteLine("Nivel máximo.");
+                }
+                else if (porcentaje >= 75)
+                {
+                    Console.WriteLine("Nivel medio.");
+                }
+                else if (porcentaje >= 50)
+                {
+                    Console.WriteLine("Nivel regular.");
+                }
+                else
+                {
+                    Console.WriteLine("Fuera de nivel.");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Entrada no válida. Por favor, ingrese un número válido.");
+            }
+        }
+        else
+        {
+            Console.WriteLine("Entrada no válida. Por favor, ingrese un número válido.");
+        }
     }
-    else if (porcentaje >= 75)
-    {
-        Console.WriteLine("Nivel medio.");
-    }
-    else if (porcentaje >= 50)
-    {
-        Console.WriteLine("Nivel regular.");
-    }
-    else
-    {
-        Console.WriteLine("Fuera de nivel.");
-    }
-}
-catch (FormatException)
-{
-    Console.WriteLine("Error: Entrada no válida. Ingrese números enteros.");
 }
