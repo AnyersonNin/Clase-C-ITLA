@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Bucle For/1.0.0": {
+        "dependencies": {
+          "PracticaITLA": "1.0.0"
+        },
+        "runtime": {
+          "Bucle For.dll": {}
+        }
+      },
+      "PracticaITLA/1.0.0": {
+        "runtime": {
+          "PracticaITLA.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Bucle For/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PracticaITLA/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

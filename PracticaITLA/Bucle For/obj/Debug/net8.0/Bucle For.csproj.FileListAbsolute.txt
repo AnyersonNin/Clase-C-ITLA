@@ -1,0 +1,22 @@
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Bucle For\bin\Debug\net8.0\PracticaITLA.deps.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Bucle For\bin\Debug\net8.0\PracticaITLA.runtimeconfig.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Bucle For\bin\Debug\net8.0\PracticaITLA.exe
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Bucle For\bin\Debug\net8.0\Bucle For.exe
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Bucle For\bin\Debug\net8.0\Bucle For.deps.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Bucle For\bin\Debug\net8.0\Bucle For.runtimeconfig.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Bucle For\bin\Debug\net8.0\Bucle For.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Bucle For\bin\Debug\net8.0\Bucle For.pdb
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Bucle For\bin\Debug\net8.0\PracticaITLA.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Bucle For\bin\Debug\net8.0\PracticaITLA.pdb
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Bucle For\obj\Debug\net8.0\Bucle For.csproj.AssemblyReference.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Bucle For\obj\Debug\net8.0\Bucle For.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Bucle For\obj\Debug\net8.0\Bucle For.AssemblyInfoInputs.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Bucle For\obj\Debug\net8.0\Bucle For.AssemblyInfo.cs
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Bucle For\obj\Debug\net8.0\Bucle For.csproj.CoreCompileInputs.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Bucle For\obj\Debug\net8.0\Bucle For.sourcelink.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Bucle For\obj\Debug\net8.0\Bucle For.csproj.Up2Date
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Bucle For\obj\Debug\net8.0\Bucle For.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Bucle For\obj\Debug\net8.0\refint\Bucle For.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Bucle For\obj\Debug\net8.0\Bucle For.pdb
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Bucle For\obj\Debug\net8.0\Bucle For.genruntimeconfig.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Bucle For\obj\Debug\net8.0\ref\Bucle For.dll

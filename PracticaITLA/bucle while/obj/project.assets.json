@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "PracticaITLA/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/PracticaITLA.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PracticaITLA.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "PracticaITLA/1.0.0": {
+      "type": "project",
+      "path": "../PracticaITLA/PracticaITLA.csproj",
+      "msbuildProject": "../PracticaITLA/PracticaITLA.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "PracticaITLA >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Anyerson Nin\\.nuget\\packages\\": {},
@@ -39,7 +58,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\PracticaITLA\\PracticaITLA.csproj": {
+              "projectPath": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\PracticaITLA\\PracticaITLA.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
