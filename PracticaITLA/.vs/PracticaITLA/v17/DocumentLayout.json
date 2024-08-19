@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4A03C193-1FAC-43EA-970F-305F6CBAA818}|Programacion Condicional\\Programacion Condicional.csproj|c:\\users\\anyerson nin\\desktop\\clase-c-itla\\practicaitla\\programacion condicional\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A03C193-1FAC-43EA-970F-305F6CBAA818}|Programacion Condicional\\Programacion Condicional.csproj|solutionrelative:programacion condicional\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB9074D8-145D-4BF7-8F68-BE5F3479D3B1}|bucle while\\bucle while.csproj|c:\\users\\anyerson nin\\desktop\\clase-c-itla\\practicaitla\\bucle while\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB9074D8-145D-4BF7-8F68-BE5F3479D3B1}|bucle while\\bucle while.csproj|solutionrelative:bucle while\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFE73D3-6685-45DB-8512-0E6A88457ABA}|PracticaITLA\\PracticaITLA.csproj|c:\\users\\anyerson nin\\desktop\\clase-c-itla\\practicaitla\\practicaitla\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFE73D3-6685-45DB-8512-0E6A88457ABA}|PracticaITLA\\PracticaITLA.csproj|solutionrelative:practicaitla\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB9074D8-145D-4BF7-8F68-BE5F3479D3B1}|bucle while\\bucle while.csproj|c:\\users\\anyerson nin\\desktop\\clase-c-itla\\practicaitla\\bucle while\\bucle while.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FB9074D8-145D-4BF7-8F68-BE5F3479D3B1}|bucle while\\bucle while.csproj|solutionrelative:bucle while\\bucle while.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFE73D3-6685-45DB-8512-0E6A88457ABA}|PracticaITLA\\PracticaITLA.csproj|c:\\users\\anyerson nin\\desktop\\clase-c-itla\\practicaitla\\practicaitla\\practicaitla.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5DFE73D3-6685-45DB-8512-0E6A88457ABA}|PracticaITLA\\PracticaITLA.csproj|solutionrelative:practicaitla\\practicaitla.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,14 +36,50 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\Programacion Condicional\\Program.cs",
-              "RelativeDocumentMoniker": "Programacion Condicional\\Program.cs",
-              "ToolTip": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\Programacion Condicional\\Program.cs",
-              "RelativeToolTip": "Programacion Condicional\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentMoniker": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\bucle while\\Program.cs",
+              "RelativeDocumentMoniker": "bucle while\\Program.cs",
+              "ToolTip": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\bucle while\\Program.cs",
+              "RelativeToolTip": "bucle while\\Program.cs",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAuwFIAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-10T03:23:46.503Z",
+              "WhenOpened": "2024-08-17T20:23:12.283Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "bucle while.csproj",
+              "DocumentMoniker": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\bucle while\\bucle while.csproj",
+              "RelativeDocumentMoniker": "bucle while\\bucle while.csproj",
+              "ToolTip": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\bucle while\\bucle while.csproj",
+              "RelativeToolTip": "bucle while\\bucle while.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-17T20:22:27.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\PracticaITLA\\Program.cs",
+              "RelativeDocumentMoniker": "PracticaITLA\\Program.cs",
+              "ToolTip": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\PracticaITLA\\Program.cs",
+              "RelativeToolTip": "PracticaITLA\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T15:57:24.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PracticaITLA.csproj",
+              "DocumentMoniker": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\PracticaITLA\\PracticaITLA.csproj",
+              "RelativeDocumentMoniker": "PracticaITLA\\PracticaITLA.csproj",
+              "ToolTip": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\PracticaITLA\\PracticaITLA.csproj",
+              "RelativeToolTip": "PracticaITLA\\PracticaITLA.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-12T15:57:23.63Z"
             }
           ]
         }

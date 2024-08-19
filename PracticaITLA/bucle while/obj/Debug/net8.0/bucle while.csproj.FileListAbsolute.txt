@@ -1,0 +1,22 @@
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\bucle while\bin\Debug\net8.0\PracticaITLA.deps.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\bucle while\bin\Debug\net8.0\PracticaITLA.runtimeconfig.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\bucle while\bin\Debug\net8.0\PracticaITLA.exe
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\bucle while\bin\Debug\net8.0\bucle while.exe
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\bucle while\bin\Debug\net8.0\bucle while.deps.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\bucle while\bin\Debug\net8.0\bucle while.runtimeconfig.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\bucle while\bin\Debug\net8.0\bucle while.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\bucle while\bin\Debug\net8.0\bucle while.pdb
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\bucle while\bin\Debug\net8.0\PracticaITLA.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\bucle while\bin\Debug\net8.0\PracticaITLA.pdb
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\bucle while\obj\Debug\net8.0\bucle while.csproj.AssemblyReference.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\bucle while\obj\Debug\net8.0\bucle while.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\bucle while\obj\Debug\net8.0\bucle while.AssemblyInfoInputs.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\bucle while\obj\Debug\net8.0\bucle while.AssemblyInfo.cs
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\bucle while\obj\Debug\net8.0\bucle while.csproj.CoreCompileInputs.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\bucle while\obj\Debug\net8.0\bucle while.sourcelink.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\bucle while\obj\Debug\net8.0\bucle wh.490FFD49.Up2Date
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\bucle while\obj\Debug\net8.0\bucle while.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\bucle while\obj\Debug\net8.0\refint\bucle while.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\bucle while\obj\Debug\net8.0\bucle while.pdb
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\bucle while\obj\Debug\net8.0\bucle while.genruntimeconfig.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\bucle while\obj\Debug\net8.0\ref\bucle while.dll

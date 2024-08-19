@@ -72,46 +72,44 @@ class Program
 
     static void ContarPiezasAptas()
     {
-        Console.WriteLine("Ingrese la longitud mínima para considerar las piezas aptas:");
-        double longitudMinima;
-        if (!double.TryParse(Console.ReadLine(), out longitudMinima))
-        {
-            Console.WriteLine("Entrada no válida. Por favor, ingrese un número válido.");
-            return;
-        }
-
-        Console.WriteLine("Ingrese la longitud máxima para considerar las piezas aptas:");
-        double longitudMaxima;
-        if (!double.TryParse(Console.ReadLine(), out longitudMaxima))
-        {
-            Console.WriteLine("Entrada no válida. Por favor, ingrese un número válido.");
-            return;
-        }
-
+        double longitudMinima = 1.20;
+        double longitudMaxima = 1.30;
         int contarPiezasAptas = 0;
-        bool continuar = true;
+        double longitud = 0;
+        int cantidad = 0;
+        int index = 1;
 
-        while (continuar)
+        try { 
+        Console.WriteLine("Ingrese la Cantidad de piezas: ");
+        cantidad = int.Parse(Console.ReadLine());
+
+
+        while (index <= cantidad)
         {
-            Console.WriteLine("Ingrese la longitud de la siguiente pieza (o ingrese '0' para finalizar):");
-            double longitud;
-            if (double.TryParse(Console.ReadLine(), out longitud))
+
+            Console.WriteLine("Ingrese la longitud de la siguiente pieza: ");
+            longitud = double.Parse(Console.ReadLine());
+
+            if (longitud >= longitudMinima && longitud <= longitudMaxima)
             {
-                if (longitud == 0)
-                {
-                    continuar = false;
-                }
-                else if (longitud >= longitudMinima && longitud <= longitudMaxima)
-                {
-                    contarPiezasAptas++;
-                }
+                contarPiezasAptas++;
             }
-            else
-            {
-                Console.WriteLine("Entrada no válida. Por favor, ingrese un número válido.");
-            }
+            index++;
         }
 
         Console.WriteLine($"El número de piezas aptas para fabricar perfiles es: {contarPiezasAptas}");
+        }
+        catch (FormatException ex)
+        {
+            Console.WriteLine("Error: Ingresó un formato no válido. Por favor, ingrese un número válido.");
+        }
+        catch (OverflowException ex)
+        {
+            Console.WriteLine("Error: El número ingresado es demasiado grande o demasiado pequeño.");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Ocurrió un error inesperado: {ex.Message}");
+        }
     }
 }
