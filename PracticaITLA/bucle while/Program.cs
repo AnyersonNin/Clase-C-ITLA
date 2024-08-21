@@ -78,8 +78,8 @@ class Program
         double longitud = 0;
         int cantidad = 0;
         int index = 1;
-
-        try { 
+            
+        try {     
         Console.WriteLine("Ingrese la Cantidad de piezas: ");
         cantidad = int.Parse(Console.ReadLine());
 

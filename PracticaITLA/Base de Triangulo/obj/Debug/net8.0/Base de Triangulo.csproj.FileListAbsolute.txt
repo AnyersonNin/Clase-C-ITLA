@@ -1,0 +1,15 @@
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Base de Triangulo\bin\Debug\net8.0\Base de Triangulo.exe
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Base de Triangulo\bin\Debug\net8.0\Base de Triangulo.deps.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Base de Triangulo\bin\Debug\net8.0\Base de Triangulo.runtimeconfig.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Base de Triangulo\bin\Debug\net8.0\Base de Triangulo.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Base de Triangulo\bin\Debug\net8.0\Base de Triangulo.pdb
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Base de Triangulo\obj\Debug\net8.0\Base de Triangulo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Base de Triangulo\obj\Debug\net8.0\Base de Triangulo.AssemblyInfoInputs.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Base de Triangulo\obj\Debug\net8.0\Base de Triangulo.AssemblyInfo.cs
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Base de Triangulo\obj\Debug\net8.0\Base de Triangulo.csproj.CoreCompileInputs.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Base de Triangulo\obj\Debug\net8.0\Base de Triangulo.sourcelink.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Base de Triangulo\obj\Debug\net8.0\Base de Triangulo.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Base de Triangulo\obj\Debug\net8.0\refint\Base de Triangulo.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Base de Triangulo\obj\Debug\net8.0\Base de Triangulo.pdb
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Base de Triangulo\obj\Debug\net8.0\Base de Triangulo.genruntimeconfig.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Base de Triangulo\obj\Debug\net8.0\ref\Base de Triangulo.dll

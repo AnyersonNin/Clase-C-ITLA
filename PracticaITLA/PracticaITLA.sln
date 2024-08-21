@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PracticaITLA", "PracticaITL
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Programacion Condicional", "Programacion Condicional\Programacion Condicional.csproj", "{4A03C193-1FAC-43EA-970F-305F6CBAA818}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bucle For", "Bucle For\Bucle For.csproj", "{074FA34C-FE50-4D7C-94C3-49E157CF692E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bucle For", "Bucle For\Bucle For.csproj", "{074FA34C-FE50-4D7C-94C3-49E157CF692E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bucle while", "bucle while\bucle while.csproj", "{FB9074D8-145D-4BF7-8F68-BE5F3479D3B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bucle while", "bucle while\bucle while.csproj", "{FB9074D8-145D-4BF7-8F68-BE5F3479D3B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base de Triangulo", "Base de Triangulo\Base de Triangulo.csproj", "{8F2A9A49-6D83-459D-92A0-B86C4A9298D5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{FB9074D8-145D-4BF7-8F68-BE5F3479D3B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB9074D8-145D-4BF7-8F68-BE5F3479D3B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB9074D8-145D-4BF7-8F68-BE5F3479D3B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F2A9A49-6D83-459D-92A0-B86C4A9298D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F2A9A49-6D83-459D-92A0-B86C4A9298D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F2A9A49-6D83-459D-92A0-B86C4A9298D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F2A9A49-6D83-459D-92A0-B86C4A9298D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
