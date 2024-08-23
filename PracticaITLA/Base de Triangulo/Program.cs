@@ -68,6 +68,7 @@ while(!salir)
             }
             index++;
         }
+
         Console.WriteLine($"");
         Console.WriteLine($"La cantidad en total {cantidad}");
 

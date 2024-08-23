@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bucle For", "Bucle For\Bucl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bucle while", "bucle while\bucle while.csproj", "{FB9074D8-145D-4BF7-8F68-BE5F3479D3B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base de Triangulo", "Base de Triangulo\Base de Triangulo.csproj", "{8F2A9A49-6D83-459D-92A0-B86C4A9298D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Base de Triangulo", "Base de Triangulo\Base de Triangulo.csproj", "{8F2A9A49-6D83-459D-92A0-B86C4A9298D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sueldo de los empleados", "sueldo de los empleados\sueldo de los empleados.csproj", "{3038F24A-DE76-4DDA-9600-5C4ED60015BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{8F2A9A49-6D83-459D-92A0-B86C4A9298D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F2A9A49-6D83-459D-92A0-B86C4A9298D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F2A9A49-6D83-459D-92A0-B86C4A9298D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3038F24A-DE76-4DDA-9600-5C4ED60015BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3038F24A-DE76-4DDA-9600-5C4ED60015BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3038F24A-DE76-4DDA-9600-5C4ED60015BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3038F24A-DE76-4DDA-9600-5C4ED60015BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

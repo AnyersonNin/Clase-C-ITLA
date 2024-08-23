@@ -1,0 +1,15 @@
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\sueldo de los empleados\bin\Debug\net8.0\sueldo de los empleados.exe
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\sueldo de los empleados\bin\Debug\net8.0\sueldo de los empleados.deps.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\sueldo de los empleados\bin\Debug\net8.0\sueldo de los empleados.runtimeconfig.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\sueldo de los empleados\bin\Debug\net8.0\sueldo de los empleados.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\sueldo de los empleados\bin\Debug\net8.0\sueldo de los empleados.pdb
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\sueldo de los empleados\obj\Debug\net8.0\sueldo de los empleados.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\sueldo de los empleados\obj\Debug\net8.0\sueldo de los empleados.AssemblyInfoInputs.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\sueldo de los empleados\obj\Debug\net8.0\sueldo de los empleados.AssemblyInfo.cs
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\sueldo de los empleados\obj\Debug\net8.0\sueldo de los empleados.csproj.CoreCompileInputs.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\sueldo de los empleados\obj\Debug\net8.0\sueldo de los empleados.sourcelink.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\sueldo de los empleados\obj\Debug\net8.0\sueldo de los empleados.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\sueldo de los empleados\obj\Debug\net8.0\refint\sueldo de los empleados.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\sueldo de los empleados\obj\Debug\net8.0\sueldo de los empleados.pdb
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\sueldo de los empleados\obj\Debug\net8.0\sueldo de los empleados.genruntimeconfig.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\sueldo de los empleados\obj\Debug\net8.0\ref\sueldo de los empleados.dll
