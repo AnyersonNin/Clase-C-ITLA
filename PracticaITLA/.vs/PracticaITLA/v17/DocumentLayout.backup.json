@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3038F24A-DE76-4DDA-9600-5C4ED60015BF}|sueldo de los empleados\\sueldo de los empleados.csproj|c:\\users\\anyerson nin\\desktop\\clase-c-itla\\practicaitla\\sueldo de los empleados\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3038F24A-DE76-4DDA-9600-5C4ED60015BF}|sueldo de los empleados\\sueldo de los empleados.csproj|solutionrelative:sueldo de los empleados\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EB90B13F-4AF7-4663-BA2E-2085AE10F4DB}|Ejemplos arreglos resumen\\Ejemplos arreglos resumen.csproj|c:\\users\\anyerson nin\\desktop\\clase-c-itla\\practicaitla\\ejemplos arreglos resumen\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB90B13F-4AF7-4663-BA2E-2085AE10F4DB}|Ejemplos arreglos resumen\\Ejemplos arreglos resumen.csproj|solutionrelative:ejemplos arreglos resumen\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,13 +24,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\sueldo de los empleados\\Program.cs",
-              "RelativeDocumentMoniker": "sueldo de los empleados\\Program.cs",
-              "ToolTip": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\sueldo de los empleados\\Program.cs",
-              "RelativeToolTip": "sueldo de los empleados\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAANAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\Ejemplos arreglos resumen\\Program.cs",
+              "RelativeDocumentMoniker": "Ejemplos arreglos resumen\\Program.cs",
+              "ToolTip": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\Ejemplos arreglos resumen\\Program.cs",
+              "RelativeToolTip": "Ejemplos arreglos resumen\\Program.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwA8AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T15:32:20.308Z",
+              "WhenOpened": "2024-08-26T18:21:02.289Z",
               "EditorCaption": ""
             }
           ]

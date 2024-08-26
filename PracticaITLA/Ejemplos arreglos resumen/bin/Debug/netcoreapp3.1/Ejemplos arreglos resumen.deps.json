@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Ejemplos arreglos resumen/1.0.0": {
+        "runtime": {
+          "Ejemplos arreglos resumen.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ejemplos arreglos resumen/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

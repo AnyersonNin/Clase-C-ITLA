@@ -1,0 +1,14 @@
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Ejemplos arreglos resumen\bin\Debug\netcoreapp3.1\Ejemplos arreglos resumen.exe
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Ejemplos arreglos resumen\bin\Debug\netcoreapp3.1\Ejemplos arreglos resumen.deps.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Ejemplos arreglos resumen\bin\Debug\netcoreapp3.1\Ejemplos arreglos resumen.runtimeconfig.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Ejemplos arreglos resumen\bin\Debug\netcoreapp3.1\Ejemplos arreglos resumen.runtimeconfig.dev.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Ejemplos arreglos resumen\bin\Debug\netcoreapp3.1\Ejemplos arreglos resumen.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Ejemplos arreglos resumen\bin\Debug\netcoreapp3.1\Ejemplos arreglos resumen.pdb
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Ejemplos arreglos resumen\obj\Debug\netcoreapp3.1\Ejemplos arreglos resumen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Ejemplos arreglos resumen\obj\Debug\netcoreapp3.1\Ejemplos arreglos resumen.AssemblyInfoInputs.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Ejemplos arreglos resumen\obj\Debug\netcoreapp3.1\Ejemplos arreglos resumen.AssemblyInfo.cs
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Ejemplos arreglos resumen\obj\Debug\netcoreapp3.1\Ejemplos arreglos resumen.csproj.CoreCompileInputs.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Ejemplos arreglos resumen\obj\Debug\netcoreapp3.1\Ejemplos arreglos resumen.sourcelink.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Ejemplos arreglos resumen\obj\Debug\netcoreapp3.1\Ejemplos arreglos resumen.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Ejemplos arreglos resumen\obj\Debug\netcoreapp3.1\Ejemplos arreglos resumen.pdb
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Ejemplos arreglos resumen\obj\Debug\netcoreapp3.1\Ejemplos arreglos resumen.genruntimeconfig.cache

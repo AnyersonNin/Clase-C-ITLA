@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bucle while", "bucle while\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Base de Triangulo", "Base de Triangulo\Base de Triangulo.csproj", "{8F2A9A49-6D83-459D-92A0-B86C4A9298D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sueldo de los empleados", "sueldo de los empleados\sueldo de los empleados.csproj", "{3038F24A-DE76-4DDA-9600-5C4ED60015BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sueldo de los empleados", "sueldo de los empleados\sueldo de los empleados.csproj", "{3038F24A-DE76-4DDA-9600-5C4ED60015BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejemplos arreglos resumen", "Ejemplos arreglos resumen\Ejemplos arreglos resumen.csproj", "{EB90B13F-4AF7-4663-BA2E-2085AE10F4DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{3038F24A-DE76-4DDA-9600-5C4ED60015BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3038F24A-DE76-4DDA-9600-5C4ED60015BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3038F24A-DE76-4DDA-9600-5C4ED60015BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB90B13F-4AF7-4663-BA2E-2085AE10F4DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB90B13F-4AF7-4663-BA2E-2085AE10F4DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB90B13F-4AF7-4663-BA2E-2085AE10F4DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB90B13F-4AF7-4663-BA2E-2085AE10F4DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
