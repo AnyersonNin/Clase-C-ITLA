@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Bucle For")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6fde64eaff80697feaf25e30536f51dcfdaa2bab")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26a406a83821f7c56c666fa6c6797c33434c184c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Bucle For")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Bucle For")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

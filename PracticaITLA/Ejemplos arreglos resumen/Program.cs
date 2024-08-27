@@ -109,12 +109,6 @@ namespace Ejemplos_arreglos_resumen
         for (int cara = 1; cara < frecuencia.Length; cara++)
             Console.WriteLine("{0,4}{1,10}", cara, frecuencia[cara]);
 
-
-
-
-
-
-
         }
      } 
 

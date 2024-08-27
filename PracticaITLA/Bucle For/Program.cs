@@ -78,13 +78,13 @@ class Program
                         else
                         {
                             Console.WriteLine("Entrada no válida. Por favor, ingrese una altura válida.");
-                            i--; // Reintentar la entrada actual
+                            i--; 
                         }
                     }
                     else
                     {
                         Console.WriteLine("Entrada no válida. Por favor, ingrese una base válida.");
-                        i--; // Reintentar la entrada actual
+                        i--;
                     }
                 }
 
@@ -119,7 +119,7 @@ class Program
             else
             {
                 Console.WriteLine("Entrada no válida. Por favor, ingrese un número válido.");
-                i--; // Reintentar la entrada actual
+                i--; 
             }
         }
 
@@ -144,7 +144,7 @@ class Program
             else
             {
                 Console.WriteLine("Entrada no válida. Por favor, ingrese un número válido.");
-                i--; // Reintentar la entrada actual
+                i--;
             }
         }
 
