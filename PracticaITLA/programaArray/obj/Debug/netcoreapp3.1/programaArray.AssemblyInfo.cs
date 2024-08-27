@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("programaArray")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26a406a83821f7c56c666fa6c6797c33434c184c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4f83244e839866ce8e9456a90efc408f6257a84e")]
 [assembly: System.Reflection.AssemblyProductAttribute("programaArray")]
 [assembly: System.Reflection.AssemblyTitleAttribute("programaArray")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

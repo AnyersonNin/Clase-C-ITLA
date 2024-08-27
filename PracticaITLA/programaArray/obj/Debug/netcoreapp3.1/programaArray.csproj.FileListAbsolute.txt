@@ -1,0 +1,14 @@
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\programaArray\bin\Debug\netcoreapp3.1\programaArray.exe
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\programaArray\bin\Debug\netcoreapp3.1\programaArray.deps.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\programaArray\bin\Debug\netcoreapp3.1\programaArray.runtimeconfig.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\programaArray\bin\Debug\netcoreapp3.1\programaArray.runtimeconfig.dev.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\programaArray\bin\Debug\netcoreapp3.1\programaArray.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\programaArray\bin\Debug\netcoreapp3.1\programaArray.pdb
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\programaArray\obj\Debug\netcoreapp3.1\programaArray.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\programaArray\obj\Debug\netcoreapp3.1\programaArray.AssemblyInfoInputs.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\programaArray\obj\Debug\netcoreapp3.1\programaArray.AssemblyInfo.cs
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\programaArray\obj\Debug\netcoreapp3.1\programaArray.csproj.CoreCompileInputs.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\programaArray\obj\Debug\netcoreapp3.1\programaArray.sourcelink.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\programaArray\obj\Debug\netcoreapp3.1\programaArray.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\programaArray\obj\Debug\netcoreapp3.1\programaArray.pdb
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\programaArray\obj\Debug\netcoreapp3.1\programaArray.genruntimeconfig.cache
