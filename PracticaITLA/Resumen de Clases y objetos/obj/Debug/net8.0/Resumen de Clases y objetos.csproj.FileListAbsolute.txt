@@ -1,0 +1,15 @@
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Resumen de Clases y objetos\obj\Debug\net8.0\Resumen de Clases y objetos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Resumen de Clases y objetos\obj\Debug\net8.0\Resumen de Clases y objetos.AssemblyInfoInputs.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Resumen de Clases y objetos\obj\Debug\net8.0\Resumen de Clases y objetos.AssemblyInfo.cs
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Resumen de Clases y objetos\obj\Debug\net8.0\Resumen de Clases y objetos.csproj.CoreCompileInputs.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Resumen de Clases y objetos\obj\Debug\net8.0\Resumen de Clases y objetos.sourcelink.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Resumen de Clases y objetos\bin\Debug\net8.0\Resumen de Clases y objetos.exe
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Resumen de Clases y objetos\bin\Debug\net8.0\Resumen de Clases y objetos.deps.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Resumen de Clases y objetos\bin\Debug\net8.0\Resumen de Clases y objetos.runtimeconfig.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Resumen de Clases y objetos\bin\Debug\net8.0\Resumen de Clases y objetos.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Resumen de Clases y objetos\bin\Debug\net8.0\Resumen de Clases y objetos.pdb
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Resumen de Clases y objetos\obj\Debug\net8.0\Resumen de Clases y objetos.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Resumen de Clases y objetos\obj\Debug\net8.0\refint\Resumen de Clases y objetos.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Resumen de Clases y objetos\obj\Debug\net8.0\Resumen de Clases y objetos.pdb
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Resumen de Clases y objetos\obj\Debug\net8.0\Resumen de Clases y objetos.genruntimeconfig.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Resumen de Clases y objetos\obj\Debug\net8.0\ref\Resumen de Clases y objetos.dll

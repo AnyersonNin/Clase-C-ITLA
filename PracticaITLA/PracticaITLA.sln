@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sueldo de los empleados", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejemplos arreglos resumen", "Ejemplos arreglos resumen\Ejemplos arreglos resumen.csproj", "{EB90B13F-4AF7-4663-BA2E-2085AE10F4DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "programaArray", "programaArray\programaArray.csproj", "{E34B7669-E4D6-4A04-995A-6812634B501E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "programaArray", "programaArray\programaArray.csproj", "{E34B7669-E4D6-4A04-995A-6812634B501E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resumen de Clases y objetos", "Resumen de Clases y objetos\Resumen de Clases y objetos.csproj", "{17C1AD61-EC16-49ED-8095-EEE315DB4007}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{E34B7669-E4D6-4A04-995A-6812634B501E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E34B7669-E4D6-4A04-995A-6812634B501E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E34B7669-E4D6-4A04-995A-6812634B501E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17C1AD61-EC16-49ED-8095-EEE315DB4007}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17C1AD61-EC16-49ED-8095-EEE315DB4007}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17C1AD61-EC16-49ED-8095-EEE315DB4007}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17C1AD61-EC16-49ED-8095-EEE315DB4007}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

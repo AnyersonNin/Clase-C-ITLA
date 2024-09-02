@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E34B7669-E4D6-4A04-995A-6812634B501E}|programaArray\\programaArray.csproj|c:\\users\\anyerson nin\\desktop\\clase-c-itla\\practicaitla\\programaarray\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E34B7669-E4D6-4A04-995A-6812634B501E}|programaArray\\programaArray.csproj|solutionrelative:programaarray\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17C1AD61-EC16-49ED-8095-EEE315DB4007}|Resumen de Clases y objetos\\Resumen de Clases y objetos.csproj|c:\\users\\anyerson nin\\desktop\\clase-c-itla\\practicaitla\\resumen de clases y objetos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17C1AD61-EC16-49ED-8095-EEE315DB4007}|Resumen de Clases y objetos\\Resumen de Clases y objetos.csproj|solutionrelative:resumen de clases y objetos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,13 +24,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\programaArray\\Program.cs",
-              "RelativeDocumentMoniker": "programaArray\\Program.cs",
-              "ToolTip": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\programaArray\\Program.cs",
-              "RelativeToolTip": "programaArray\\Program.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAkwDUAAABAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\Resumen de Clases y objetos\\Program.cs",
+              "RelativeDocumentMoniker": "Resumen de Clases y objetos\\Program.cs",
+              "ToolTip": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\Resumen de Clases y objetos\\Program.cs",
+              "RelativeToolTip": "Resumen de Clases y objetos\\Program.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAAwK8AAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T12:07:40.892Z",
+              "WhenOpened": "2024-09-02T13:33:00.303Z",
               "EditorCaption": ""
             }
           ]

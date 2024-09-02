@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Base de Triangulo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca7f9c7859ccb5afbde6e47af4e31e97de401c4b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7e4564385983a4e17895ba5b5de21414f11a8656")]
 [assembly: System.Reflection.AssemblyProductAttribute("Base de Triangulo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Base de Triangulo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
