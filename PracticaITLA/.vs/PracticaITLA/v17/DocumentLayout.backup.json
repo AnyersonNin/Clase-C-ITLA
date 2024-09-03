@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6241CB2A-4548-4EB4-9C14-F619ADA9C691}|punto en el plano\\punto en el plano.csproj|c:\\users\\anyerson nin\\desktop\\clase-c-itla\\practicaitla\\punto en el plano\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6241CB2A-4548-4EB4-9C14-F619ADA9C691}|punto en el plano\\punto en el plano.csproj|solutionrelative:punto en el plano\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2B8A6D7-D3A3-4419-A802-64BCEE644E03}|Libro\\Libro.csproj|c:\\users\\anyerson nin\\desktop\\clase-c-itla\\practicaitla\\libro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2B8A6D7-D3A3-4419-A802-64BCEE644E03}|Libro\\Libro.csproj|solutionrelative:libro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6241CB2A-4548-4EB4-9C14-F619ADA9C691}|punto en el plano\\punto en el plano.csproj|c:\\users\\anyerson nin\\desktop\\clase-c-itla\\practicaitla\\punto en el plano\\ejercicio1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6241CB2A-4548-4EB4-9C14-F619ADA9C691}|punto en el plano\\punto en el plano.csproj|solutionrelative:punto en el plano\\ejercicio1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2B8A6D7-D3A3-4419-A802-64BCEE644E03}|Libro\\Libro.csproj|c:\\users\\anyerson nin\\desktop\\clase-c-itla\\practicaitla\\libro\\ejercicio2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2B8A6D7-D3A3-4419-A802-64BCEE644E03}|Libro\\Libro.csproj|solutionrelative:libro\\ejercicio2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,27 +27,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Ejercicio1.cs",
-              "DocumentMoniker": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\punto en el plano\\Ejercicio1.cs",
-              "RelativeDocumentMoniker": "punto en el plano\\Ejercicio1.cs",
-              "ToolTip": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\punto en el plano\\Ejercicio1.cs",
-              "RelativeToolTip": "punto en el plano\\Ejercicio1.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Ejercicio2.cs",
+              "DocumentMoniker": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\Libro\\Ejercicio2.cs",
+              "RelativeDocumentMoniker": "Libro\\Ejercicio2.cs",
+              "ToolTip": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\Libro\\Ejercicio2.cs",
+              "RelativeToolTip": "Libro\\Ejercicio2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T17:05:58.602Z",
+              "WhenOpened": "2024-09-03T17:20:51.331Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\punto en el plano\\Program.cs",
-              "RelativeDocumentMoniker": "punto en el plano\\Program.cs",
-              "ToolTip": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\punto en el plano\\Program.cs*",
-              "RelativeToolTip": "punto en el plano\\Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA2AAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\Libro\\Program.cs",
+              "RelativeDocumentMoniker": "Libro\\Program.cs",
+              "ToolTip": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\Libro\\Program.cs",
+              "RelativeToolTip": "Libro\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T17:05:57.579Z",
+              "WhenOpened": "2024-09-03T17:20:50.141Z",
               "EditorCaption": ""
             }
           ]
