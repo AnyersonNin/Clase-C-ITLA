@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "punto en el plano/1.0.0": {
+        "runtime": {
+          "punto en el plano.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "punto en el plano/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

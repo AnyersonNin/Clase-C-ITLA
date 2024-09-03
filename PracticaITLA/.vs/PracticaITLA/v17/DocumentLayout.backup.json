@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{17C1AD61-EC16-49ED-8095-EEE315DB4007}|Resumen de Clases y objetos\\Resumen de Clases y objetos.csproj|c:\\users\\anyerson nin\\desktop\\clase-c-itla\\practicaitla\\resumen de clases y objetos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17C1AD61-EC16-49ED-8095-EEE315DB4007}|Resumen de Clases y objetos\\Resumen de Clases y objetos.csproj|solutionrelative:resumen de clases y objetos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6241CB2A-4548-4EB4-9C14-F619ADA9C691}|punto en el plano\\punto en el plano.csproj|c:\\users\\anyerson nin\\desktop\\clase-c-itla\\practicaitla\\punto en el plano\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6241CB2A-4548-4EB4-9C14-F619ADA9C691}|punto en el plano\\punto en el plano.csproj|solutionrelative:punto en el plano\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6241CB2A-4548-4EB4-9C14-F619ADA9C691}|punto en el plano\\punto en el plano.csproj|c:\\users\\anyerson nin\\desktop\\clase-c-itla\\practicaitla\\punto en el plano\\ejercicio1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6241CB2A-4548-4EB4-9C14-F619ADA9C691}|punto en el plano\\punto en el plano.csproj|solutionrelative:punto en el plano\\ejercicio1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 313,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,15 +26,28 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Ejercicio1.cs",
+              "DocumentMoniker": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\punto en el plano\\Ejercicio1.cs",
+              "RelativeDocumentMoniker": "punto en el plano\\Ejercicio1.cs",
+              "ToolTip": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\punto en el plano\\Ejercicio1.cs",
+              "RelativeToolTip": "punto en el plano\\Ejercicio1.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T17:05:58.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\Resumen de Clases y objetos\\Program.cs",
-              "RelativeDocumentMoniker": "Resumen de Clases y objetos\\Program.cs",
-              "ToolTip": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\Resumen de Clases y objetos\\Program.cs",
-              "RelativeToolTip": "Resumen de Clases y objetos\\Program.cs",
-              "ViewState": "AgIAAHcAAAAAAAAAAAAAwK8AAABZAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\punto en el plano\\Program.cs",
+              "RelativeDocumentMoniker": "punto en el plano\\Program.cs",
+              "ToolTip": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\punto en el plano\\Program.cs*",
+              "RelativeToolTip": "punto en el plano\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T13:33:00.303Z",
+              "WhenOpened": "2024-09-03T17:05:57.579Z",
               "EditorCaption": ""
             }
           ]

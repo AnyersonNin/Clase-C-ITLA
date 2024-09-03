@@ -1,0 +1,15 @@
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\punto en el plano\bin\Debug\net8.0\punto en el plano.exe
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\punto en el plano\bin\Debug\net8.0\punto en el plano.deps.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\punto en el plano\bin\Debug\net8.0\punto en el plano.runtimeconfig.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\punto en el plano\bin\Debug\net8.0\punto en el plano.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\punto en el plano\bin\Debug\net8.0\punto en el plano.pdb
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\punto en el plano\obj\Debug\net8.0\punto en el plano.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\punto en el plano\obj\Debug\net8.0\punto en el plano.AssemblyInfoInputs.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\punto en el plano\obj\Debug\net8.0\punto en el plano.AssemblyInfo.cs
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\punto en el plano\obj\Debug\net8.0\punto en el plano.csproj.CoreCompileInputs.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\punto en el plano\obj\Debug\net8.0\punto en el plano.sourcelink.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\punto en el plano\obj\Debug\net8.0\punto en el plano.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\punto en el plano\obj\Debug\net8.0\refint\punto en el plano.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\punto en el plano\obj\Debug\net8.0\punto en el plano.pdb
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\punto en el plano\obj\Debug\net8.0\punto en el plano.genruntimeconfig.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\punto en el plano\obj\Debug\net8.0\ref\punto en el plano.dll
