@@ -1,0 +1,15 @@
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Alumno\bin\Debug\net8.0\Alumno.exe
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Alumno\bin\Debug\net8.0\Alumno.deps.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Alumno\bin\Debug\net8.0\Alumno.runtimeconfig.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Alumno\bin\Debug\net8.0\Alumno.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Alumno\bin\Debug\net8.0\Alumno.pdb
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Alumno\obj\Debug\net8.0\Alumno.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Alumno\obj\Debug\net8.0\Alumno.AssemblyInfoInputs.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Alumno\obj\Debug\net8.0\Alumno.AssemblyInfo.cs
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Alumno\obj\Debug\net8.0\Alumno.csproj.CoreCompileInputs.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Alumno\obj\Debug\net8.0\Alumno.sourcelink.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Alumno\obj\Debug\net8.0\Alumno.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Alumno\obj\Debug\net8.0\refint\Alumno.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Alumno\obj\Debug\net8.0\Alumno.pdb
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Alumno\obj\Debug\net8.0\Alumno.genruntimeconfig.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\Alumno\obj\Debug\net8.0\ref\Alumno.dll

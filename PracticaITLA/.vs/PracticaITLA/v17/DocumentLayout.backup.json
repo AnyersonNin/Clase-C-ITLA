@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2B8A6D7-D3A3-4419-A802-64BCEE644E03}|Libro\\Libro.csproj|c:\\users\\anyerson nin\\desktop\\clase-c-itla\\practicaitla\\libro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2B8A6D7-D3A3-4419-A802-64BCEE644E03}|Libro\\Libro.csproj|solutionrelative:libro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2B8A6D7-D3A3-4419-A802-64BCEE644E03}|Libro\\Libro.csproj|c:\\users\\anyerson nin\\desktop\\clase-c-itla\\practicaitla\\libro\\ejercicio2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2B8A6D7-D3A3-4419-A802-64BCEE644E03}|Libro\\Libro.csproj|solutionrelative:libro\\ejercicio2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{115A9AEA-048A-4237-BFBD-A203C8F9AF10}|Alumno\\Alumno.csproj|c:\\users\\anyerson nin\\desktop\\clase-c-itla\\practicaitla\\alumno\\ejercicio3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{115A9AEA-048A-4237-BFBD-A203C8F9AF10}|Alumno\\Alumno.csproj|solutionrelative:alumno\\ejercicio3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 313,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,28 +22,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Ejercicio2.cs",
-              "DocumentMoniker": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\Libro\\Ejercicio2.cs",
-              "RelativeDocumentMoniker": "Libro\\Ejercicio2.cs",
-              "ToolTip": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\Libro\\Ejercicio2.cs",
-              "RelativeToolTip": "Libro\\Ejercicio2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T17:20:51.331Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\Libro\\Program.cs",
-              "RelativeDocumentMoniker": "Libro\\Program.cs",
-              "ToolTip": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\Libro\\Program.cs",
-              "RelativeToolTip": "Libro\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Ejercicio3.cs",
+              "DocumentMoniker": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\Alumno\\Ejercicio3.cs",
+              "RelativeDocumentMoniker": "Alumno\\Ejercicio3.cs",
+              "ToolTip": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\Alumno\\Ejercicio3.cs",
+              "RelativeToolTip": "Alumno\\Ejercicio3.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAMwCwAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T17:20:50.141Z",
+              "WhenOpened": "2024-09-03T18:45:17.129Z",
               "EditorCaption": ""
             }
           ]

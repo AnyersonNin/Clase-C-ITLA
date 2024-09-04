@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "punto en el plano", "punto 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Libro", "Libro\Libro.csproj", "{A2B8A6D7-D3A3-4419-A802-64BCEE644E03}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alumno", "Alumno\Alumno.csproj", "{115A9AEA-048A-4237-BFBD-A203C8F9AF10}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{A2B8A6D7-D3A3-4419-A802-64BCEE644E03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2B8A6D7-D3A3-4419-A802-64BCEE644E03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2B8A6D7-D3A3-4419-A802-64BCEE644E03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{115A9AEA-048A-4237-BFBD-A203C8F9AF10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{115A9AEA-048A-4237-BFBD-A203C8F9AF10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{115A9AEA-048A-4237-BFBD-A203C8F9AF10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{115A9AEA-048A-4237-BFBD-A203C8F9AF10}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

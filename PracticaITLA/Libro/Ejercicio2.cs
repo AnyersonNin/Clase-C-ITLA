@@ -8,9 +8,9 @@ namespace Libro
 {
     public class Ejercicio2
     {
-        public string _Titulo;
-        public string _Autor;
-        public int _Pagina;
+        private string _Titulo;
+        private string _Autor;
+        private int _Pagina;
 
         public void guardaInfo(string titulo, string autor,int pagina)
         {
