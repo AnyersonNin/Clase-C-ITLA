@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{115A9AEA-048A-4237-BFBD-A203C8F9AF10}|Alumno\\Alumno.csproj|c:\\users\\anyerson nin\\desktop\\clase-c-itla\\practicaitla\\alumno\\ejercicio3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{115A9AEA-048A-4237-BFBD-A203C8F9AF10}|Alumno\\Alumno.csproj|solutionrelative:alumno\\ejercicio3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{23F0CDF5-F706-4B05-A70B-B1699FC86AB4}|NominaPolimorfiso\\NominaPolimorfismo.csproj|c:\\users\\anyerson nin\\desktop\\clase-c-itla\\practicaitla\\nominapolimorfiso\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23F0CDF5-F706-4B05-A70B-B1699FC86AB4}|NominaPolimorfiso\\NominaPolimorfismo.csproj|solutionrelative:nominapolimorfiso\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23F0CDF5-F706-4B05-A70B-B1699FC86AB4}|NominaPolimorfiso\\NominaPolimorfismo.csproj|c:\\users\\anyerson nin\\desktop\\clase-c-itla\\practicaitla\\nominapolimorfiso\\empleadoporcomision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23F0CDF5-F706-4B05-A70B-B1699FC86AB4}|NominaPolimorfiso\\NominaPolimorfismo.csproj|solutionrelative:nominapolimorfiso\\empleadoporcomision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23F0CDF5-F706-4B05-A70B-B1699FC86AB4}|NominaPolimorfiso\\NominaPolimorfismo.csproj|c:\\users\\anyerson nin\\desktop\\clase-c-itla\\practicaitla\\nominapolimorfiso\\empleadoporhoras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23F0CDF5-F706-4B05-A70B-B1699FC86AB4}|NominaPolimorfiso\\NominaPolimorfismo.csproj|solutionrelative:nominapolimorfiso\\empleadoporhoras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23F0CDF5-F706-4B05-A70B-B1699FC86AB4}|NominaPolimorfiso\\NominaPolimorfismo.csproj|c:\\users\\anyerson nin\\desktop\\clase-c-itla\\practicaitla\\nominapolimorfiso\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23F0CDF5-F706-4B05-A70B-B1699FC86AB4}|NominaPolimorfiso\\NominaPolimorfismo.csproj|solutionrelative:nominapolimorfiso\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23F0CDF5-F706-4B05-A70B-B1699FC86AB4}|NominaPolimorfiso\\NominaPolimorfismo.csproj|c:\\users\\anyerson nin\\desktop\\clase-c-itla\\practicaitla\\nominapolimorfiso\\empleadoasalariado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23F0CDF5-F706-4B05-A70B-B1699FC86AB4}|NominaPolimorfiso\\NominaPolimorfismo.csproj|solutionrelative:nominapolimorfiso\\empleadoasalariado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23F0CDF5-F706-4B05-A70B-B1699FC86AB4}|NominaPolimorfiso\\NominaPolimorfismo.csproj|c:\\users\\anyerson nin\\desktop\\clase-c-itla\\practicaitla\\nominapolimorfiso\\empleadobasemascomision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23F0CDF5-F706-4B05-A70B-B1699FC86AB4}|NominaPolimorfiso\\NominaPolimorfismo.csproj|solutionrelative:nominapolimorfiso\\empleadobasemascomision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +43,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Ejercicio3.cs",
-              "DocumentMoniker": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\Alumno\\Ejercicio3.cs",
-              "RelativeDocumentMoniker": "Alumno\\Ejercicio3.cs",
-              "ToolTip": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\Alumno\\Ejercicio3.cs",
-              "RelativeToolTip": "Alumno\\Ejercicio3.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAMwCwAAAA0AAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\NominaPolimorfiso\\Program.cs",
+              "RelativeDocumentMoniker": "NominaPolimorfiso\\Program.cs",
+              "ToolTip": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\NominaPolimorfiso\\Program.cs",
+              "RelativeToolTip": "NominaPolimorfiso\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T18:45:17.129Z",
+              "WhenOpened": "2024-09-09T18:50:52.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Empleado.cs",
+              "DocumentMoniker": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\NominaPolimorfiso\\Empleado.cs",
+              "RelativeDocumentMoniker": "NominaPolimorfiso\\Empleado.cs",
+              "ToolTip": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\NominaPolimorfiso\\Empleado.cs",
+              "RelativeToolTip": "NominaPolimorfiso\\Empleado.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T18:28:50.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmpleadoAsalariado.cs",
+              "DocumentMoniker": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\NominaPolimorfiso\\EmpleadoAsalariado.cs",
+              "RelativeDocumentMoniker": "NominaPolimorfiso\\EmpleadoAsalariado.cs",
+              "ToolTip": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\NominaPolimorfiso\\EmpleadoAsalariado.cs",
+              "RelativeToolTip": "NominaPolimorfiso\\EmpleadoAsalariado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T18:44:36.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "empleadoPorComision.cs",
+              "DocumentMoniker": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\NominaPolimorfiso\\empleadoPorComision.cs",
+              "RelativeDocumentMoniker": "NominaPolimorfiso\\empleadoPorComision.cs",
+              "ToolTip": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\NominaPolimorfiso\\empleadoPorComision.cs",
+              "RelativeToolTip": "NominaPolimorfiso\\empleadoPorComision.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAA7wCQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T18:48:53.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "empleadoPorHoras.cs",
+              "DocumentMoniker": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\NominaPolimorfiso\\empleadoPorHoras.cs",
+              "RelativeDocumentMoniker": "NominaPolimorfiso\\empleadoPorHoras.cs",
+              "ToolTip": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\NominaPolimorfiso\\empleadoPorHoras.cs",
+              "RelativeToolTip": "NominaPolimorfiso\\empleadoPorHoras.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAkwAwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T18:46:49.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmpleadoBaseMasComision.cs",
+              "DocumentMoniker": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\NominaPolimorfiso\\EmpleadoBaseMasComision.cs",
+              "RelativeDocumentMoniker": "NominaPolimorfiso\\EmpleadoBaseMasComision.cs",
+              "ToolTip": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\NominaPolimorfiso\\EmpleadoBaseMasComision.cs",
+              "RelativeToolTip": "NominaPolimorfiso\\EmpleadoBaseMasComision.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T18:48:17.533Z",
               "EditorCaption": ""
             }
           ]

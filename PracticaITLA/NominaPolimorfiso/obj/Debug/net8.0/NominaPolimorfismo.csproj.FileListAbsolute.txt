@@ -1,0 +1,15 @@
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\NominaPolimorfiso\obj\Debug\net8.0\NominaPolimorfismo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\NominaPolimorfiso\obj\Debug\net8.0\NominaPolimorfismo.AssemblyInfoInputs.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\NominaPolimorfiso\obj\Debug\net8.0\NominaPolimorfismo.AssemblyInfo.cs
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\NominaPolimorfiso\obj\Debug\net8.0\NominaPolimorfismo.csproj.CoreCompileInputs.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\NominaPolimorfiso\obj\Debug\net8.0\NominaPolimorfismo.sourcelink.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\NominaPolimorfiso\bin\Debug\net8.0\NominaPolimorfismo.exe
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\NominaPolimorfiso\bin\Debug\net8.0\NominaPolimorfismo.deps.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\NominaPolimorfiso\bin\Debug\net8.0\NominaPolimorfismo.runtimeconfig.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\NominaPolimorfiso\bin\Debug\net8.0\NominaPolimorfismo.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\NominaPolimorfiso\bin\Debug\net8.0\NominaPolimorfismo.pdb
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\NominaPolimorfiso\obj\Debug\net8.0\NominaPolimorfismo.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\NominaPolimorfiso\obj\Debug\net8.0\refint\NominaPolimorfismo.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\NominaPolimorfiso\obj\Debug\net8.0\NominaPolimorfismo.pdb
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\NominaPolimorfiso\obj\Debug\net8.0\NominaPolimorfismo.genruntimeconfig.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\PracticaITLA\NominaPolimorfiso\obj\Debug\net8.0\ref\NominaPolimorfismo.dll

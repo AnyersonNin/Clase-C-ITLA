@@ -16,7 +16,10 @@
       },
       "PracticaITLA/1.0.0": {
         "runtime": {
-          "PracticaITLA.dll": {}
+          "PracticaITLA.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
