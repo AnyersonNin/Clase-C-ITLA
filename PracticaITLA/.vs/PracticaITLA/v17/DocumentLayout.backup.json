@@ -48,7 +48,7 @@
               "RelativeDocumentMoniker": "NominaPolimorfiso\\Program.cs",
               "ToolTip": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\PracticaITLA\\NominaPolimorfiso\\Program.cs",
               "RelativeToolTip": "NominaPolimorfiso\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-09T18:50:52.261Z",
               "EditorCaption": ""
@@ -63,8 +63,7 @@
               "RelativeToolTip": "NominaPolimorfiso\\Empleado.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T18:28:50.703Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-09T18:28:50.703Z"
             },
             {
               "$type": "Document",
@@ -76,8 +75,7 @@
               "RelativeToolTip": "NominaPolimorfiso\\EmpleadoAsalariado.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T18:44:36.566Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-09T18:44:36.566Z"
             },
             {
               "$type": "Document",
@@ -89,8 +87,7 @@
               "RelativeToolTip": "NominaPolimorfiso\\empleadoPorComision.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAA7wCQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T18:48:53.383Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-09T18:48:53.383Z"
             },
             {
               "$type": "Document",
@@ -102,8 +99,7 @@
               "RelativeToolTip": "NominaPolimorfiso\\empleadoPorHoras.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAkwAwAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T18:46:49.121Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-09T18:46:49.121Z"
             },
             {
               "$type": "Document",
@@ -115,8 +111,7 @@
               "RelativeToolTip": "NominaPolimorfiso\\EmpleadoBaseMasComision.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwBIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T18:48:17.533Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-09T18:48:17.533Z"
             }
           ]
         }

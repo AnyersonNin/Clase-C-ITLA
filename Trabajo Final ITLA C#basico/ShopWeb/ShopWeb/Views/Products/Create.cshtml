@@ -1,0 +1,67 @@
+﻿@model ShopWeb.Data.DTO.ProductsAddDTO
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="productid" class="control-label"></label>
+                <input asp-for="productid" class="form-control" />
+                <span asp-validation-for="productid" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="productname" class="control-label"></label>
+                <input asp-for="productname" class="form-control" />
+                <span asp-validation-for="productname" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="categoryid" class="control-label"></label>
+                <input asp-for="categoryid" class="form-control" />
+                <span asp-validation-for="categoryid" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="supplierid" class="control-label"></label>
+                <input asp-for="supplierid" class="form-control" />
+                <span asp-validation-for="supplierid" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="unitprice" class="control-label"></label>
+                <input asp-for="unitprice" class="form-control" />
+                <span asp-validation-for="unitprice" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="discontinued" /> @Html.DisplayNameFor(model => model.discontinued)
+                </label>
+            </div>
+            <div class="form-group">
+                <label asp-for="creation_date" class="control-label"></label>
+                <input asp-for="creation_date" class="form-control" />
+                <span asp-validation-for="creation_date" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="creation_user" class="control-label"></label>
+                <input asp-for="creation_user" class="form-control" />
+                <span asp-validation-for="creation_user" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
