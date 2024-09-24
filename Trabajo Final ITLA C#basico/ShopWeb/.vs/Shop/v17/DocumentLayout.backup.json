@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\Trabajo Final ITLA C#basico\\ShopWeb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{552FF0F5-5A0A-4A0A-8112-63237772895F}|ShopWeb\\ShopWeb.csproj|c:\\users\\anyerson nin\\desktop\\clase-c-itla\\trabajo final itla c#basico\\shopweb\\shopweb\\controllers\\supplierscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{552FF0F5-5A0A-4A0A-8112-63237772895F}|ShopWeb\\ShopWeb.csproj|solutionrelative:shopweb\\controllers\\supplierscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{552FF0F5-5A0A-4A0A-8112-63237772895F}|ShopWeb\\ShopWeb.csproj|c:\\users\\anyerson nin\\desktop\\clase-c-itla\\trabajo final itla c#basico\\shopweb\\shopweb\\data\\daos\\daoproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{552FF0F5-5A0A-4A0A-8112-63237772895F}|ShopWeb\\ShopWeb.csproj|solutionrelative:shopweb\\data\\daos\\daoproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{552FF0F5-5A0A-4A0A-8112-63237772895F}|ShopWeb\\ShopWeb.csproj|c:\\users\\anyerson nin\\desktop\\clase-c-itla\\trabajo final itla c#basico\\shopweb\\shopweb\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{552FF0F5-5A0A-4A0A-8112-63237772895F}|ShopWeb\\ShopWeb.csproj|solutionrelative:shopweb\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{552FF0F5-5A0A-4A0A-8112-63237772895F}|ShopWeb\\ShopWeb.csproj|c:\\users\\anyerson nin\\desktop\\clase-c-itla\\trabajo final itla c#basico\\shopweb\\shopweb\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{552FF0F5-5A0A-4A0A-8112-63237772895F}|ShopWeb\\ShopWeb.csproj|solutionrelative:shopweb\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552FF0F5-5A0A-4A0A-8112-63237772895F}|ShopWeb\\ShopWeb.csproj|c:\\users\\anyerson nin\\desktop\\clase-c-itla\\trabajo final itla c#basico\\shopweb\\shopweb\\data\\dto\\producsdto\\productsadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{552FF0F5-5A0A-4A0A-8112-63237772895F}|ShopWeb\\ShopWeb.csproj|solutionrelative:shopweb\\data\\dto\\producsdto\\productsadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{552FF0F5-5A0A-4A0A-8112-63237772895F}|ShopWeb\\ShopWeb.csproj|c:\\users\\anyerson nin\\desktop\\clase-c-itla\\trabajo final itla c#basico\\shopweb\\shopweb\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{552FF0F5-5A0A-4A0A-8112-63237772895F}|ShopWeb\\ShopWeb.csproj|solutionrelative:shopweb\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{552FF0F5-5A0A-4A0A-8112-63237772895F}|ShopWeb\\ShopWeb.csproj|c:\\users\\anyerson nin\\desktop\\clase-c-itla\\trabajo final itla c#basico\\shopweb\\shopweb\\views\\suppliers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{552FF0F5-5A0A-4A0A-8112-63237772895F}|ShopWeb\\ShopWeb.csproj|solutionrelative:shopweb\\views\\suppliers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{552FF0F5-5A0A-4A0A-8112-63237772895F}|ShopWeb\\ShopWeb.csproj|c:\\users\\anyerson nin\\desktop\\clase-c-itla\\trabajo final itla c#basico\\shopweb\\shopweb\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{552FF0F5-5A0A-4A0A-8112-63237772895F}|ShopWeb\\ShopWeb.csproj|solutionrelative:shopweb\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{552FF0F5-5A0A-4A0A-8112-63237772895F}|ShopWeb\\ShopWeb.csproj|c:\\users\\anyerson nin\\desktop\\clase-c-itla\\trabajo final itla c#basico\\shopweb\\shopweb\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{552FF0F5-5A0A-4A0A-8112-63237772895F}|ShopWeb\\ShopWeb.csproj|solutionrelative:shopweb\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,113 +26,62 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\Trabajo Final ITLA C#basico\\ShopWeb\\ShopWeb\\Views\\Suppliers\\Create.cshtml",
-              "RelativeDocumentMoniker": "ShopWeb\\Views\\Suppliers\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\Trabajo Final ITLA C#basico\\ShopWeb\\ShopWeb\\Views\\Suppliers\\Create.cshtml",
-              "RelativeToolTip": "ShopWeb\\Views\\Suppliers\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-20T19:15:50.173Z",
+              "DocumentIndex": 1,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\Trabajo Final ITLA C#basico\\ShopWeb\\ShopWeb\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "ShopWeb\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\Trabajo Final ITLA C#basico\\ShopWeb\\ShopWeb\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "ShopWeb\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAowDAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T00:40:52.187Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SuppliersController.cs",
-              "DocumentMoniker": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\Trabajo Final ITLA C#basico\\ShopWeb\\ShopWeb\\Controllers\\SuppliersController.cs",
-              "RelativeDocumentMoniker": "ShopWeb\\Controllers\\SuppliersController.cs",
-              "ToolTip": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\Trabajo Final ITLA C#basico\\ShopWeb\\ShopWeb\\Controllers\\SuppliersController.cs",
-              "RelativeToolTip": "ShopWeb\\Controllers\\SuppliersController.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAA9wEEAAAAfAAAAAAAAAA==",
+              "Title": "DaoProducts.cs",
+              "DocumentMoniker": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\Trabajo Final ITLA C#basico\\ShopWeb\\ShopWeb\\Data\\Daos\\DaoProducts.cs",
+              "RelativeDocumentMoniker": "ShopWeb\\Data\\Daos\\DaoProducts.cs",
+              "ToolTip": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\Trabajo Final ITLA C#basico\\ShopWeb\\ShopWeb\\Data\\Daos\\DaoProducts.cs",
+              "RelativeToolTip": "ShopWeb\\Data\\Daos\\DaoProducts.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwD0AAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T19:03:19.251Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "727933ac-794b-4113-8f36-a7d80f62fb63",
-        "Display": 1,
-        "X": 55,
-        "Y": 79,
-        "Width": 1270,
-        "Height": 591,
-        "WindowState": 2
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 3,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\Trabajo Final ITLA C#basico\\ShopWeb\\ShopWeb\\Views\\Products\\Index.cshtml",
-              "RelativeDocumentMoniker": "ShopWeb\\Views\\Products\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\Trabajo Final ITLA C#basico\\ShopWeb\\ShopWeb\\Views\\Products\\Index.cshtml",
-              "RelativeToolTip": "ShopWeb\\Views\\Products\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-20T19:11:53.286Z",
+              "WhenOpened": "2024-09-24T00:38:07.722Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\Trabajo Final ITLA C#basico\\ShopWeb\\ShopWeb\\Views\\Products\\Create.cshtml",
               "RelativeDocumentMoniker": "ShopWeb\\Views\\Products\\Create.cshtml",
               "ToolTip": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\Trabajo Final ITLA C#basico\\ShopWeb\\ShopWeb\\Views\\Products\\Create.cshtml",
               "RelativeToolTip": "ShopWeb\\Views\\Products\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-20T19:11:50.491Z",
+              "WhenOpened": "2024-09-24T00:36:46.698Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\Trabajo Final ITLA C#basico\\ShopWeb\\ShopWeb\\Views\\Products\\Details.cshtml",
-              "RelativeDocumentMoniker": "ShopWeb\\Views\\Products\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\Trabajo Final ITLA C#basico\\ShopWeb\\ShopWeb\\Views\\Products\\Details.cshtml",
-              "RelativeToolTip": "ShopWeb\\Views\\Products\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-20T19:11:51.566Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\Trabajo Final ITLA C#basico\\ShopWeb\\ShopWeb\\Views\\Products\\Edit.cshtml",
-              "RelativeDocumentMoniker": "ShopWeb\\Views\\Products\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\Trabajo Final ITLA C#basico\\ShopWeb\\ShopWeb\\Views\\Products\\Edit.cshtml",
-              "RelativeToolTip": "ShopWeb\\Views\\Products\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-20T19:11:52.535Z",
+              "DocumentIndex": 2,
+              "Title": "ProductsAddDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\Trabajo Final ITLA C#basico\\ShopWeb\\ShopWeb\\Data\\DTO\\ProducsDTO\\ProductsAddDTO.cs",
+              "RelativeDocumentMoniker": "ShopWeb\\Data\\DTO\\ProducsDTO\\ProductsAddDTO.cs",
+              "ToolTip": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\Trabajo Final ITLA C#basico\\ShopWeb\\ShopWeb\\Data\\DTO\\ProducsDTO\\ProductsAddDTO.cs",
+              "RelativeToolTip": "ShopWeb\\Data\\DTO\\ProducsDTO\\ProductsAddDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAwAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T00:32:50.13Z",
               "EditorCaption": ""
             }
           ]

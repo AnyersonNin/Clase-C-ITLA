@@ -1,13 +1,8 @@
-﻿using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages.Manage;
-using ShopWeb.Data.Context;
-using ShopWeb.Data.DTO;
+﻿using ShopWeb.Data.Context;
 using ShopWeb.Data.DTO.CustomersDTO;
 using ShopWeb.Data.Entities;
 using ShopWeb.Data.Exceptions;
 using ShopWeb.Data.Interfaces;
-using System.Diagnostics.Metrics;
-using System.Drawing;
-using System.Net;
 
 namespace ShopWeb.Data.Daos
 {
@@ -43,6 +38,8 @@ namespace ShopWeb.Data.Daos
              customersResult.country = customer.country;
              customersResult.phone = customer.phone;
              customersResult.fax = customer.fax;
+             customersResult.creation_user = customer.creation_user;
+             customersResult.creation_date = customer.creation_date;
                         
             }
             catch (Exception ex)
@@ -73,6 +70,9 @@ namespace ShopWeb.Data.Daos
                           country = customer.country,
                           phone = customer.phone,
                           fax = customer.fax,
+                          creation_user = customer.creation_user,
+                          creation_date = customer.creation_date,
+                         
                         }).ToList();
 
          }
@@ -118,7 +118,7 @@ namespace ShopWeb.Data.Daos
 
                 Customers customers = new Customers()
                 {
-                 custid = customersAddDTO.custid,
+                 
                  companyname = customersAddDTO.companyname,
                  contactname = customersAddDTO.contactname,
                  contacttitle = customersAddDTO.contacttitle,
@@ -130,6 +130,10 @@ namespace ShopWeb.Data.Daos
                  country = customersAddDTO.country,
                  phone  = customersAddDTO.phone,
                  fax = customersAddDTO.fax,
+                 creation_date = customersAddDTO.creation_date,
+                 creation_user = customersAddDTO.creation_user,
+                 
+                 
                    
                 };
                 this._shopDb.Customers.Add(customers);
@@ -166,6 +170,8 @@ namespace ShopWeb.Data.Daos
                 customers.country = customersUpdateDTO.country;
                 customers.phone = customersUpdateDTO.phone;
                 customers.fax = customersUpdateDTO.fax;
+                customers.modify_date = customersUpdateDTO.modify_date;
+                customers.modify_date = customersUpdateDTO.modify_date;
 
 
                 this._shopDb.Customers.Update(customers);

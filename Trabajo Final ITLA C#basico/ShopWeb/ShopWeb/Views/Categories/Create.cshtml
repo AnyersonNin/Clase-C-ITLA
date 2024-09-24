@@ -4,9 +4,9 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
+<h1>Crea categoria</h1>
 
-<h4>CategoriesAddDTO</h4>
+
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -14,13 +14,18 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="categoryname" class="control-label">Nombre de categoría</label>
-                <input asp-for="categoryname" class="form-control" />
+                <input asp-for="categoryname" class="form-control" maxlength="15"/>
                 <span asp-validation-for="categoryname" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="description" class="control-label">Descripción</label>
-                <input asp-for="description" class="form-control" />
+                <input asp-for="description" class="form-control" maxlength="200" />
                 <span asp-validation-for="description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="creation_date " class="control-label">Fecha de creacion</label>
+                <input asp-for="creation_date " class="form-control" />
+                <span asp-validation-for="creation_date " class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="creation_user" class="control-label">Usuario</label>
@@ -35,7 +40,7 @@
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Index">volver atras</a>
 </div>
 
 @section Scripts {

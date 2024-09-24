@@ -4,55 +4,55 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Cliente</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create">Crea nuevo Cliente</a>
 </p>
-<table class="table">
+<table class="table table-striped table-bordered">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.custid)
+                Cliente ID
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.companyname)
+                Compañía
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.contactname)
+                Contacto
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.contacttitle)
+                Cargo
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.address)
+                Dirección
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.email)
+                Email
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.city)
+               Ciudad
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.region)
+                Región
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.postalcode)
+                Código Postal
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.country)
+                País
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.phone)
+                Teléfono
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.fax)
+                Fax
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.creation_user)
+                Fecha de Creación
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.creation_date)
+                Accion
             </th>
             <th></th>
         </tr>
@@ -97,15 +97,11 @@
                 @Html.DisplayFor(modelItem => item.fax)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.creation_user)
-            </td>
-            <td>
                 @Html.DisplayFor(modelItem => item.creation_date)
             </td>
             <td>
-                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                    @Html.ActionLink("Edit", "Edit", new { id = item.custid }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.custid }) |
             </td>
         </tr>
 }

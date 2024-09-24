@@ -4,28 +4,31 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Categorias</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create"> Crea una categoria</a>
 </p>
-<table class="table">
+<table class="table table-striped table-bordered">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.categoryid)
+                Categoria ID
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.categoryname)
+                 Nombre
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.description)
+                Descripcion
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.creation_user)
+                Usuario
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.creation_date)
+                Fecha de creacion
+            </th>
+            <th>
+                 Accion
             </th>
             <th></th>
         </tr>
@@ -50,8 +53,7 @@
             </td>
             <td>
                     @Html.ActionLink("Edit", "Edit", new { id = item.categoryid }) |
-                    @Html.ActionLink("Details", "Details", new { id = item.categoryid }) |
-                    @Html.ActionLink("Delete", "Delete", new { id = item.categoryid })
+                    @Html.ActionLink("Details", "Details", new { id = item.categoryid }) 
             </td>
         </tr>
 }

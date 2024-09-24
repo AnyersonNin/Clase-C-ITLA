@@ -1,48 +1,101 @@
-﻿@model ShopWeb.Data.DTO.CategoriesDTO.CategoriesUpdateDTO
+﻿@model ShopWeb.Data.DTO.CustomersDTO.CustomersAddDTO
 
 @{
     ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
+<h1>Detalles del cliente</h1>
 
 <div>
-    <h4>CategoriesUpdateDTO</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.categoryid)
+            Cliente ID
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.categoryid)
+            @Html.DisplayFor(model => model.custid)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.categoryname)
+            Compañía
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.categoryname)
+            @Html.DisplayFor(model => model.companyname)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.description)
+            Contacto
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.description)
+            @Html.DisplayFor(model => model.contactname)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.modify_date)
+            Cargo
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.modify_date)
+            @Html.DisplayFor(model => model.contacttitle)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.modify_user)
+            Dirección
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.modify_user)
+            @Html.DisplayFor(model => model.address)
+        </dd>
+        <dt class = "col-sm-2">
+            Email
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.email)
+        </dd>
+        <dt class = "col-sm-2">
+            Ciudad
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.city)
+        </dd>
+        <dt class = "col-sm-2">
+            Región
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.region)
+        </dd>
+        <dt class = "col-sm-2">
+            Código Postal
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.postalcode)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.country)
+        </dt>
+        <dd class = "col-sm-10">
+            País
+        </dd>
+        <dt class = "col-sm-2">
+            Teléfono
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.phone)
+        </dd>
+        <dt class = "col-sm-2">
+           Fax
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.fax)
+        </dd>
+        <dt class = "col-sm-2">
+            Usuario
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.creation_user)
+        </dd>
+        <dt class = "col-sm-2">
+            Fecha de Creación
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.creation_date)
         </dd>
     </dl>
 </div>
 <div>
-    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
-    <a asp-action="Index">Back to List</a>
+    @Html.ActionLink("Edit", "Edit", new {  id = Model.custid }) |
+    <a asp-action="Index">volver atras</a>
 </div>

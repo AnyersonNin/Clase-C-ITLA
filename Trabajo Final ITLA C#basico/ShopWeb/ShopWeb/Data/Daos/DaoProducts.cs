@@ -31,8 +31,11 @@ namespace ShopWeb.Data.Daos
                 productResult.productid = product.productid;
                 productResult.productname = product.productname;
                 productResult.categoryid = product.categoryid;
+                productResult.supplierid = product.supplierid;
                 productResult.unitprice = product.unitprice;
                 productResult.discontinued = product.discontinued;
+                productResult.creation_user = product.creation_user;
+                productResult.creation_date = product.creation_date;
 
             }
             catch (Exception ex)
@@ -56,8 +59,11 @@ namespace ShopWeb.Data.Daos
                              productid = product.productid,
                              productname = product.productname,
                              categoryid = product.categoryid,
+                             supplierid = product.supplierid,
                              unitprice = product.unitprice,
                              discontinued = product.discontinued,
+                             creation_date = product.creation_date,
+                             creation_user = product.creation_user,
                             }).ToList();
             }
             catch (Exception ex) 
@@ -105,11 +111,13 @@ namespace ShopWeb.Data.Daos
 
                 Products products = new Products()
                 { 
-                productid = productsAddDTO.productid,
                  productname = productsAddDTO.productname,
                  categoryid = productsAddDTO.categoryid,
+                 supplierid = productsAddDTO.supplierid,
                  unitprice = productsAddDTO.unitprice,
                  discontinued = productsAddDTO.discontinued,
+                 creation_date = productsAddDTO.creation_date,
+                 creation_user = productsAddDTO.creation_user,
              
                 };
                 this._shopDb.Products.Add(products);

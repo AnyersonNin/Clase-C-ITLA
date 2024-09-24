@@ -11,12 +11,10 @@ namespace ShopWeb.Data.Entities
     public class Categories: AuditEntity
     {
         [Key]
-         public int categoryid { get; set; }
-
-        [DisplayName("Nombre de categoría")]
-         public string categoryname{ get; set; }
-
-         public string description{ get; set; }
+        
+        public int categoryid { get; set; }
+        public string categoryname{ get; set; }  
+        public string description{ get; set; }
 
     }
 }

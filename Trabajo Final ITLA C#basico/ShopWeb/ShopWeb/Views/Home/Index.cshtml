@@ -3,6 +3,35 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h4 class="display-5">Bienvenidos a la tienda virtual</h4>
 </div>
+
+
+<nav class="navbar navbar-expand-sm navbar-light bg-light shadow-sm">
+    <div class="container flex-column">
+        <div class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-controller="Products" asp-action="Index">Productos</a>
+        </div>
+        <div class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-controller="Categories" asp-action="Index">Categorías</a>
+        </div>
+        <div class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-controller="Customers" asp-action="Index">Clientes</a>
+        </div>
+        <div class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-controller="Suppliers" asp-action="Index">Suplidor</a>
+        </div>
+    </div>
+</nav>
+<style>
+    .nav-link {
+        border-radius: 0.5rem; 
+        padding: 20px 30px; 
+        margin: 20px; 
+        transition: background-color 0.3s; 
+    }
+
+        .nav-link:hover {
+            background-color: #0056b3;
+        }
+</style>

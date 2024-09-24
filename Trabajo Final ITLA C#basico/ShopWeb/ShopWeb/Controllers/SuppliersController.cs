@@ -18,13 +18,13 @@ namespace ShopWeb.Controllers
         public ActionResult Index()
         {
             var suppliers = this.SuppliersDb.GetSuppliers();
-            return View();
+            return View(suppliers);
         }
 
         // GET: SuppliersController/Details/5
         public ActionResult Details(int id)
         {
-            var suppliers = this.SuppliersDb.GetSuppliersById(id);
+            var suppliers = SuppliersDb.GetSuppliersById(id);
             return View(suppliers);
         }
 

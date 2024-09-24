@@ -1,12 +1,11 @@
-﻿using DocumentFormat.OpenXml.Bibliography;
-using DocumentFormat.OpenXml.Office2016.Drawing.ChartDrawing;
+﻿
 using ShopWeb.Data.Context;
+using ShopWeb.Data.DTO.CategoriesDTO;
 using ShopWeb.Data.DTO.SuppliersDTO;
 using ShopWeb.Data.Entities;
 using ShopWeb.Data.Exceptions;
 using ShopWeb.Data.Interfaces;
-using System.Diagnostics.Metrics;
-using System.Drawing;
+
 
 namespace ShopWeb.Data.Daos
 {
@@ -41,6 +40,8 @@ namespace ShopWeb.Data.Daos
                 suppliersReult.country = suppliers.country;
                 suppliersReult.phone = suppliers.phone;
                 suppliersReult.fax = suppliers.fax;
+                suppliersReult.creation_date = suppliers.creation_date;
+                suppliersReult.creation_user = suppliers.creation_user;
 
             }
             catch (Exception ex)
@@ -72,6 +73,8 @@ namespace ShopWeb.Data.Daos
                                  country = supplier.country,
                                  phone = supplier.phone,
                                  fax = supplier.fax,
+                                 creation_date = supplier.creation_date,
+                                 creation_user = supplier.creation_user,
 
                              }).ToList();
             }
@@ -111,12 +114,12 @@ namespace ShopWeb.Data.Daos
             {
                 if (suppliersAddDTO is null)
                     throw new SupplierExecptions("El cliente no puede ser nulo");
-                if (suppliersAddDTO is null)
-                    throw new SupplierExecptions("El cliente no esta disponible");
+                if (this._shopDb.Suppliers.Any(supplier => supplier.contactname == suppliersAddDTO.contactname))
+                    throw new CategoriesExceptions("la suplidor esta registrada");
 
                 Suppliers suppliers = new Suppliers()
                 {
-                    supplierid = suppliersAddDTO.supplierid,
+                   
                     companyname = suppliersAddDTO.companyname,
                     contactname = suppliersAddDTO.contactname,
                     contacttitle = suppliersAddDTO.contacttitle,
@@ -127,6 +130,8 @@ namespace ShopWeb.Data.Daos
                     country = suppliersAddDTO.country,
                     phone = suppliersAddDTO.phone,
                     fax = suppliersAddDTO.fax,
+                    creation_date = suppliersAddDTO.creation_date,
+                    creation_user = suppliersAddDTO.creation_user,
                 };
                 this._shopDb.Suppliers.Add(suppliers);
                 this._shopDb.SaveChanges();
@@ -160,7 +165,8 @@ namespace ShopWeb.Data.Daos
                 suppliers.country = suppliersUpdateDTO.country;
                 suppliers.phone = suppliersUpdateDTO.phone;
                 suppliers.fax = suppliersUpdateDTO.fax;
-
+                suppliers.modify_date = suppliersUpdateDTO.modify_date;
+                suppliers.modify_user = suppliersUpdateDTO.modify_user;
 
 
 

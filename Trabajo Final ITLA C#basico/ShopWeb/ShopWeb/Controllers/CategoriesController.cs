@@ -23,8 +23,8 @@ namespace ShopWeb.Controllers
         // GET: CategoriesController/Details/5
         public ActionResult Details(int id)
         {
-            var categories = CategoriesDb.GetCategoryById(id);
-            return View(categories);
+            var categorie = this.CategoriesDb.GetCategoryById(id);
+            return View(categorie);
         }
 
         // GET: CategoriesController/Create
@@ -55,7 +55,8 @@ namespace ShopWeb.Controllers
         // GET: CategoriesController/Edit/5
         public ActionResult Edit(int id)
         {
-            return View();
+            var categories = this.CategoriesDb.GetCategoryById (id);
+            return View(categories);
         }
 
         // POST: CategoriesController/Edit/5

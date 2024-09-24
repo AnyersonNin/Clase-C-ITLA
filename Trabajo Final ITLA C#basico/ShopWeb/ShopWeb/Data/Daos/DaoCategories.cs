@@ -30,6 +30,8 @@ namespace ShopWeb.Data.Daos
                 categoryResult.categoryid = categorie.categoryid;
                 categoryResult.categoryname = categorie.categoryname;
                 categoryResult.description = categorie.description;
+                categoryResult.creation_date = categorie.creation_date;
+                categoryResult.creation_user = categorie.creation_user;
 
             }
             catch (Exception ex)
@@ -51,6 +53,8 @@ namespace ShopWeb.Data.Daos
                                   categoryid = categorie.categoryid,
                                   categoryname = categorie.categoryname,
                                   description = categorie.description,
+                                  creation_user = categorie.creation_user,
+                                  creation_date = categorie.creation_date,
                               }).ToList();
 
             }
@@ -88,6 +92,7 @@ namespace ShopWeb.Data.Daos
             {
                 if (categoriesAddDTO is null)
                     throw new CategoriesExceptions("La categoria no puede ser nula");
+
                 if (this._shopDb.Categories.Any(categorie => categorie.categoryname == categoriesAddDTO.categoryname))
                     throw new CategoriesExceptions("la categoria esta registrada");
 
@@ -95,6 +100,9 @@ namespace ShopWeb.Data.Daos
                 {
                     categoryname = categoriesAddDTO.categoryname,
                     description = categoriesAddDTO.description,
+                    creation_date = categoriesAddDTO.creation_date,
+                    creation_user = categoriesAddDTO.creation_user,
+
                 };
                 this._shopDb.Categories.Add(categories);
                 this._shopDb.SaveChanges();

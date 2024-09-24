@@ -1,13 +1,13 @@
-﻿@model ShopWeb.Data.DTO.ProducsDTO.ProductsUpdateDTO
+﻿@model ShopWeb.Data.DTO.ProductsAddDTO
 
 @{
     ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
+<h1>Detalles del producto</h1>
 
 <div>
-  
+   
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
@@ -28,10 +28,10 @@
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.categoryid)
         </dd>
-        <dt class="col-sm-2">
+        <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.supplierid)
         </dt>
-        <dd class="col-sm-10">
+        <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.supplierid)
         </dd>
         <dt class = "col-sm-2">
@@ -47,16 +47,16 @@
             @Html.DisplayFor(model => model.discontinued)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.modify_date)
+            @Html.DisplayNameFor(model => model.creation_user)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.modify_date)
+            @Html.DisplayFor(model => model.creation_user)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.modify_user)
+            @Html.DisplayNameFor(model => model.creation_date)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.modify_user)
+            @Html.DisplayFor(model => model.creation_date)
         </dd>
     </dl>
 </div>
