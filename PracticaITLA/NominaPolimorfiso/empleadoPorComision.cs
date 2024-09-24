@@ -8,7 +8,7 @@ namespace NominaPolimorfismo
 {
     public class EmpleadoPorComision : Empleado
 
-    {
+    { 
         private decimal ventasBrutas { get; set; }
         private decimal tarifaDeComision { get; set; }
 
