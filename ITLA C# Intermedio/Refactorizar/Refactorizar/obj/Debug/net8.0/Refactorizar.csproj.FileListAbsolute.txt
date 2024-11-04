@@ -1,0 +1,29 @@
+C:\Users\Anyerson Nin\source\repos\Refactorizar\Refactorizar\bin\Debug\net8.0\Refactorizar.exe
+C:\Users\Anyerson Nin\source\repos\Refactorizar\Refactorizar\bin\Debug\net8.0\Refactorizar.deps.json
+C:\Users\Anyerson Nin\source\repos\Refactorizar\Refactorizar\bin\Debug\net8.0\Refactorizar.runtimeconfig.json
+C:\Users\Anyerson Nin\source\repos\Refactorizar\Refactorizar\bin\Debug\net8.0\Refactorizar.dll
+C:\Users\Anyerson Nin\source\repos\Refactorizar\Refactorizar\bin\Debug\net8.0\Refactorizar.pdb
+C:\Users\Anyerson Nin\source\repos\Refactorizar\Refactorizar\obj\Debug\net8.0\Refactorizar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anyerson Nin\source\repos\Refactorizar\Refactorizar\obj\Debug\net8.0\Refactorizar.AssemblyInfoInputs.cache
+C:\Users\Anyerson Nin\source\repos\Refactorizar\Refactorizar\obj\Debug\net8.0\Refactorizar.AssemblyInfo.cs
+C:\Users\Anyerson Nin\source\repos\Refactorizar\Refactorizar\obj\Debug\net8.0\Refactorizar.csproj.CoreCompileInputs.cache
+C:\Users\Anyerson Nin\source\repos\Refactorizar\Refactorizar\obj\Debug\net8.0\Refactorizar.dll
+C:\Users\Anyerson Nin\source\repos\Refactorizar\Refactorizar\obj\Debug\net8.0\refint\Refactorizar.dll
+C:\Users\Anyerson Nin\source\repos\Refactorizar\Refactorizar\obj\Debug\net8.0\Refactorizar.pdb
+C:\Users\Anyerson Nin\source\repos\Refactorizar\Refactorizar\obj\Debug\net8.0\Refactorizar.genruntimeconfig.cache
+C:\Users\Anyerson Nin\source\repos\Refactorizar\Refactorizar\obj\Debug\net8.0\ref\Refactorizar.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\Refactorizar\Refactorizar\bin\Debug\net8.0\Refactorizar.exe
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\Refactorizar\Refactorizar\bin\Debug\net8.0\Refactorizar.deps.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\Refactorizar\Refactorizar\bin\Debug\net8.0\Refactorizar.runtimeconfig.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\Refactorizar\Refactorizar\bin\Debug\net8.0\Refactorizar.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\Refactorizar\Refactorizar\bin\Debug\net8.0\Refactorizar.pdb
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\Refactorizar\Refactorizar\obj\Debug\net8.0\Refactorizar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\Refactorizar\Refactorizar\obj\Debug\net8.0\Refactorizar.AssemblyInfoInputs.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\Refactorizar\Refactorizar\obj\Debug\net8.0\Refactorizar.AssemblyInfo.cs
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\Refactorizar\Refactorizar\obj\Debug\net8.0\Refactorizar.csproj.CoreCompileInputs.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\Refactorizar\Refactorizar\obj\Debug\net8.0\Refactorizar.sourcelink.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\Refactorizar\Refactorizar\obj\Debug\net8.0\Refactorizar.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\Refactorizar\Refactorizar\obj\Debug\net8.0\refint\Refactorizar.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\Refactorizar\Refactorizar\obj\Debug\net8.0\Refactorizar.pdb
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\Refactorizar\Refactorizar\obj\Debug\net8.0\Refactorizar.genruntimeconfig.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\Refactorizar\Refactorizar\obj\Debug\net8.0\ref\Refactorizar.dll

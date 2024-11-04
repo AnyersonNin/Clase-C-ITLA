@@ -1,0 +1,29 @@
+C:\Users\Anyerson Nin\source\repos\AplicarSOLID\AplicarSOLID\obj\Debug\net8.0\AplicarSOLID.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anyerson Nin\source\repos\AplicarSOLID\AplicarSOLID\obj\Debug\net8.0\AplicarSOLID.AssemblyInfoInputs.cache
+C:\Users\Anyerson Nin\source\repos\AplicarSOLID\AplicarSOLID\obj\Debug\net8.0\AplicarSOLID.AssemblyInfo.cs
+C:\Users\Anyerson Nin\source\repos\AplicarSOLID\AplicarSOLID\obj\Debug\net8.0\AplicarSOLID.csproj.CoreCompileInputs.cache
+C:\Users\Anyerson Nin\source\repos\AplicarSOLID\AplicarSOLID\bin\Debug\net8.0\AplicarSOLID.exe
+C:\Users\Anyerson Nin\source\repos\AplicarSOLID\AplicarSOLID\bin\Debug\net8.0\AplicarSOLID.deps.json
+C:\Users\Anyerson Nin\source\repos\AplicarSOLID\AplicarSOLID\bin\Debug\net8.0\AplicarSOLID.runtimeconfig.json
+C:\Users\Anyerson Nin\source\repos\AplicarSOLID\AplicarSOLID\bin\Debug\net8.0\AplicarSOLID.dll
+C:\Users\Anyerson Nin\source\repos\AplicarSOLID\AplicarSOLID\bin\Debug\net8.0\AplicarSOLID.pdb
+C:\Users\Anyerson Nin\source\repos\AplicarSOLID\AplicarSOLID\obj\Debug\net8.0\AplicarSOLID.dll
+C:\Users\Anyerson Nin\source\repos\AplicarSOLID\AplicarSOLID\obj\Debug\net8.0\refint\AplicarSOLID.dll
+C:\Users\Anyerson Nin\source\repos\AplicarSOLID\AplicarSOLID\obj\Debug\net8.0\AplicarSOLID.pdb
+C:\Users\Anyerson Nin\source\repos\AplicarSOLID\AplicarSOLID\obj\Debug\net8.0\AplicarSOLID.genruntimeconfig.cache
+C:\Users\Anyerson Nin\source\repos\AplicarSOLID\AplicarSOLID\obj\Debug\net8.0\ref\AplicarSOLID.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\AplicarSOLID\AplicarSOLID\bin\Debug\net8.0\AplicarSOLID.exe
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\AplicarSOLID\AplicarSOLID\bin\Debug\net8.0\AplicarSOLID.deps.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\AplicarSOLID\AplicarSOLID\bin\Debug\net8.0\AplicarSOLID.runtimeconfig.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\AplicarSOLID\AplicarSOLID\bin\Debug\net8.0\AplicarSOLID.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\AplicarSOLID\AplicarSOLID\bin\Debug\net8.0\AplicarSOLID.pdb
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\AplicarSOLID\AplicarSOLID\obj\Debug\net8.0\AplicarSOLID.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\AplicarSOLID\AplicarSOLID\obj\Debug\net8.0\AplicarSOLID.AssemblyInfoInputs.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\AplicarSOLID\AplicarSOLID\obj\Debug\net8.0\AplicarSOLID.AssemblyInfo.cs
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\AplicarSOLID\AplicarSOLID\obj\Debug\net8.0\AplicarSOLID.csproj.CoreCompileInputs.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\AplicarSOLID\AplicarSOLID\obj\Debug\net8.0\AplicarSOLID.sourcelink.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\AplicarSOLID\AplicarSOLID\obj\Debug\net8.0\AplicarSOLID.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\AplicarSOLID\AplicarSOLID\obj\Debug\net8.0\refint\AplicarSOLID.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\AplicarSOLID\AplicarSOLID\obj\Debug\net8.0\AplicarSOLID.pdb
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\AplicarSOLID\AplicarSOLID\obj\Debug\net8.0\AplicarSOLID.genruntimeconfig.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\AplicarSOLID\AplicarSOLID\obj\Debug\net8.0\ref\AplicarSOLID.dll
