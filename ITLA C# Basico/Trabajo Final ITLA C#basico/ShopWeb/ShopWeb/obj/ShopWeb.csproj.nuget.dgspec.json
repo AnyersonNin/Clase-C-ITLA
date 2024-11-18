@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\Trabajo Final ITLA C#basico\\ShopWeb\\ShopWeb\\ShopWeb.csproj": {}
+    "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\ITLA C# Basico\\Trabajo Final ITLA C#basico\\ShopWeb\\ShopWeb\\ShopWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\Trabajo Final ITLA C#basico\\ShopWeb\\ShopWeb\\ShopWeb.csproj": {
+    "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\ITLA C# Basico\\Trabajo Final ITLA C#basico\\ShopWeb\\ShopWeb\\ShopWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\Trabajo Final ITLA C#basico\\ShopWeb\\ShopWeb\\ShopWeb.csproj",
+        "projectUniqueName": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\ITLA C# Basico\\Trabajo Final ITLA C#basico\\ShopWeb\\ShopWeb\\ShopWeb.csproj",
         "projectName": "ShopWeb",
-        "projectPath": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\Trabajo Final ITLA C#basico\\ShopWeb\\ShopWeb\\ShopWeb.csproj",
+        "projectPath": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\ITLA C# Basico\\Trabajo Final ITLA C#basico\\ShopWeb\\ShopWeb\\ShopWeb.csproj",
         "packagesPath": "C:\\Users\\Anyerson Nin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\Trabajo Final ITLA C#basico\\ShopWeb\\ShopWeb\\obj\\",
+        "outputPath": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\ITLA C# Basico\\Trabajo Final ITLA C#basico\\ShopWeb\\ShopWeb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -90,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -5,7 +5,7 @@ using System.Security.AccessControl;
 
 namespace ShopWeb.Data.Entities
 {
-    //[Table("Products", Schema = "dbo")]
+
     public class Products : AuditEntity
     {
       [Key]
