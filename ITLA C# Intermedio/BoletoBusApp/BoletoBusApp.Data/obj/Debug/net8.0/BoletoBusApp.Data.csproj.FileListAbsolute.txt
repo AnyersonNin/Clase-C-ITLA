@@ -1,0 +1,25 @@
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Data\bin\Debug\net8.0\BoletoBusApp.Data.deps.json
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Data\bin\Debug\net8.0\BoletoBusApp.Data.dll
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Data\bin\Debug\net8.0\BoletoBusApp.Data.pdb
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Data\obj\Debug\net8.0\BoletoBusApp.Data.csproj.AssemblyReference.cache
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Data\obj\Debug\net8.0\BoletoBusApp.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Data\obj\Debug\net8.0\BoletoBusApp.Data.AssemblyInfoInputs.cache
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Data\obj\Debug\net8.0\BoletoBusApp.Data.AssemblyInfo.cs
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Data\obj\Debug\net8.0\BoletoBusApp.Data.csproj.CoreCompileInputs.cache
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Data\obj\Debug\net8.0\BoletoBusApp.Data.dll
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Data\obj\Debug\net8.0\refint\BoletoBusApp.Data.dll
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Data\obj\Debug\net8.0\BoletoBusApp.Data.pdb
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Data\obj\Debug\net8.0\ref\BoletoBusApp.Data.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Data\bin\Debug\net8.0\BoletoBusApp.Data.deps.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Data\bin\Debug\net8.0\BoletoBusApp.Data.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Data\bin\Debug\net8.0\BoletoBusApp.Data.pdb
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Data\obj\Debug\net8.0\BoletoBusApp.Data.csproj.AssemblyReference.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Data\obj\Debug\net8.0\BoletoBusApp.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Data\obj\Debug\net8.0\BoletoBusApp.Data.AssemblyInfoInputs.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Data\obj\Debug\net8.0\BoletoBusApp.Data.AssemblyInfo.cs
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Data\obj\Debug\net8.0\BoletoBusApp.Data.csproj.CoreCompileInputs.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Data\obj\Debug\net8.0\BoletoBusApp.Data.sourcelink.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Data\obj\Debug\net8.0\BoletoBusApp.Data.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Data\obj\Debug\net8.0\refint\BoletoBusApp.Data.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Data\obj\Debug\net8.0\BoletoBusApp.Data.pdb
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Data\obj\Debug\net8.0\ref\BoletoBusApp.Data.dll

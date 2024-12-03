@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "mOcyx49pqNpNqzTCwhz+a285jhLone/18SzDlEvFg6Y=",
+  "Source": "BoletoBusApp.Api",
+  "BasePath": "_content/BoletoBusApp.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -1,0 +1,69 @@
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Api\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Api\bin\Debug\net8.0\appsettings.json
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Api\bin\Debug\net8.0\BoletoBusApp.Api.exe
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Api\bin\Debug\net8.0\BoletoBusApp.Api.deps.json
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Api\bin\Debug\net8.0\BoletoBusApp.Api.runtimeconfig.json
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Api\bin\Debug\net8.0\BoletoBusApp.Api.dll
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Api\bin\Debug\net8.0\BoletoBusApp.Api.pdb
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Api\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Api\obj\Debug\net8.0\BoletoBusApp.Api.csproj.AssemblyReference.cache
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Api\obj\Debug\net8.0\BoletoBusApp.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Api\obj\Debug\net8.0\BoletoBusApp.Api.AssemblyInfoInputs.cache
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Api\obj\Debug\net8.0\BoletoBusApp.Api.AssemblyInfo.cs
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Api\obj\Debug\net8.0\BoletoBusApp.Api.csproj.CoreCompileInputs.cache
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Api\obj\Debug\net8.0\BoletoBusApp.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Api\obj\Debug\net8.0\BoletoBusApp.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Api\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Api\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Api\obj\Debug\net8.0\staticwebassets\msbuild.BoletoBusApp.Api.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Api\obj\Debug\net8.0\staticwebassets\msbuild.build.BoletoBusApp.Api.props
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Api\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BoletoBusApp.Api.props
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Api\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BoletoBusApp.Api.props
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Api\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Api\obj\Debug\net8.0\scopedcss\bundle\BoletoBusApp.Api.styles.css
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Api\obj\Debug\net8.0\BoletoBu.82050CF9.Up2Date
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Api\obj\Debug\net8.0\BoletoBusApp.Api.dll
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Api\obj\Debug\net8.0\refint\BoletoBusApp.Api.dll
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Api\obj\Debug\net8.0\BoletoBusApp.Api.pdb
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Api\obj\Debug\net8.0\BoletoBusApp.Api.genruntimeconfig.cache
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Api\obj\Debug\net8.0\ref\BoletoBusApp.Api.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Api\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Api\bin\Debug\net8.0\appsettings.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Api\bin\Debug\net8.0\BoletoBusApp.Api.staticwebassets.endpoints.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Api\bin\Debug\net8.0\BoletoBusApp.Api.exe
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Api\bin\Debug\net8.0\BoletoBusApp.Api.deps.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Api\bin\Debug\net8.0\BoletoBusApp.Api.runtimeconfig.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Api\bin\Debug\net8.0\BoletoBusApp.Api.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Api\bin\Debug\net8.0\BoletoBusApp.Api.pdb
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Api\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Api\obj\Debug\net8.0\BoletoBusApp.Api.csproj.AssemblyReference.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Api\obj\Debug\net8.0\BoletoBusApp.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Api\obj\Debug\net8.0\BoletoBusApp.Api.AssemblyInfoInputs.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Api\obj\Debug\net8.0\BoletoBusApp.Api.AssemblyInfo.cs
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Api\obj\Debug\net8.0\BoletoBusApp.Api.csproj.CoreCompileInputs.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Api\obj\Debug\net8.0\BoletoBusApp.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Api\obj\Debug\net8.0\BoletoBusApp.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Api\obj\Debug\net8.0\BoletoBusApp.Api.sourcelink.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Api\obj\Debug\net8.0\scopedcss\bundle\BoletoBusApp.Api.styles.css
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Api\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Api\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Api\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Api\obj\Debug\net8.0\staticwebassets\msbuild.BoletoBusApp.Api.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Api\obj\Debug\net8.0\staticwebassets\msbuild.BoletoBusApp.Api.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Api\obj\Debug\net8.0\staticwebassets\msbuild.build.BoletoBusApp.Api.props
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Api\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BoletoBusApp.Api.props
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Api\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BoletoBusApp.Api.props
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Api\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Api\obj\Debug\net8.0\BoletoBu.82050CF9.Up2Date
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Api\obj\Debug\net8.0\BoletoBusApp.Api.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Api\obj\Debug\net8.0\refint\BoletoBusApp.Api.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Api\obj\Debug\net8.0\BoletoBusApp.Api.pdb
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Api\obj\Debug\net8.0\BoletoBusApp.Api.genruntimeconfig.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Api\obj\Debug\net8.0\ref\BoletoBusApp.Api.dll

@@ -1,0 +1,65 @@
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Web\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Web\bin\Debug\net8.0\appsettings.json
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Web\bin\Debug\net8.0\BoletoBusApp.Web.staticwebassets.runtime.json
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Web\bin\Debug\net8.0\BoletoBusApp.Web.exe
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Web\bin\Debug\net8.0\BoletoBusApp.Web.deps.json
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Web\bin\Debug\net8.0\BoletoBusApp.Web.runtimeconfig.json
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Web\bin\Debug\net8.0\BoletoBusApp.Web.dll
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Web\bin\Debug\net8.0\BoletoBusApp.Web.pdb
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Web\obj\Debug\net8.0\BoletoBusApp.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Web\obj\Debug\net8.0\BoletoBusApp.Web.AssemblyInfoInputs.cache
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Web\obj\Debug\net8.0\BoletoBusApp.Web.AssemblyInfo.cs
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Web\obj\Debug\net8.0\BoletoBusApp.Web.csproj.CoreCompileInputs.cache
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Web\obj\Debug\net8.0\BoletoBusApp.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Web\obj\Debug\net8.0\BoletoBusApp.Web.RazorAssemblyInfo.cache
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Web\obj\Debug\net8.0\BoletoBusApp.Web.RazorAssemblyInfo.cs
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Web\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Web\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Web\obj\Debug\net8.0\staticwebassets\msbuild.BoletoBusApp.Web.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Web\obj\Debug\net8.0\staticwebassets\msbuild.build.BoletoBusApp.Web.props
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Web\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BoletoBusApp.Web.props
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Web\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BoletoBusApp.Web.props
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Web\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Web\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Web\obj\Debug\net8.0\scopedcss\bundle\BoletoBusApp.Web.styles.css
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Web\obj\Debug\net8.0\scopedcss\projectbundle\BoletoBusApp.Web.bundle.scp.css
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Web\obj\Debug\net8.0\BoletoBusApp.Web.dll
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Web\obj\Debug\net8.0\refint\BoletoBusApp.Web.dll
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Web\obj\Debug\net8.0\BoletoBusApp.Web.pdb
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Web\obj\Debug\net8.0\BoletoBusApp.Web.genruntimeconfig.cache
+C:\Users\Anyerson Nin\source\repos\BoletoBusApp\BoletoBusApp.Web\obj\Debug\net8.0\ref\BoletoBusApp.Web.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Web\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Web\bin\Debug\net8.0\appsettings.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Web\bin\Debug\net8.0\BoletoBusApp.Web.staticwebassets.runtime.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Web\bin\Debug\net8.0\BoletoBusApp.Web.staticwebassets.endpoints.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Web\bin\Debug\net8.0\BoletoBusApp.Web.exe
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Web\bin\Debug\net8.0\BoletoBusApp.Web.deps.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Web\bin\Debug\net8.0\BoletoBusApp.Web.runtimeconfig.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Web\bin\Debug\net8.0\BoletoBusApp.Web.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Web\bin\Debug\net8.0\BoletoBusApp.Web.pdb
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Web\obj\Debug\net8.0\BoletoBusApp.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Web\obj\Debug\net8.0\BoletoBusApp.Web.AssemblyInfoInputs.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Web\obj\Debug\net8.0\BoletoBusApp.Web.AssemblyInfo.cs
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Web\obj\Debug\net8.0\BoletoBusApp.Web.csproj.CoreCompileInputs.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Web\obj\Debug\net8.0\BoletoBusApp.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Web\obj\Debug\net8.0\BoletoBusApp.Web.RazorAssemblyInfo.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Web\obj\Debug\net8.0\BoletoBusApp.Web.RazorAssemblyInfo.cs
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Web\obj\Debug\net8.0\BoletoBusApp.Web.sourcelink.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Web\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Web\obj\Debug\net8.0\scopedcss\bundle\BoletoBusApp.Web.styles.css
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Web\obj\Debug\net8.0\scopedcss\projectbundle\BoletoBusApp.Web.bundle.scp.css
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Web\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Web\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Web\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Web\obj\Debug\net8.0\staticwebassets\msbuild.BoletoBusApp.Web.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Web\obj\Debug\net8.0\staticwebassets\msbuild.BoletoBusApp.Web.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Web\obj\Debug\net8.0\staticwebassets\msbuild.build.BoletoBusApp.Web.props
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Web\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BoletoBusApp.Web.props
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Web\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BoletoBusApp.Web.props
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Web\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Web\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Web\obj\Debug\net8.0\BoletoBusApp.Web.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Web\obj\Debug\net8.0\refint\BoletoBusApp.Web.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Web\obj\Debug\net8.0\BoletoBusApp.Web.pdb
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Web\obj\Debug\net8.0\BoletoBusApp.Web.genruntimeconfig.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Intermedio\BoletoBusApp\BoletoBusApp.Web\obj\Debug\net8.0\ref\BoletoBusApp.Web.dll

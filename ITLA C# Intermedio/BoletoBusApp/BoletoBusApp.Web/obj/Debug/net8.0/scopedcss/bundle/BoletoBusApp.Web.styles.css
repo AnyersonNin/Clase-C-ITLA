@@ -1,0 +1,49 @@
+/* _content/BoletoBusApp.Web/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-ifi8ivb6xq] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-ifi8ivb6xq] {
+  color: #0077cc;
+}
+
+.btn-primary[b-ifi8ivb6xq] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-ifi8ivb6xq], .nav-pills .show > .nav-link[b-ifi8ivb6xq] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-ifi8ivb6xq] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-ifi8ivb6xq] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-ifi8ivb6xq] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-ifi8ivb6xq] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-ifi8ivb6xq] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
