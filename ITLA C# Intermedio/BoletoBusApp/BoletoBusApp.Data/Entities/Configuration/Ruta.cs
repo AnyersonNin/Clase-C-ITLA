@@ -15,9 +15,6 @@ namespace BoletoBusApp.Data.Entities.Configuration
         [Key]
         [Column("IdRuta")]
         public override int Id { get; set; }
-
-        public int IdRuta { get; set; }
-
         public string Origen { get; set; }
         public string Destino { get; set; }
         public bool Estatus { get; set; }

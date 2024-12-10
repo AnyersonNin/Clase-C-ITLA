@@ -15,8 +15,6 @@ namespace BoletoBusApp.Data.Entities.Security
         [Key]
         [Column("IdUsuario")]
         public override int Id { get; set; }
-
-        public int IdUsuario { get; set; }
         public string Nombres { get; set; }
         public string Apellidos { get; set; }
         public string Correo { get; set; }

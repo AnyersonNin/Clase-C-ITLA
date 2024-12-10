@@ -16,7 +16,6 @@ namespace BoletoBusApp.Data.Entities.Reservation
         [Key]
         [Column("IdViaje")]
         public override int Id { get; set; }
-        public int IdViaje { get; set; }
         public int IdBus { get; set; }
         public int IdRuta { get; set; }
         public DateTime FechaSalida { get; set; }

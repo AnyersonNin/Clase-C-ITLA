@@ -15,7 +15,6 @@ namespace BoletoBusApp.Data.Entities.Configuration
         [Key]
         [Column("ConductorID")]
         public override int Id { get; set; }
-        public int ConductorId { get; set;}
         public string Telefono { get; set; }
         public string NumeroLicencia { get; set; }
         public DateTime FechaContratacion {  get; set; }

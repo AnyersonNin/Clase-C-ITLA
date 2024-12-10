@@ -14,9 +14,8 @@ namespace BoletoBusApp.Data.Entities.Reservation
     public sealed class ReservaDetalle : AuditEntity<int>
     {
         [Key]
-        [Column("ReservaDetalle")]
-        public override int Id { get; set; }
-        public int IdReservaDetalle { get; set; }
+        [Column("IdReservaDetalle")]
+        public override int Id { get; set; } 
         public int IdReserva { get; set; }
         public int IdAsiento { get; set; }
     }

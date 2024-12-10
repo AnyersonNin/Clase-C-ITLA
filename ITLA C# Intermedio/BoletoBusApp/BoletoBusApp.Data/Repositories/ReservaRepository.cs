@@ -1,7 +1,9 @@
 ﻿using BoletoBusApp.Data.Base;
+using BoletoBusApp.Data.Context;
 using BoletoBusApp.Data.Entities.Reservation;
 using BoletoBusApp.Data.Interfaces;
 using BoletoBusApp.Data.Models;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,9 +13,18 @@ using System.Threading.Tasks;
 
 namespace BoletoBusApp.Data.Repositories
 {
-    public class ReservaRepository : IBaseRepository<Reserva, int, ReservaModel>
+    public class ReservaRepository : IReservaRepository
     {
-        public Task<bool> Exists(Expression<Func<Reserva, bool>> filter)
+        private readonly ILogger _logger;
+        private readonly BoletoContext _context;
+
+        public ReservaRepository(BoletoContext boletoContext, ILogger<ReservaRepository> logger)
+        {
+            _context = boletoContext;
+            _logger = logger;
+        }
+
+        public Task<bool> Exists(Expression<Func<ReservaRepository, bool>> filter)
         {
             throw new NotImplementedException();
         }
@@ -23,7 +34,7 @@ namespace BoletoBusApp.Data.Repositories
             throw new NotImplementedException();
         }
 
-        public Task<OperationResult<List<ReservaModel>>> GetAll(Expression<Func<Reserva, bool>> filter)
+        public Task<OperationResult<List<ReservaModel>>> GetAll(Expression<Func<ReservaRepository, bool>> filter)
         {
             throw new NotImplementedException();
         }
@@ -33,17 +44,17 @@ namespace BoletoBusApp.Data.Repositories
             throw new NotImplementedException();
         }
 
-        public Task<OperationResult<ReservaModel>> Remove(Reserva entity)
+        public Task<OperationResult<ReservaModel>> Remove(ReservaRepository entity)
         {
             throw new NotImplementedException();
         }
 
-        public Task<OperationResult<ReservaModel>> Save(Reserva entity)
+        public Task<OperationResult<ReservaModel>> Save(ReservaRepository entity)
         {
             throw new NotImplementedException();
         }
 
-        public Task<OperationResult<ReservaModel>> Update(Reserva entity)
+        public Task<OperationResult<ReservaModel>> Update(ReservaRepository entity)
         {
             throw new NotImplementedException();
         }

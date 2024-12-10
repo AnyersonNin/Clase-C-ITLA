@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "BoletoBusApp.Web.Api/1.0.0": {
+        "runtime": {
+          "BoletoBusApp.Web.Api.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BoletoBusApp.Web.Api/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

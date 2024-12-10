@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BoletoBusApp.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4966b480512318818a28a09ebe2960f24948aa38")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fa02c83b86db6c797587297fd4cb08d536ec3176")]
 [assembly: System.Reflection.AssemblyProductAttribute("BoletoBusApp.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BoletoBusApp.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

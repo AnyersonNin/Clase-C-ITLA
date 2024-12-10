@@ -9,11 +9,11 @@ using System.Threading.Tasks;
 
 namespace BoletoBusApp.Data.Entities.Configuration
 {
-    [Table("Status")]
-    public sealed class Status : AuditEntity<short>
+    [Table("Status", Schema = "Configuration")]
+    public sealed class Status : BaseEntity<short>
     {
         [Key]
-        [Column("Id")]
+        [Column("StatusId")]
         public override short Id {  get; set; }
         public string? Description { get; set; }
     }

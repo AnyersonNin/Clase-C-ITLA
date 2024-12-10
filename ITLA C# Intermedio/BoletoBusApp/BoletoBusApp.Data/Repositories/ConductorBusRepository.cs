@@ -1,19 +1,22 @@
 ﻿using BoletoBusApp.Data.Base;
-using BoletoBusApp.Data.Entities.Reservation;
+using BoletoBusApp.Data.Context;
 using BoletoBusApp.Data.Interfaces;
 using BoletoBusApp.Data.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+using Microsoft.Extensions.Logging;
 using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BoletoBusApp.Data.Repositories
 {
-    public class ConductorBusRepository : IBaseRepository<ConductorBus, int, ConductorBusModel>
+    public class ConductorBusRepository : IConductorBusRepository
     {
-        public Task<bool> Exists(Expression<Func<ConductorBus, bool>> filter)
+        private readonly ILogger _logger;
+        private readonly BoletoContext _context;
+        public ConductorBusRepository(BoletoContext boletoContext, ILogger<ConductorBusRepository> logger)
+        {
+            _context = boletoContext;
+            _logger = logger;
+        }
+        public Task<bool> Exists(Expression<Func<ConductorBusRepository, bool>> filter)
         {
             throw new NotImplementedException();
         }
@@ -23,7 +26,7 @@ namespace BoletoBusApp.Data.Repositories
             throw new NotImplementedException();
         }
 
-        public Task<OperationResult<List<ConductorBusModel>>> GetAll(Expression<Func<ConductorBus, bool>> filter)
+        public Task<OperationResult<List<ConductorBusModel>>> GetAll(Expression<Func<ConductorBusRepository, bool>> filter)
         {
             throw new NotImplementedException();
         }
@@ -33,17 +36,17 @@ namespace BoletoBusApp.Data.Repositories
             throw new NotImplementedException();
         }
 
-        public Task<OperationResult<ConductorBusModel>> Remove(ConductorBus entity)
+        public Task<OperationResult<ConductorBusModel>> Remove(ConductorBusRepository entity)
         {
             throw new NotImplementedException();
         }
 
-        public Task<OperationResult<ConductorBusModel>> Save(ConductorBus entity)
+        public Task<OperationResult<ConductorBusModel>> Save(ConductorBusRepository entity)
         {
             throw new NotImplementedException();
         }
 
-        public Task<OperationResult<ConductorBusModel>> Update(ConductorBus entity)
+        public Task<OperationResult<ConductorBusModel>> Update(ConductorBusRepository entity)
         {
             throw new NotImplementedException();
         }

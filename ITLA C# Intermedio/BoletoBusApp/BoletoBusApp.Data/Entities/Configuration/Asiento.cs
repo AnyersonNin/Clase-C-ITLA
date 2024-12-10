@@ -15,13 +15,10 @@ namespace BoletoBusApp.Data.Entities.Configuration
         [Key]
         [Column("IdAsiento")]
         public override int Id { get; set; }
-
-        public int IdAsiento { get; set; }
         public int IdBus { get; set; }
         public short NumeroPiso { get; set; }
         public short NumeroAsiento { get; set; }
         public bool Estatus { get; set; }
-                     
 
     }
 }

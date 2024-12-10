@@ -1,12 +1,5 @@
-﻿using BoletoBusApp.Data.Entities.Configuration;
-using BoletoBusApp.Data.Entities.Reservation;
-using BoletoBusApp.Data.Entities.Security;
+﻿
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BoletoBusApp.Data.Context
 {
@@ -16,9 +9,6 @@ namespace BoletoBusApp.Data.Context
         {
             
         }
-        #region "DbSets"
-        public DbSet<Usuario> Usuarios { get; set; }
-        #endregion
 
     }
 }

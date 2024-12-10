@@ -13,9 +13,8 @@ namespace BoletoBusApp.Data.Entities.Reservation
     public sealed class ConductorBus : AuditEntity<int>
     {
         [Key]
-        [Column("IdBus")]
+        [Column("ConductorBusID")]
         public override int Id { get; set; }
-
         public int ConductorID { get; set; }
         public int BusId { get; set; }
         public DateTime FechaAsignacion {  get; set; }

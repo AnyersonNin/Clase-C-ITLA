@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BoletoBusApp.Web.Api.props" />
+</Project>

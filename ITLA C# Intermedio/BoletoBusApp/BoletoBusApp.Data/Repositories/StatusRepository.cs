@@ -1,7 +1,9 @@
 ﻿using BoletoBusApp.Data.Base;
+using BoletoBusApp.Data.Context;
 using BoletoBusApp.Data.Entities.Configuration;
 using BoletoBusApp.Data.Interfaces;
 using BoletoBusApp.Data.Models;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,9 +13,17 @@ using System.Threading.Tasks;
 
 namespace BoletoBusApp.Data.Repositories
 {
-    public sealed class StatusRepository : IBaseRepository<Status, short, StatusModel>
+    public sealed class StatusRepository : IStatusRepository
     {
-        public Task<bool> Exists(Expression<Func<Status, bool>> filter)
+        private readonly ILogger _logger;
+        private readonly BoletoContext _context;
+        public StatusRepository(BoletoContext boletoContext, ILogger<StatusRepository> logger)
+        {
+            _context = boletoContext;
+            _logger = logger;
+        }
+
+        public Task<bool> Exists(Expression<Func<StatusRepository, bool>> filter)
         {
             throw new NotImplementedException();
         }
@@ -23,7 +33,7 @@ namespace BoletoBusApp.Data.Repositories
             throw new NotImplementedException();
         }
 
-        public Task<OperationResult<List<StatusModel>>> GetAll(Expression<Func<Status, bool>> filter)
+        public Task<OperationResult<List<StatusModel>>> GetAll(Expression<Func<StatusRepository, bool>> filter)
         {
             throw new NotImplementedException();
         }
@@ -33,17 +43,17 @@ namespace BoletoBusApp.Data.Repositories
             throw new NotImplementedException();
         }
 
-        public Task<OperationResult<StatusModel>> Remove(Status entity)
+        public Task<OperationResult<StatusModel>> Remove(StatusRepository entity)
         {
             throw new NotImplementedException();
         }
 
-        public Task<OperationResult<StatusModel>> Save(Status entity)
+        public Task<OperationResult<StatusModel>> Save(StatusRepository entity)
         {
             throw new NotImplementedException();
         }
 
-        public Task<OperationResult<StatusModel>> Update(Status entity)
+        public Task<OperationResult<StatusModel>> Update(StatusRepository entity)
         {
             throw new NotImplementedException();
         }

@@ -1,7 +1,9 @@
 ﻿using BoletoBusApp.Data.Base;
+using BoletoBusApp.Data.Context;
 using BoletoBusApp.Data.Entities.Reservation;
 using BoletoBusApp.Data.Interfaces;
 using BoletoBusApp.Data.Models;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,9 +13,18 @@ using System.Threading.Tasks;
 
 namespace BoletoBusApp.Data.Repositories
 {
-    public class ViajeRepository : IBaseRepository<Viaje, int, ViajeModel>
+    public class ViajeRepository : IViajeRepository
     {
-        public Task<bool> Exists(Expression<Func<Viaje, bool>> filter)
+        private readonly ILogger _logger;
+        private readonly BoletoContext _context;
+
+        public ViajeRepository(BoletoContext boletoContext, ILogger<ViajeRepository> logger)
+        {
+            _context = boletoContext;
+            _logger = logger;
+        }
+
+        public Task<bool> Exists(Expression<Func<ViajeRepository, bool>> filter)
         {
             throw new NotImplementedException();
         }
@@ -23,7 +34,7 @@ namespace BoletoBusApp.Data.Repositories
             throw new NotImplementedException();
         }
 
-        public Task<OperationResult<List<ViajeModel>>> GetAll(Expression<Func<Viaje, bool>> filter)
+        public Task<OperationResult<List<ViajeModel>>> GetAll(Expression<Func<ViajeRepository, bool>> filter)
         {
             throw new NotImplementedException();
         }
@@ -33,17 +44,17 @@ namespace BoletoBusApp.Data.Repositories
             throw new NotImplementedException();
         }
 
-        public Task<OperationResult<ViajeModel>> Remove(Viaje entity)
+        public Task<OperationResult<ViajeModel>> Remove(ViajeRepository entity)
         {
             throw new NotImplementedException();
         }
 
-        public Task<OperationResult<ViajeModel>> Save(Viaje entity)
+        public Task<OperationResult<ViajeModel>> Save(ViajeRepository entity)
         {
             throw new NotImplementedException();
         }
 
-        public Task<OperationResult<ViajeModel>> Update(Viaje entity)
+        public Task<OperationResult<ViajeModel>> Update(ViajeRepository entity)
         {
             throw new NotImplementedException();
         }
