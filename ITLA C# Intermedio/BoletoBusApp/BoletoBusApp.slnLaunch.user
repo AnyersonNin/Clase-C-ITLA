@@ -1,0 +1,19 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "BoletoBusApp.Api\\BoletoBusApp.Api.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "BoletoBusApp.Web\\BoletoBusApp.Web.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "BoletoBusApp.Web.Api\\BoletoBusApp.Web.Api.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

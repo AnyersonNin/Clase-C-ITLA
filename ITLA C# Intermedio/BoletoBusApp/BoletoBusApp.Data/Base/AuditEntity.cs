@@ -16,7 +16,7 @@ namespace BoletoBusApp.Data.Base
      public DateTime CreationDate { get; set; }
      public string CreationUser { get; set; }
      public DateTime ModifyDate { get; set; }
-     public string UserMod { get; set; }
+     public int UserMod { get; set; }
      public string UserDeletd { get; set; }
      public DateTime DeletedDate { get; set; }
      public bool Deleted {get; set; }

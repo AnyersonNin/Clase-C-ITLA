@@ -19,9 +19,9 @@ namespace BoletoBusApp.Data.Repositories
             _context = boletoContext;
             _logger = logger;
         }
-        public Task<bool> Exists(Expression<Func<Bus, bool>> filter)
+        public async Task<bool> Exists(Expression<Func<Bus, bool>> filter)
         {
-            throw new NotImplementedException();
+            return await _context.Buses.AnyAsync(filter);
         }
 
         public async Task<OperationResult<List<BusModel>>> GetAll()
@@ -94,8 +94,13 @@ namespace BoletoBusApp.Data.Repositories
             OperationResult<BusModel> operationResult = new OperationResult<BusModel>();
             try
             {
-
-                  var bus = await _context.Buses.FindAsync(id);
+                if (id <= 0)
+                {
+                    operationResult.Success = false;
+                    operationResult.Message = "El id del bus es inválio";
+                    return operationResult;
+                }
+                var bus = await _context.Buses.FindAsync(id);
 
                 if (bus == null)
                 {
