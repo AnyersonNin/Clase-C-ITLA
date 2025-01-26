@@ -22,4 +22,8 @@
     <ProjectReference Include="..\DomainLayer\DomainLayer.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Contexto\" />
+  </ItemGroup>
+
 </Project>
