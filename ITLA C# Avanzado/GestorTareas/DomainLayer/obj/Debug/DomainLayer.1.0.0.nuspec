@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>DomainLayer</id>
+    <version>1.0.0</version>
+    <authors>DomainLayer</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="1fe43cc337df46e6ff28ca1d561db0b21189b5b8" />
+    <dependencies>
+      <group targetFramework="net8.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\DomainLayer\bin\Debug\net8.0\DomainLayer.dll" target="lib\net8.0\DomainLayer.dll" />
+  </files>
+</package>

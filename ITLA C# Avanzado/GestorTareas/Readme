@@ -1,0 +1,46 @@
+**Asignación unidad 1**
+
+API de Gestión de Tareas
+
+
+Objetivo Principal
+
+Crear una API funcional que permita:
+
+- Realizar operaciones CRUD (crear, leer, actualizar y eliminar) sobre tareas.
+- Implementar validaciones para garantizar datos consistentes.
+- Manejar excepciones de manera estructurada.
+- Utilizar programación asíncrona para mejorar el rendimiento.
+
+---
+Funcionalidades
+
+1. Operaciones CRUD
+La API permite las siguientes acciones:
+
+-Crear tareas: Proporcionando descripción, fecha de vencimiento y estado inicial.
+- Consultar tareas: Obtener todas las tareas existentes o aplicar filtros por estado o fecha de vencimiento.
+- Actualizar tareas: Modificar atributos como descripción, estado o fecha de vencimiento.
+- Eliminar tareas: Eliminar tareas que ya no sean necesarias.
+
+
+Resultados Esperados
+
+Al finalizar esta etapa:
+
+1. La estructura del proyecto estará configurada según las mejores prácticas.
+2. Los endpoints CRUD básicos estarán funcionales.
+3. La conexión con la base de datos estará correctamente establecida.
+4. Los datos de entrada estarán validados adecuadamente.
+5. Las respuestas serán estructuradas y consistentes.
+6. La API estará preparada para futuras expansiones.
+
+**Desarrollo de la Etapa 2: Delegados, Funciones Anónimas y Uso de Action y Func**
+
+Detalles de cambios:
+Se han implementado el uso de delegados, funciones anónimas, Action, y Func, que incluyen:
+1.	Delegado para validar tareas.
+2.	Uso de Action para notificaciones.
+3.	Func para cálculos derivados.
+4.	Funciones anónimas para filtros.
+Con estas modificaciones, la API se ha vuelto más flexible, reutilizable y sencilla de mantener. Ahora es capaz de validar, notificar y calcular de manera dinámica sin necesidad de alterar la lógica principal. Esto no solo optimiza la escalabilidad, sino que también facilita la integración de futuras funcionalidades.
