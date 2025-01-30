@@ -17,9 +17,35 @@ namespace ApplicationLayer.Servicios.ServicioTarea
          _procesoComun = procesoComun;
         }
 
-      public async Task<Respuesta<Tarea>> GetTareaAllAsync()
-      { 
-        var respuesta = new Respuesta<Tarea>();
+        public async Task<Respuesta<Tarea>> GetPendientesAsync()
+        {
+            var respuesta = new Respuesta<Tarea>();
+
+            try
+            {
+                var tareasPendientes = await _procesoComun.GetPendientesAsync();
+
+                if (!tareasPendientes.Any())
+                {
+                    respuesta.Succesful = false;
+                    respuesta.Message = "No hay tareas pendientes.";
+                }
+                else
+                {
+                    respuesta.DataList = tareasPendientes.ToList();
+                    respuesta.Succesful = true;
+                }
+            }
+            catch (Exception ex)
+            {
+                respuesta.Errors.Add($"Error en GetPendientesAsync: {ex.Message}");
+            }
+
+            return respuesta;
+        }
+        public async Task<Respuesta<Tarea>> GetTareaAllAsync()
+        { 
+          var respuesta = new Respuesta<Tarea>();
 
             try 
             { 
@@ -33,7 +59,7 @@ namespace ApplicationLayer.Servicios.ServicioTarea
             }
            return respuesta;
         
-      }
+        }
 
         public async Task<Respuesta<Tarea>> GetTareaByIdAllAsync(int id)
         {
@@ -70,7 +96,7 @@ namespace ApplicationLayer.Servicios.ServicioTarea
             try
             {
                 var resultado = await _procesoComun.AddAsync(tarea);
-                resultado.Message = resultado.Message;
+                respuesta.Message = resultado.Message;
                 respuesta.Succesful = resultado.IsSucces;
 
             }
@@ -89,7 +115,7 @@ namespace ApplicationLayer.Servicios.ServicioTarea
             try
             {
                 var resultado = await _procesoComun.UpdateAsync(tarea);
-                resultado.Message = resultado.Message;
+                respuesta.Message = resultado.Message;
                 respuesta.Succesful = resultado.IsSucces;
 
             }
@@ -108,7 +134,7 @@ namespace ApplicationLayer.Servicios.ServicioTarea
             try
             {
                 var resultado = await _procesoComun.DeleteAsync(id);
-                resultado.Message = resultado.Message;
+                respuesta.Message = resultado.Message;
                 respuesta.Succesful = resultado.IsSucces;
 
             }
@@ -119,5 +145,7 @@ namespace ApplicationLayer.Servicios.ServicioTarea
             return respuesta;
 
         }
+
+
     }
 }

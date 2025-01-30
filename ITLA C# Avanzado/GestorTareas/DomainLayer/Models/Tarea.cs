@@ -17,6 +17,8 @@ namespace DomainLayer.Models
         public DateTime FechaVencimiento { get; set; }
         public string Estatus { get; set; }
         public string DatosAdicionales { get; set; }
+        [NotMapped]
+        public int TiempoRestante { get; set; }
 
     }
 }

@@ -1,11 +1,6 @@
 ﻿using DomainLayer.Models;
 using InfrastructureLayer.Repositorio.Comun;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace InfrastructureLayer.Repositorio.TareasRespositorio
 {
@@ -17,23 +12,68 @@ namespace InfrastructureLayer.Repositorio.TareasRespositorio
             _Contexto = contexto;
         }
 
+        public delegate bool ValidarTarea(Tarea tarea);
+
+        private readonly ValidarTarea _validarTarea = tarea =>
+        !string.IsNullOrWhiteSpace(tarea.Descripcion) && tarea.FechaVencimiento > DateTime.Now;
+
+        private readonly Action<Tarea> _notificar = tarea =>
+        Console.WriteLine($"Tarea creada: {tarea.Descripcion}, Vencimiento: {tarea.FechaVencimiento}");
+
+        private readonly Func<Tarea, int> _calcularDiasRestantes = tarea =>
+        (tarea.FechaVencimiento - DateTime.Now).Days;
+
+
+        public async Task<IEnumerable<Tarea>> GetPendientesAsync()
+        {
+            var tareasPendientes = await _Contexto.Tareas.Where(tarea => tarea.Estatus == "Pendiente").ToListAsync();
+
+            tareasPendientes.ForEach(x => x.TiempoRestante = _calcularDiasRestantes(x));
+        
+            return tareasPendientes;           
+        }
         public async Task<IEnumerable<Tarea>> GetAllAsync()
-            => await _Contexto.Tareas.ToListAsync();
+        {
+            var tareas = await _Contexto.Tareas.ToListAsync();
+            return tareas.Select(x => new Tarea
+            {
+                Id = x.Id,
+                Descripcion = x.Descripcion,
+                FechaVencimiento = x.FechaVencimiento,
+                Estatus = x.Estatus,
+                TiempoRestante = _calcularDiasRestantes(x)
+
+            }).ToList();
+        }
 
         public async Task<Tarea> GetIdAsync(int id)
-           => await _Contexto.Tareas.FirstOrDefaultAsync(x=>x.Id == id);
-
+        { 
+           var tarea = await _Contexto.Tareas.FirstOrDefaultAsync(x => x.Id == id);
+            
+            if (tarea != null)
+            {
+                tarea.TiempoRestante = _calcularDiasRestantes(tarea);
+            }
+            return tarea!;
+        }
         public async Task<(bool IsSucces, string Message)> AddAsync(Tarea entry)
         {
             try
             {
+                if (!_validarTarea(entry))
+                    return (false, "Datos incompletos o fecha no valida.");
+
                 var existe =  _Contexto.Tareas.Any(x => x.Descripcion == entry.Descripcion);
+
                 if (existe) {
 
                     return (false, "La tarea ya existe una tarea con esa descripcion ");
                 }
                 await _Contexto.Tareas.AddAsync(entry);
                 await _Contexto.SaveChangesAsync();
+             
+                _notificar(entry);
+
                 return (true,"La tarea se guardo Correctamente...");
             }
             catch(Exception) 
@@ -46,6 +86,11 @@ namespace InfrastructureLayer.Repositorio.TareasRespositorio
         {
             try
             {
+                if (!_validarTarea(entry))
+                {
+                    return (false, "Datos incompletos o fecha no valida.");
+                } 
+
                 var existe = _Contexto.Tareas.Any(x => x.Descripcion == entry.Descripcion);
                 if (existe)
                 {
@@ -54,6 +99,10 @@ namespace InfrastructureLayer.Repositorio.TareasRespositorio
                 }
                 _Contexto.Tareas.Update(entry);
                 await _Contexto.SaveChangesAsync();
+
+                _notificar(entry);
+
+
                 return (true, "La tarea se actualizo Correctamente...");
             }
             catch (Exception)
@@ -84,6 +133,7 @@ namespace InfrastructureLayer.Repositorio.TareasRespositorio
                 return (false, "La tarea no se pudo eliminar...");
             }
         }
-      
+
+
     }
 }

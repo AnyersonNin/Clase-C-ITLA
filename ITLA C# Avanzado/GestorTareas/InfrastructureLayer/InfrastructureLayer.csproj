@@ -7,6 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Contexto\**" />
+    <EmbeddedResource Remove="Contexto\**" />
+    <None Remove="Contexto\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.0">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -20,10 +26,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DomainLayer\DomainLayer.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Contexto\" />
   </ItemGroup>
 
 </Project>
