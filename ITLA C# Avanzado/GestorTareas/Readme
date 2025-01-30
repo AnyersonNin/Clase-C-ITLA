@@ -1,3 +1,5 @@
+**Asignación unidad 1**
+
 API de Gestión de Tareas
 
 
@@ -32,3 +34,13 @@ Al finalizar esta etapa:
 4. Los datos de entrada estarán validados adecuadamente.
 5. Las respuestas serán estructuradas y consistentes.
 6. La API estará preparada para futuras expansiones.
+
+**Desarrollo de la Etapa 2: Delegados, Funciones Anónimas y Uso de Action y Func**
+
+Detalles de cambios:
+Se han implementado el uso de delegados, funciones anónimas, Action, y Func, que incluyen:
+1.	Delegado para validar tareas.
+2.	Uso de Action para notificaciones.
+3.	Func para cálculos derivados.
+4.	Funciones anónimas para filtros.
+Con estas modificaciones, la API se ha vuelto más flexible, reutilizable y sencilla de mantener. Ahora es capaz de validar, notificar y calcular de manera dinámica sin necesidad de alterar la lógica principal. Esto no solo optimiza la escalabilidad, sino que también facilita la integración de futuras funcionalidades.
