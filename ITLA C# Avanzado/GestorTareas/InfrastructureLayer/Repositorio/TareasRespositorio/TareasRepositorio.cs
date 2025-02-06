@@ -116,6 +116,7 @@ namespace InfrastructureLayer.Repositorio.TareasRespositorio
             try
             {
                 var tarea = await _Contexto.Tareas.FindAsync(id);
+
                 if (tarea != null)
                 {
                     _Contexto.Tareas.Remove(tarea);
