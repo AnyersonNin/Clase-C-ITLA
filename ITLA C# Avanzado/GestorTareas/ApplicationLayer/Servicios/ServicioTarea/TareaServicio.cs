@@ -1,6 +1,8 @@
-﻿using DomainLayer.DTO;
+﻿using ApplicationLayer.Factories;
+using DomainLayer.DTO;
 using DomainLayer.Models;
 using InfrastructureLayer.Repositorio.Comun;
+using InfrastructureLayer.Repositorio.TareasRespositorio;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,6 +17,33 @@ namespace ApplicationLayer.Servicios.ServicioTarea
         public TareaServicio(IProcesoComun<Tarea> procesoComun)
         {
          _procesoComun = procesoComun;
+        }
+
+        public async Task<Respuesta<string>> CrearTareaConPrioridad(string descripcion, string prioridad)
+        {
+            Tarea nuevaTarea;
+
+            switch (prioridad.ToLower())
+            {
+                case "alta":
+                    nuevaTarea = TareaFactory.CreaAltaPriodiadTarea( descripcion);
+                    break;
+                case "media":
+                    nuevaTarea = TareaFactory.CrearTareaMediaPrioridad(descripcion);
+                    break;
+                case "baja":
+                    nuevaTarea = TareaFactory.CrearTareaBajaPrioridad(descripcion);
+                    break;
+                default:
+                    return new Respuesta<string> { Succesful = false, Message = "Prioridad no válida" };
+            }
+
+            var resultado = await _procesoComun.AddAsync(nuevaTarea);
+
+            return new Respuesta<string>
+            { Succesful = true, 
+              Message = "Tarea creada con éxito" 
+            };
         }
 
         public async Task<Respuesta<Tarea>> GetPendientesAsync()

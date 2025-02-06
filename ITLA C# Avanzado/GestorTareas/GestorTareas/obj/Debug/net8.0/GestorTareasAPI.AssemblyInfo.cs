@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GestorTareasAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+29e67575e72c366f62f5716c0da866bedde2e18f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+79b2621c7982e98244c4809fcea16cedbccd6188")]
 [assembly: System.Reflection.AssemblyProductAttribute("GestorTareasAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GestorTareasAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

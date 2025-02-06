@@ -17,9 +17,6 @@ namespace GestorTareasAPI.Controllers
             _Servicio = servicio;
         }
 
-        [HttpGet("pendientes")]
-        public async Task<ActionResult<Respuesta<Tarea>>> GetPendientesAsync()
-            => await _Servicio.GetPendientesAsync();
 
          [HttpGet]
         public async Task<ActionResult<Respuesta<Tarea>>> GetTareaAllAsync()
@@ -31,7 +28,8 @@ namespace GestorTareasAPI.Controllers
 
         [HttpPost]
         public async Task<ActionResult<Respuesta<string>>> AddTareaAllAsync(Tarea tarea)
-          => await _Servicio.AddTareaAllAsync(tarea);
+        => await _Servicio.CrearTareaConPrioridad(tarea.Descripcion, tarea.DatosAdicionales);
+       
 
         [HttpPut]
         public async Task<ActionResult<Respuesta<string>>> UpdateTareaAllAsync(Tarea tarea)
@@ -40,5 +38,11 @@ namespace GestorTareasAPI.Controllers
         [HttpDelete("{id}")]
         public async Task<ActionResult<Respuesta<string>>> DeleteTareaAllAsync(int id)
         => await _Servicio.DeleteTareaAllAsync(id);
+
+        [HttpGet("pendientes")]
+        public async Task<ActionResult<Respuesta<Tarea>>> GetPendientesAsync()
+        => await _Servicio.GetPendientesAsync();
+
+
     }
 }
