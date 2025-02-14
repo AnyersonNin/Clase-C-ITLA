@@ -1,16 +1,16 @@
 ﻿using DomainLayer.Models;
 using InfrastructureLayer.Repositorio.Comun;
 using Microsoft.EntityFrameworkCore;
+using System.Reactive.Linq;
+using System.Collections.Concurrent;
+
+
 
 namespace InfrastructureLayer.Repositorio.TareasRespositorio
 {
     public class TareasRepositorio : IProcesoComun<Tarea>
     {
         private readonly GestorTareasContexto _Contexto;
-        public TareasRepositorio(GestorTareasContexto contexto)
-        {
-            _Contexto = contexto;
-        }
 
         public delegate bool ValidarTarea(Tarea tarea);
 
@@ -22,6 +22,14 @@ namespace InfrastructureLayer.Repositorio.TareasRespositorio
 
         private readonly Func<Tarea, int> _calcularDiasRestantes = tarea =>
         (tarea.FechaVencimiento - DateTime.Now).Days;
+
+        private readonly Queue<Tarea> _filaTarea = new Queue<Tarea>();
+
+        public TareasRepositorio(GestorTareasContexto contexto)
+        {
+            _Contexto = contexto;
+        }
+
 
 
         public async Task<IEnumerable<Tarea>> GetPendientesAsync()
@@ -69,10 +77,24 @@ namespace InfrastructureLayer.Repositorio.TareasRespositorio
 
                     return (false, "La tarea ya existe una tarea con esa descripcion ");
                 }
-                await _Contexto.Tareas.AddAsync(entry);
-                await _Contexto.SaveChangesAsync();
-             
+
+                Console.WriteLine($"Tarea agregada a la cola: {entry.Descripcion}");
+
+                _filaTarea.Enqueue(entry);
+                Console.WriteLine($"Tarea agregada a la cola: {entry.Descripcion}");
                 _notificar(entry);
+
+                while (_filaTarea.Count > 0)
+                {
+
+                    var tareaEnProceso = _filaTarea.Dequeue();
+                    await _Contexto.Tareas.AddAsync(tareaEnProceso);
+                    Console.WriteLine($"Procesando tarea: {tareaEnProceso.Descripcion}");
+                   
+                }
+
+                await _Contexto.SaveChangesAsync();
+                _notificar(new Tarea { Descripcion = "Proceso de guardado completado" });
 
                 return (true,"La tarea se guardo Correctamente...");
             }

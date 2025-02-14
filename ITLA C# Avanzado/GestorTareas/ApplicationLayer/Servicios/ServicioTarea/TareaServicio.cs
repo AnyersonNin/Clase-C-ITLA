@@ -2,12 +2,7 @@
 using DomainLayer.DTO;
 using DomainLayer.Models;
 using InfrastructureLayer.Repositorio.Comun;
-using InfrastructureLayer.Repositorio.TareasRespositorio;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace ApplicationLayer.Servicios.ServicioTarea
 {

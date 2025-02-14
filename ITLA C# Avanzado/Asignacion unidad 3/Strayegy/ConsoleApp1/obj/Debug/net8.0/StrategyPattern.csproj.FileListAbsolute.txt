@@ -1,0 +1,30 @@
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\Asignacion unidad 3\ConsoleApp1\bin\Debug\net8.0\StrategyPattern.exe
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\Asignacion unidad 3\ConsoleApp1\bin\Debug\net8.0\StrategyPattern.deps.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\Asignacion unidad 3\ConsoleApp1\bin\Debug\net8.0\StrategyPattern.runtimeconfig.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\Asignacion unidad 3\ConsoleApp1\bin\Debug\net8.0\StrategyPattern.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\Asignacion unidad 3\ConsoleApp1\bin\Debug\net8.0\StrategyPattern.pdb
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\Asignacion unidad 3\ConsoleApp1\obj\Debug\net8.0\StrategyPattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\Asignacion unidad 3\ConsoleApp1\obj\Debug\net8.0\StrategyPattern.AssemblyInfoInputs.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\Asignacion unidad 3\ConsoleApp1\obj\Debug\net8.0\StrategyPattern.AssemblyInfo.cs
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\Asignacion unidad 3\ConsoleApp1\obj\Debug\net8.0\StrategyPattern.csproj.CoreCompileInputs.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\Asignacion unidad 3\ConsoleApp1\obj\Debug\net8.0\StrategyPattern.sourcelink.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\Asignacion unidad 3\ConsoleApp1\obj\Debug\net8.0\StrategyPattern.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\Asignacion unidad 3\ConsoleApp1\obj\Debug\net8.0\refint\StrategyPattern.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\Asignacion unidad 3\ConsoleApp1\obj\Debug\net8.0\StrategyPattern.pdb
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\Asignacion unidad 3\ConsoleApp1\obj\Debug\net8.0\StrategyPattern.genruntimeconfig.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\Asignacion unidad 3\ConsoleApp1\obj\Debug\net8.0\ref\StrategyPattern.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\Asignacion unidad 3 Strayegy\ConsoleApp1\bin\Debug\net8.0\StrategyPattern.exe
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\Asignacion unidad 3 Strayegy\ConsoleApp1\bin\Debug\net8.0\StrategyPattern.deps.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\Asignacion unidad 3 Strayegy\ConsoleApp1\bin\Debug\net8.0\StrategyPattern.runtimeconfig.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\Asignacion unidad 3 Strayegy\ConsoleApp1\bin\Debug\net8.0\StrategyPattern.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\Asignacion unidad 3 Strayegy\ConsoleApp1\bin\Debug\net8.0\StrategyPattern.pdb
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\Asignacion unidad 3 Strayegy\ConsoleApp1\obj\Debug\net8.0\StrategyPattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\Asignacion unidad 3 Strayegy\ConsoleApp1\obj\Debug\net8.0\StrategyPattern.AssemblyInfoInputs.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\Asignacion unidad 3 Strayegy\ConsoleApp1\obj\Debug\net8.0\StrategyPattern.AssemblyInfo.cs
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\Asignacion unidad 3 Strayegy\ConsoleApp1\obj\Debug\net8.0\StrategyPattern.csproj.CoreCompileInputs.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\Asignacion unidad 3 Strayegy\ConsoleApp1\obj\Debug\net8.0\StrategyPattern.sourcelink.json
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\Asignacion unidad 3 Strayegy\ConsoleApp1\obj\Debug\net8.0\StrategyPattern.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\Asignacion unidad 3 Strayegy\ConsoleApp1\obj\Debug\net8.0\refint\StrategyPattern.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\Asignacion unidad 3 Strayegy\ConsoleApp1\obj\Debug\net8.0\StrategyPattern.pdb
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\Asignacion unidad 3 Strayegy\ConsoleApp1\obj\Debug\net8.0\StrategyPattern.genruntimeconfig.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\Asignacion unidad 3 Strayegy\ConsoleApp1\obj\Debug\net8.0\ref\StrategyPattern.dll
