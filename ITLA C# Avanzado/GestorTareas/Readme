@@ -12,9 +12,9 @@ Crear una API funcional que permita:
 - Manejar excepciones de manera estructurada.
 - Utilizar programación asíncrona para mejorar el rendimiento.
 
----
+-----------------
 Funcionalidades
-
+----------------
 1. Operaciones CRUD
 La API permite las siguientes acciones:
 
@@ -35,9 +35,9 @@ Al finalizar esta etapa:
 5. Las respuestas serán estructuradas y consistentes.
 6. La API estará preparada para futuras expansiones.
 
-------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
 Desarrollo de la Etapa 2: Delegados, Funciones Anónimas y Uso de Action y Func
--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
 Detalles de cambios:
 Se han implementado el uso de delegados, funciones anónimas, Action, y Func, que incluyen:
 1.	Delegado para validar tareas.
@@ -45,3 +45,20 @@ Se han implementado el uso de delegados, funciones anónimas, Action, y Func, qu
 3.	Func para cálculos derivados.
 4.	Funciones anónimas para filtros.
 Con estas modificaciones, la API se ha vuelto más flexible, reutilizable y sencilla de mantener. Ahora es capaz de validar, notificar y calcular de manera dinámica sin necesidad de alterar la lógica principal. Esto no solo optimiza la escalabilidad, sino que también facilita la integración de futuras funcionalidades.
+-------------------------------------
+Etapa 3: Patrones de Diseño en POO
+-------------------------------------
+1.	Flexibilidad y escalabilidad: La API será modular y adaptable a futuros cambios sin afectar su estructura.
+2.	Mantenibilidad y organización: Mejor separación de responsabilidades, con un código más limpio y fácil de actualizar.
+3.	Optimización y reutilización: Gestión eficiente de tareas con configuraciones específicas.
+4.	Integración ágil: Nuevas funcionalidades podrán añadirse sin modificar el código existente.
+Este enfoque mejora la eficiencia, reduce la complejidad y facilita la evolución de la API.
+-------------------------------------------
+Etapa 4: Programación Reactiva con Rx.NET
+-------------------------------------------
+1.	Ejecución secuencial: Las tareas se procesarán en orden, evitando solapamientos.
+2.	Gestión eficiente: Uso de una cola FIFO para organizar la ejecución de tareas.
+3.	Mayor estabilidad: Reducción de conflictos y mejora en la previsibilidad del sistema.
+4.	Simplicidad y escalabilidad: Implementación sin depender de eventos en tiempo real.
+Este enfoque optimiza el manejo de tareas, asegurando un procesamiento ordenado y eficiente.
+
