@@ -30,8 +30,6 @@ namespace InfrastructureLayer.Repositorio.TareasRespositorio
             _Contexto = contexto;
         }
 
-
-
         public async Task<IEnumerable<Tarea>> GetPendientesAsync()
         {
             var tareasPendientes = await _Contexto.Tareas.Where(tarea => tarea.Estatus == "Pendiente").ToListAsync();
