@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\ITLA C# Avanzado\\AsignacionFuncionesExtensiones_AnyersonNin\\AsignacionFuncionesExtensiones\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C54E9710-3E04-4F37-A8FF-0FA11A4FE1BD}|AsignacionFuncionesExtensiones\\AsignacionFuncionesExtensiones.csproj|c:\\users\\anyerson nin\\desktop\\clase-c-itla\\itla c# avanzado\\asignacionfuncionesextensiones_anyersonnin\\asignacionfuncionesextensiones\\asignacionfuncionesextensiones\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C54E9710-3E04-4F37-A8FF-0FA11A4FE1BD}|AsignacionFuncionesExtensiones\\AsignacionFuncionesExtensiones.csproj|solutionrelative:asignacionfuncionesextensiones\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C54E9710-3E04-4F37-A8FF-0FA11A4FE1BD}|AsignacionFuncionesExtensiones\\AsignacionFuncionesExtensiones.csproj|c:\\users\\anyerson nin\\desktop\\clase-c-itla\\itla c# avanzado\\asignacionfuncionesextensiones_anyersonnin\\asignacionfuncionesextensiones\\asignacionfuncionesextensiones\\extensiones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C54E9710-3E04-4F37-A8FF-0FA11A4FE1BD}|AsignacionFuncionesExtensiones\\AsignacionFuncionesExtensiones.csproj|solutionrelative:asignacionfuncionesextensiones\\extensiones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C54E9710-3E04-4F37-A8FF-0FA11A4FE1BD}|AsignacionFuncionesExtensiones\\AsignacionFuncionesExtensiones.csproj|c:\\users\\anyerson nin\\desktop\\clase-c-itla\\itla c# avanzado\\asignacionfuncionesextensiones_anyersonnin\\asignacionfuncionesextensiones\\asignacionfuncionesextensiones\\funcionespuras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C54E9710-3E04-4F37-A8FF-0FA11A4FE1BD}|AsignacionFuncionesExtensiones\\AsignacionFuncionesExtensiones.csproj|solutionrelative:asignacionfuncionesextensiones\\funcionespuras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Extensiones.cs",
+              "DocumentMoniker": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\ITLA C# Avanzado\\AsignacionFuncionesExtensiones_AnyersonNin\\AsignacionFuncionesExtensiones\\AsignacionFuncionesExtensiones\\Extensiones.cs",
+              "RelativeDocumentMoniker": "AsignacionFuncionesExtensiones\\Extensiones.cs",
+              "ToolTip": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\ITLA C# Avanzado\\AsignacionFuncionesExtensiones_AnyersonNin\\AsignacionFuncionesExtensiones\\AsignacionFuncionesExtensiones\\Extensiones.cs",
+              "RelativeToolTip": "AsignacionFuncionesExtensiones\\Extensiones.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBMAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T16:34:55.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\ITLA C# Avanzado\\AsignacionFuncionesExtensiones_AnyersonNin\\AsignacionFuncionesExtensiones\\AsignacionFuncionesExtensiones\\Program.cs",
+              "RelativeDocumentMoniker": "AsignacionFuncionesExtensiones\\Program.cs",
+              "ToolTip": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\ITLA C# Avanzado\\AsignacionFuncionesExtensiones_AnyersonNin\\AsignacionFuncionesExtensiones\\AsignacionFuncionesExtensiones\\Program.cs",
+              "RelativeToolTip": "AsignacionFuncionesExtensiones\\Program.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T13:05:27.288Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "b377bac0-e1eb-4e6b-bd2c-e4864645729f",
+        "Display": 0,
+        "X": 347,
+        "Y": 13,
+        "Width": 1132,
+        "Height": 598,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FuncionesPuras.cs",
+              "DocumentMoniker": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\ITLA C# Avanzado\\AsignacionFuncionesExtensiones_AnyersonNin\\AsignacionFuncionesExtensiones\\AsignacionFuncionesExtensiones\\FuncionesPuras.cs",
+              "RelativeDocumentMoniker": "AsignacionFuncionesExtensiones\\FuncionesPuras.cs",
+              "ToolTip": "C:\\Users\\Anyerson Nin\\Desktop\\Clase-C-ITLA\\ITLA C# Avanzado\\AsignacionFuncionesExtensiones_AnyersonNin\\AsignacionFuncionesExtensiones\\AsignacionFuncionesExtensiones\\FuncionesPuras.cs",
+              "RelativeToolTip": "AsignacionFuncionesExtensiones\\FuncionesPuras.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T16:34:57.285Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

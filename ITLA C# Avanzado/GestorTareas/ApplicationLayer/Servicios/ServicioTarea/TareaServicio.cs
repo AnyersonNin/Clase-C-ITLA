@@ -2,6 +2,7 @@
 using DomainLayer.DTO;
 using DomainLayer.Models;
 using InfrastructureLayer.Repositorio.Comun;
+using InfrastructureLayer.Repositorio.TareasRespositorio;
 
 
 namespace ApplicationLayer.Servicios.ServicioTarea
@@ -11,7 +12,7 @@ namespace ApplicationLayer.Servicios.ServicioTarea
         private readonly IProcesoComun<Tarea> _procesoComun;
         public TareaServicio(IProcesoComun<Tarea> procesoComun)
         {
-         _procesoComun = procesoComun;
+            _procesoComun = procesoComun;
         }
 
         public async Task<Respuesta<string>> CrearTareaConPrioridad(string descripcion, string prioridad)
@@ -21,7 +22,7 @@ namespace ApplicationLayer.Servicios.ServicioTarea
             switch (prioridad.ToLower())
             {
                 case "alta":
-                    nuevaTarea = TareaFactory.CreaAltaPriodiadTarea( descripcion);
+                    nuevaTarea = TareaFactory.CreaAltaPriodiadTarea(descripcion);
                     break;
                 case "media":
                     nuevaTarea = TareaFactory.CrearTareaMediaPrioridad(descripcion);
@@ -36,11 +37,57 @@ namespace ApplicationLayer.Servicios.ServicioTarea
             var resultado = await _procesoComun.AddAsync(nuevaTarea);
 
             return new Respuesta<string>
-            { Succesful = true, 
-              Message = "Tarea creada con éxito" 
+            {
+                Succesful = true,
+                Message = "Tarea creada con éxito"
             };
         }
+        public async Task<Respuesta<object>> GetPromedioCompletasAsync()
+        {
+            var respuesta = new Respuesta<object>();
 
+            try
+            {
+                double completionRate = await _procesoComun.GetPromedioCompletasAsync();
+               
+
+                respuesta.SingleData = completionRate;
+                respuesta.Message = $"Este es el promedio de tareas completadas: {completionRate:F2}%";
+                respuesta.Succesful = true;
+            }
+            catch (Exception ex)
+            {
+                respuesta.Errors.Add($"Error al calcular la tasa de finalización: {ex.Message}");
+            }
+
+            return respuesta;
+        }
+        public async Task<Respuesta<Tarea>> GetCompletasAsync()
+        {
+            var respuesta = new Respuesta<Tarea>();
+
+            try
+            {
+                var tareasCompletas = await _procesoComun.GetCompletasAsync();
+
+                if (!tareasCompletas.Any())
+                {
+                    respuesta.Succesful = false;
+                    respuesta.Message = "No hay tareas pendientes.";
+                }
+                else
+                {
+                    respuesta.DataList = tareasCompletas.ToList();
+                    respuesta.Succesful = true;
+                }
+            }
+            catch (Exception ex)
+            {
+                respuesta.Errors.Add($"Error en GetPendientesAsync: {ex.Message}");
+            }
+
+            return respuesta;
+        }
         public async Task<Respuesta<Tarea>> GetPendientesAsync()
         {
             var respuesta = new Respuesta<Tarea>();
@@ -68,21 +115,21 @@ namespace ApplicationLayer.Servicios.ServicioTarea
             return respuesta;
         }
         public async Task<Respuesta<Tarea>> GetTareaAllAsync()
-        { 
-          var respuesta = new Respuesta<Tarea>();
+        {
+            var respuesta = new Respuesta<Tarea>();
 
-            try 
-            { 
-              respuesta.DataList = await _procesoComun.GetAllAsync();
-              respuesta.Succesful = true;
+            try
+            {
+                respuesta.DataList = await _procesoComun.GetAllAsync();
+                respuesta.Succesful = true;
 
             }
-            catch (Exception ex) 
-            { 
-             respuesta.Errors.Add(ex.Message);            
+            catch (Exception ex)
+            {
+                respuesta.Errors.Add(ex.Message);
             }
-           return respuesta;
-        
+            return respuesta;
+
         }
 
         public async Task<Respuesta<Tarea>> GetTareaByIdAllAsync(int id)
@@ -92,12 +139,12 @@ namespace ApplicationLayer.Servicios.ServicioTarea
             try
             {
                 var resultado = await _procesoComun.GetIdAsync(id);
-                if (resultado != null) 
-                { 
+                if (resultado != null)
+                {
                     respuesta.SingleData = resultado;
                     respuesta.Succesful = true;
                 }
-                else 
+                else
                 {
                     respuesta.Succesful = false;
                     respuesta.Message = "No se encontro datos";
@@ -151,7 +198,7 @@ namespace ApplicationLayer.Servicios.ServicioTarea
 
         }
 
-        public async Task<Respuesta<string>> DeleteTareaAllAsync(int id) 
+        public async Task<Respuesta<string>> DeleteTareaAllAsync(int id)
         {
             var respuesta = new Respuesta<string>();
 

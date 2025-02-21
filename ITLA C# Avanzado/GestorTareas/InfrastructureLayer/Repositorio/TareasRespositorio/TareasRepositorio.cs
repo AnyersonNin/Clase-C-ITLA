@@ -3,6 +3,7 @@ using InfrastructureLayer.Repositorio.Comun;
 using Microsoft.EntityFrameworkCore;
 using System.Reactive.Linq;
 using System.Collections.Concurrent;
+using DomainLayer.DTO;
 
 
 
@@ -12,55 +13,131 @@ namespace InfrastructureLayer.Repositorio.TareasRespositorio
     {
         private readonly GestorTareasContexto _Contexto;
 
+        private static readonly ConcurrentDictionary<string,object> 
+        _cache = new ConcurrentDictionary<string, object>();
+
         public delegate bool ValidarTarea(Tarea tarea);
 
         private readonly ValidarTarea _validarTarea = tarea =>
-        !string.IsNullOrWhiteSpace(tarea.Descripcion) && tarea.FechaVencimiento > DateTime.Now;
+        !string.IsNullOrWhiteSpace(tarea.Descripcion) &&
+        tarea.FechaVencimiento > DateTime.Now;
 
         private readonly Action<Tarea> _notificar = tarea =>
-        Console.WriteLine($"Tarea creada: {tarea.Descripcion}, Vencimiento: {tarea.FechaVencimiento}");
+        Console.WriteLine($"Tarea creada: {tarea.Descripcion},Vencimiento: {tarea.FechaVencimiento}");
 
         private readonly Func<Tarea, int> _calcularDiasRestantes = tarea =>
         (tarea.FechaVencimiento - DateTime.Now).Days;
 
         private readonly Queue<Tarea> _filaTarea = new Queue<Tarea>();
 
+        private static readonly ConcurrentDictionary<(int Total, int Completadas), double>
+        _promedioCompletas = new ConcurrentDictionary<(int, int), double>();
         public TareasRepositorio(GestorTareasContexto contexto)
         {
             _Contexto = contexto;
         }
 
+        private void LimpiarCache()
+        {
+            _cache.Clear();
+        }
+        public async Task<double> GetPromedioCompletasAsync()
+        {
+            var todasLasTareas = await GetAllAsync();
+            var tareasCompletas = await GetCompletasAsync();
+
+            int totalTareas = todasLasTareas.Count();
+            int tareasCompletadas = tareasCompletas.Count();
+
+            if (totalTareas == 0) return 0.0;
+
+            var cacheKey = (totalTareas, tareasCompletadas);
+
+            if (_promedioCompletas.TryGetValue(cacheKey, out var cachedResult))
+            {
+                Console.WriteLine("cache");
+                return cachedResult;
+            }
+            Console.WriteLine("DB");
+            double completionRate = (double)tareasCompletadas / totalTareas * 100;
+            _promedioCompletas[cacheKey] = completionRate;
+
+            return completionRate;
+        }
+        public async Task<IEnumerable<Tarea>> GetCompletasAsync()
+        {
+            string cacheKey = "tareas_completas";
+            if (_cache.TryGetValue(cacheKey, out var cachedData))
+            {
+                Console.WriteLine("cache");
+                return (IEnumerable<Tarea>)cachedData;
+            }
+            Console.WriteLine("DB");
+            var tareasCompletas = await _Contexto.Tareas
+                .Where(tarea => tarea.Estatus == "Completas").ToListAsync();
+            tareasCompletas.ForEach(x => x.TiempoRestante = _calcularDiasRestantes(x));
+
+            _cache[cacheKey] = tareasCompletas;
+            return tareasCompletas;
+
+
+        }
         public async Task<IEnumerable<Tarea>> GetPendientesAsync()
         {
-            var tareasPendientes = await _Contexto.Tareas.Where(tarea => tarea.Estatus == "Pendiente").ToListAsync();
+            string cacheKey = "tareas_pendientes";
+            if (_cache.TryGetValue(cacheKey, out var cachedData))
+            {
+                Console.WriteLine("cache");
+                return (IEnumerable<Tarea>)cachedData;
+            }
+            Console.WriteLine("DB");
+            var tareasPendientes = await _Contexto.Tareas
+                .Where(tarea => tarea.Estatus == "Pendiente").ToListAsync();
+                 tareasPendientes.ForEach(x => x.TiempoRestante = _calcularDiasRestantes(x));
 
-            tareasPendientes.ForEach(x => x.TiempoRestante = _calcularDiasRestantes(x));
-        
-            return tareasPendientes;           
+            _cache[cacheKey] = tareasPendientes;
+            return tareasPendientes;
         }
         public async Task<IEnumerable<Tarea>> GetAllAsync()
         {
+            string cacheKey = "todas_las_tareas";
+            if (_cache.TryGetValue(cacheKey, out var cachedData))
+            {
+                Console.WriteLine("cache");
+                return (IEnumerable<Tarea>)cachedData;
+            }
+            Console.WriteLine("DB");
             var tareas = await _Contexto.Tareas.ToListAsync();
-            return tareas.Select(x => new Tarea
+
+            var tareasConTiempo = tareas.Select(x => new Tarea
             {
                 Id = x.Id,
                 Descripcion = x.Descripcion,
                 FechaVencimiento = x.FechaVencimiento,
                 Estatus = x.Estatus,
                 TiempoRestante = _calcularDiasRestantes(x)
-
             }).ToList();
+
+            _cache[cacheKey] = tareasConTiempo;
+            return tareasConTiempo;
         }
 
         public async Task<Tarea> GetIdAsync(int id)
-        { 
-           var tarea = await _Contexto.Tareas.FirstOrDefaultAsync(x => x.Id == id);
-            
-            if (tarea != null)
+        {
+            string cacheKey = $"tarea_{id}";
+            if (_cache.TryGetValue(cacheKey, out var cachedData))
             {
-                tarea.TiempoRestante = _calcularDiasRestantes(tarea);
+                Console.WriteLine("cache");
+                return (Tarea)cachedData;
             }
-            return tarea!;
+            Console.WriteLine("DB");
+            var tarea = await _Contexto.Tareas.FirstOrDefaultAsync(x => x.Id == id);
+
+            if (tarea != null)
+                tarea.TiempoRestante = _calcularDiasRestantes(tarea);
+
+            _cache[cacheKey] = tarea;
+            return tarea;
         }
         public async Task<(bool IsSucces, string Message)> AddAsync(Tarea entry)
         {
@@ -69,9 +146,10 @@ namespace InfrastructureLayer.Repositorio.TareasRespositorio
                 if (!_validarTarea(entry))
                     return (false, "Datos incompletos o fecha no valida.");
 
-                var existe =  _Contexto.Tareas.Any(x => x.Descripcion == entry.Descripcion);
+                var existe = _Contexto.Tareas.Any(x => x.Descripcion == entry.Descripcion);
 
-                if (existe) {
+                if (existe)
+                {
 
                     return (false, "La tarea ya existe una tarea con esa descripcion ");
                 }
@@ -88,15 +166,16 @@ namespace InfrastructureLayer.Repositorio.TareasRespositorio
                     var tareaEnProceso = _filaTarea.Dequeue();
                     await _Contexto.Tareas.AddAsync(tareaEnProceso);
                     Console.WriteLine($"Procesando tarea: {tareaEnProceso.Descripcion}");
-                   
+
                 }
 
                 await _Contexto.SaveChangesAsync();
+                LimpiarCache();
                 _notificar(new Tarea { Descripcion = "Proceso de guardado completado" });
 
-                return (true,"La tarea se guardo Correctamente...");
+                return (true, "La tarea se guardo Correctamente...");
             }
-            catch(Exception) 
+            catch (Exception)
             {
                 return (false, "La tarea no se pudo guardar...");
             }
@@ -109,7 +188,7 @@ namespace InfrastructureLayer.Repositorio.TareasRespositorio
                 if (!_validarTarea(entry))
                 {
                     return (false, "Datos incompletos o fecha no valida.");
-                } 
+                }
 
                 var existe = _Contexto.Tareas.Any(x => x.Descripcion == entry.Descripcion);
                 if (existe)
@@ -119,6 +198,7 @@ namespace InfrastructureLayer.Repositorio.TareasRespositorio
                 }
                 _Contexto.Tareas.Update(entry);
                 await _Contexto.SaveChangesAsync();
+                LimpiarCache();
 
                 _notificar(entry);
 
@@ -140,13 +220,14 @@ namespace InfrastructureLayer.Repositorio.TareasRespositorio
                 {
                     _Contexto.Tareas.Remove(tarea);
                     await _Contexto.SaveChangesAsync();
+                    LimpiarCache();
                     return (true, "La tarea se elimino Correctamente...");
                 }
                 else
                 {
                     return (false, "No se encontro la tarea...");
                 }
-                
+
             }
             catch (Exception)
             {
