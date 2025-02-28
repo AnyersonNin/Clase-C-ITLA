@@ -16,22 +16,6 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "GestorTareasAPI.Controllers.LoginController",
-    "Method": "Register",
-    "RelativePath": "api/Autentificar/register",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "nuevoUsuario",
-        "Type": "DomainLayer.Sesion.Login",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "GestorTareasAPI.Controllers.TareaController",
     "Method": "GetTareaAllAsync",
     "RelativePath": "api/Tarea",
