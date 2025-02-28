@@ -12,7 +12,6 @@ namespace ApplicationLayer.Servicios.ServicioUsuario
         {
             _procesoComun = procesoComun;
         }
-
         public async Task<Respuesta<Usuario>> GetUsuarioAllAsync()
         {
             var respuesta = new Respuesta<Usuario>();
