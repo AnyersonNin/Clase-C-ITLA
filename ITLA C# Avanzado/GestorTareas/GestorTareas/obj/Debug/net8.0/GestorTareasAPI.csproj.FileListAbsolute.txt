@@ -161,3 +161,5 @@ C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\GestorT
 C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\GestorTareas\obj\Debug\net8.0\GestorTareasAPI.pdb
 C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\GestorTareas\obj\Debug\net8.0\GestorTareasAPI.genruntimeconfig.cache
 C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\GestorTareas\obj\Debug\net8.0\ref\GestorTareasAPI.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\GestorTareas\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\GestorTareas\bin\Debug\net8.0\BCrypt.Net-Next.dll

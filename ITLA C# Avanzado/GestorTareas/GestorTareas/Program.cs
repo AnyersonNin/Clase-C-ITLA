@@ -4,6 +4,11 @@ using InfrastructureLayer;
 using InfrastructureLayer.Repositorio.Comun;
 using InfrastructureLayer.Repositorio.TareasRespositorio;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using ApplicationLayer.Servicios.ServicioUsuario;
+using InfrastructureLayer.Repositorio.UsuarioRepositorio;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,8 +21,36 @@ builder.Services.AddDbContext<GestorTareasContexto>(options =>
 });
 
 builder.Services.AddScoped<IProcesoComun<Tarea>,TareasRepositorio>();
+builder.Services.AddScoped<IProcesoComun<Usuario>,UsuarioRepositorio>();
 builder.Services.AddScoped<TareaServicio>();
+builder.Services.AddScoped<UsuarioServicio>();
 builder.Services.AddControllers();
+
+var key = Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]);
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        options.RequireHttpsMetadata = false;
+        options.SaveToken = true;
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuerSigningKey = true,
+            IssuerSigningKey = new SymmetricSecurityKey(key),
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateLifetime = true,
+            ValidIssuer = builder.Configuration["Jwt:Issuer"],
+            ValidAudience = builder.Configuration["Jwt:Audience"],
+            ClockSkew = TimeSpan.Zero
+        };
+    });
+
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("AdminOnly", policy => policy.RequireRole("Admin"));
+    options.AddPolicy("UserOnly", policy => policy.RequireRole("User"));
+});
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
