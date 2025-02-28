@@ -24,6 +24,7 @@ builder.Services.AddScoped<IProcesoComun<Tarea>,TareasRepositorio>();
 builder.Services.AddScoped<IProcesoComun<Usuario>,UsuarioRepositorio>();
 builder.Services.AddScoped<TareaServicio>();
 builder.Services.AddScoped<UsuarioServicio>();
+builder.Services.AddScoped<UsuarioRepositorio>();
 builder.Services.AddControllers();
 
 var key = Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]);

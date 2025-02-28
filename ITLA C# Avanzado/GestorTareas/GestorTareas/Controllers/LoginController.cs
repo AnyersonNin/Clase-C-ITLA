@@ -1,13 +1,10 @@
-﻿using DomainLayer.Sesion;
-using InfrastructureLayer.Repositorio.UsuarioRepositorio;
+﻿using InfrastructureLayer.Repositorio.UsuarioRepositorio;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
-using Org.BouncyCastle.Crypto.Generators;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-using DomainLayer.Models;
-using BCrypt.Net;
+
 
 namespace GestorTareasAPI.Controllers
 {
@@ -24,18 +21,6 @@ namespace GestorTareasAPI.Controllers
         }
 
         [HttpPost("login")]
-        public IActionResult Login([FromBody] Login logueo)
-        {
-            var usuario = _usuarioRepositorio.ObtenerUsuarioPorNombre(logueo.Nombre);
-
-            if (usuario == null || !BCrypt.Net.BCrypt.Verify(logueo.Contrasena, usuario.Contrasena))
-            {
-                return Unauthorized("Credenciales incorrectas");
-            }
-
-            var token = GenerateJwtToken(usuario.Nombre, usuario.Role);
-            return Ok(new { Token = token });
-        }
 
         private string GenerateJwtToken(string Nombre, string roll)
         {
@@ -59,6 +44,7 @@ namespace GestorTareasAPI.Controllers
 
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
+    
     }
 }
 

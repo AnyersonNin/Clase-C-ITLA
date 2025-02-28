@@ -155,16 +155,6 @@ namespace InfrastructureLayer.Repositorio.UsuarioRepositorio
             }
         }
 
-        public Usuario? ObtenerUsuarioPorNombre(string nombre)
-        {
-            return _Contexto.Usuarios.FirstOrDefault(u => u.Nombre == nombre);
-        }
-        public void AgregarUsuario(Usuario usuario)
-        {
-            _Contexto.Usuarios.Add(usuario);
-            _Contexto.SaveChanges();
-        }
-
         public Task<IEnumerable<Usuario>> GetCompletasAsync()
         {
             throw new NotImplementedException();

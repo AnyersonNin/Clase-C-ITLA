@@ -8,11 +8,13 @@ C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\GestorT
 C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\GestorTareas\bin\Debug\net8.0\GestorTareasAPI.pdb
 C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\GestorTareas\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\GestorTareas\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\GestorTareas\bin\Debug\net8.0\BCrypt.Net-Next.dll
 C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\GestorTareas\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
 C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\GestorTareas\bin\Debug\net8.0\Enums.NET.dll
 C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\GestorTareas\bin\Debug\net8.0\ExtendedNumerics.BigDecimal.dll
 C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\GestorTareas\bin\Debug\net8.0\Humanizer.dll
 C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\GestorTareas\bin\Debug\net8.0\MathNet.Numerics.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\GestorTareas\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\GestorTareas\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\GestorTareas\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
 C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\GestorTareas\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
@@ -161,5 +163,3 @@ C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\GestorT
 C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\GestorTareas\obj\Debug\net8.0\GestorTareasAPI.pdb
 C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\GestorTareas\obj\Debug\net8.0\GestorTareasAPI.genruntimeconfig.cache
 C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\GestorTareas\obj\Debug\net8.0\ref\GestorTareasAPI.dll
-C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\GestorTareas\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\GestorTareas\bin\Debug\net8.0\BCrypt.Net-Next.dll
