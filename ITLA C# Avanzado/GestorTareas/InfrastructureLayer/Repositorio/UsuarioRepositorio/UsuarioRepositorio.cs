@@ -155,6 +155,11 @@ namespace InfrastructureLayer.Repositorio.UsuarioRepositorio
             }
         }
 
+        public async Task<Usuario?> ObtenerPorNombre(string nombre)
+        {
+            return await _Contexto.Usuarios.FirstOrDefaultAsync(u => u.Nombre == nombre);
+        }
+
         public Task<IEnumerable<Usuario>> GetCompletasAsync()
         {
             throw new NotImplementedException();

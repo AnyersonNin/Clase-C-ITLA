@@ -8,7 +8,6 @@ C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\GestorT
 C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\GestorTareas\bin\Debug\net8.0\GestorTareasAPI.pdb
 C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\GestorTareas\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\GestorTareas\bin\Debug\net8.0\Azure.Identity.dll
-C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\GestorTareas\bin\Debug\net8.0\BCrypt.Net-Next.dll
 C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\GestorTareas\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
 C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\GestorTareas\bin\Debug\net8.0\Enums.NET.dll
 C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\GestorTareas\bin\Debug\net8.0\ExtendedNumerics.BigDecimal.dll
