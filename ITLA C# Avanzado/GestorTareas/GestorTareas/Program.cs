@@ -13,8 +13,6 @@ using InfrastructureLayer.HUBS;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
 builder.Services.AddDbContext<GestorTareasContexto>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("GTareaConexion"));

@@ -7,6 +7,8 @@ using DomainLayer.DTO;
 using InfrastructureLayer.HUBS;
 using Microsoft.AspNetCore.SignalR;
 
+
+
 namespace InfrastructureLayer.Repositorio.TareasRespositorio
 {
     public class TareasRepositorio : IProcesoComun<Tarea>
@@ -119,6 +121,7 @@ namespace InfrastructureLayer.Repositorio.TareasRespositorio
             _cache[cacheKey] = tareasConTiempo;
             return tareasConTiempo;
         }
+
         public async Task<Tarea> GetIdAsync(int id)
         {
             string cacheKey = $"tarea_{id}";
@@ -178,6 +181,7 @@ namespace InfrastructureLayer.Repositorio.TareasRespositorio
                 return (false, "La tarea no se pudo guardar...");
             }
         }
+
         public async Task<(bool IsSucces, string Message)> UpdateAsync(Tarea entry)
         {
             try
@@ -196,7 +200,7 @@ namespace InfrastructureLayer.Repositorio.TareasRespositorio
                 _Contexto.Tareas.Update(entry);
                 await _Contexto.SaveChangesAsync();
                 LimpiarCache();
-
+                  
                 await _hubContext.Clients.All.SendAsync("RecibirActualizacionTarea", entry);
 
                 return (true, "La tarea se actualizo Correctamente...");

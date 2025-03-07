@@ -1,5 +1,7 @@
 ﻿using DomainLayer.Models;
+using InfrastructureLayer.HUBS;
 using InfrastructureLayer.Repositorio.Comun;
+using Microsoft.AspNetCore.SignalR;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Concurrent;
@@ -14,6 +16,7 @@ namespace InfrastructureLayer.Repositorio.UsuarioRepositorio
     public class UsuarioRepositorio : IProcesoComun<Usuario>
     {
         private readonly GestorTareasContexto _Contexto;
+        private readonly IHubContext<TareasHub> _hubContext;
 
         private void LimpiarCache()
         {
@@ -31,9 +34,10 @@ namespace InfrastructureLayer.Repositorio.UsuarioRepositorio
 
         private readonly Queue<Usuario> _filaUsuario = new Queue<Usuario>();
 
-        public UsuarioRepositorio(GestorTareasContexto contexto)
+        public UsuarioRepositorio(GestorTareasContexto contexto, IHubContext<TareasHub> hubContext)
         {
             _Contexto = contexto;
+            _hubContext = hubContext;
         }
         public async Task<IEnumerable<Usuario>> GetAllAsync()
         {
@@ -92,7 +96,8 @@ namespace InfrastructureLayer.Repositorio.UsuarioRepositorio
 
                 await _Contexto.SaveChangesAsync();
                 LimpiarCache();
-                _notificar(new Usuario { Nombre = "Proceso de guardado completado" });
+
+                await _hubContext.Clients.All.SendAsync("RecibirNuevaTarea", entry);
 
                 return (true, "El usuarios se guardo Correctamente...");
             }
@@ -120,8 +125,7 @@ namespace InfrastructureLayer.Repositorio.UsuarioRepositorio
                 await _Contexto.SaveChangesAsync();
                 LimpiarCache();
 
-                _notificar(entry);
-
+                await _hubContext.Clients.All.SendAsync("RecibirActualizacionTarea", entry);
 
                 return (true, "El usuarios se actualizo Correctamente...");
             }
