@@ -61,6 +61,18 @@ Etapa 5: Optimización de funciones con memorización
 2.	Evitar cálculos repetitivos: Al reutilizar los resultados almacenados en caché, se elimina la necesidad de realizar cálculos redundantes.
 3.	Implementación de funciones puras: Uso de funciones que siempre devuelven el mismo resultado con las mismas entradas, facilitando su almacenamiento en caché.
 4.	Escalabilidad optimizada: A medida que se añaden nuevas funciones, solo es necesario registrar sus resultados en la caché, sin afectar el rendimiento general.
-
-
-
+----------------------------------------------
+Etapa 6: Autenticación y Autorización con JWT
+----------------------------------------------
+1.	Generación del token JWT: Implementación de un endpoint de inicio de sesión que autentica al usuario con credenciales válidas y genera un token JWT con información del usuario y sus roles.
+2.	Firma y seguridad del token: Uso de una clave secreta para firmar el token JWT, asegurando su integridad y evitando modificaciones no autorizadas.
+3.	Almacenamiento seguro del token: Envío del token JWT al cliente, quien lo almacena de forma segura (localStorage, sessionStorage o cookies seguras).
+4.	Protección de rutas: Aplicación de la validación de JWT en las rutas que requieren autenticación para garantizar que solo usuarios autorizados puedan acceder.
+---------------------------------------------------
+Desarrollo de la Etapa 7: Configuración de SignalR
+---------------------------------------------------
+1.Integración de SignalR en la API: Configuración del servidor para admitir comunicación en tiempo real utilizando SignalR.
+2.Creación de un Hub de SignalR: Definición de un Hub en el servidor que maneje la conexión de los clientes y la transmisión de mensajes en tiempo real.
+3.Registro de SignalR en el servidor: Configuración del middleware en la API para habilitar las conexiones WebSocket y permitir la transmisión de eventos en tiempo real.
+4.Conexión de los clientes a SignalR: Implementación del código necesario en los clientes para conectarse al servidor SignalR y recibir notificaciones en tiempo real.
+5.Emisión de notificaciones al crear una tarea: Configuración del servidor para que, cuando se cree una nueva tarea, envíe un mensaje a todos los clientes conectados.
