@@ -21,7 +21,7 @@ namespace GestorTareasAPI.Controllers
             _usuarioRepositorio = usuarioRepositorio;
         }
         [HttpPost("login")]
-        public async Task<IActionResult> Login([FromBody] Login model)
+        public async Task<IActionResult> Login(Login model)
         {
             var usuario = await _usuarioRepositorio.ObtenerPorNombre(model.Nombre);
 
@@ -37,15 +37,22 @@ namespace GestorTareasAPI.Controllers
 
         private string GenerateJwtToken(string nombre, string rol)
         {
-            var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));
+            var key = _configuration["Jwt:Key"];
+
+            if (string.IsNullOrEmpty(key) || key.Length < 32)
+            {
+                throw new Exception("La clave JWT es demasiado corta. Debe tener al menos 32 caracteres.");
+            }
+
+            var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(key));
             var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
 
             var claims = new[]
             {
-                new Claim(JwtRegisteredClaimNames.Sub, nombre),
-                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
-                new Claim(ClaimTypes.Role, rol)
-            };
+        new Claim(JwtRegisteredClaimNames.Sub, nombre),
+        new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+        new Claim(ClaimTypes.Role, rol)
+    };
 
             var token = new JwtSecurityToken(
                 issuer: _configuration["Jwt:Issuer"],

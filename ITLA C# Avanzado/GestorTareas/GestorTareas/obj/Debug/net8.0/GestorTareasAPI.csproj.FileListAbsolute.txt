@@ -25,7 +25,10 @@ C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\GestorT
 C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\GestorTareas\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\GestorTareas\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\GestorTareas\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\GestorTareas\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\GestorTareas\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\GestorTareas\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\GestorTareas\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\GestorTareas\bin\Debug\net8.0\Microsoft.Identity.Client.dll
 C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\GestorTareas\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
 C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\GestorTareas\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
@@ -39,6 +42,7 @@ C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\GestorT
 C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\GestorTareas\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
 C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\GestorTareas\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\GestorTareas\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\GestorTareas\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\GestorTareas\bin\Debug\net8.0\NPOI.Core.dll
 C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\GestorTareas\bin\Debug\net8.0\NPOI.OOXML.dll
 C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\GestorTareas\bin\Debug\net8.0\NPOI.OpenXml4Net.dll

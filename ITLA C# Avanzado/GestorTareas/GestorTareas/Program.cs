@@ -9,6 +9,7 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using ApplicationLayer.Servicios.ServicioUsuario;
 using InfrastructureLayer.Repositorio.UsuarioRepositorio;
+using InfrastructureLayer.HUBS;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -25,10 +26,11 @@ builder.Services.AddScoped<IProcesoComun<Usuario>,UsuarioRepositorio>();
 builder.Services.AddScoped<TareaServicio>();
 builder.Services.AddScoped<UsuarioServicio>();
 builder.Services.AddScoped<UsuarioRepositorio>();
+builder.Services.AddSignalR();
 builder.Services.AddControllers();
 
-var key = Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]);
 
+var key = Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]);
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
@@ -58,14 +60,6 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-//using (var scope = app.Services.CreateScope())
-//{
-//    var context = scope.ServiceProvider.GetRequiredService<GestorTareasContexto>();
-//    context.Database.Migrate();
-
-//}
-
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -73,10 +67,10 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
 app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
+app.MapHub<TareasHub>("/tareasHub");
 
 app.Run();

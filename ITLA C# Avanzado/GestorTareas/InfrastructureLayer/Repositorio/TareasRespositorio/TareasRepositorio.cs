@@ -4,6 +4,8 @@ using Microsoft.EntityFrameworkCore;
 using System.Reactive.Linq;
 using System.Collections.Concurrent;
 using DomainLayer.DTO;
+using InfrastructureLayer.HUBS;
+using Microsoft.AspNetCore.SignalR;
 
 
 
@@ -12,7 +14,7 @@ namespace InfrastructureLayer.Repositorio.TareasRespositorio
     public class TareasRepositorio : IProcesoComun<Tarea>
     {
         private readonly GestorTareasContexto _Contexto;
-
+        private readonly IHubContext<TareasHub> _hubContext;
         private static readonly ConcurrentDictionary<string,object> 
         _cache = new ConcurrentDictionary<string, object>();
 
@@ -21,10 +23,7 @@ namespace InfrastructureLayer.Repositorio.TareasRespositorio
         private readonly ValidarTarea _validarTarea = tarea =>
         !string.IsNullOrWhiteSpace(tarea.Descripcion) &&
         tarea.FechaVencimiento > DateTime.Now;
-
-        private readonly Action<Tarea> _notificar = tarea =>
-        Console.WriteLine($"Tarea creada: {tarea.Descripcion},Vencimiento: {tarea.FechaVencimiento}");
-
+      
         private readonly Func<Tarea, int> _calcularDiasRestantes = tarea =>
         (tarea.FechaVencimiento - DateTime.Now).Days;
 
@@ -32,9 +31,10 @@ namespace InfrastructureLayer.Repositorio.TareasRespositorio
 
         private static readonly ConcurrentDictionary<(int Total, int Completadas), double>
         _promedioCompletas = new ConcurrentDictionary<(int, int), double>();
-        public TareasRepositorio(GestorTareasContexto contexto)
+        public TareasRepositorio(GestorTareasContexto contexto, IHubContext<TareasHub> hubContext)
         {
             _Contexto = contexto;
+            _hubContext = hubContext;
         }
 
         private void LimpiarCache()
@@ -158,7 +158,7 @@ namespace InfrastructureLayer.Repositorio.TareasRespositorio
 
                 _filaTarea.Enqueue(entry);
                 Console.WriteLine($"Tarea agregada a la cola: {entry.Descripcion}");
-                _notificar(entry);
+             
 
                 while (_filaTarea.Count > 0)
                 {
@@ -171,7 +171,8 @@ namespace InfrastructureLayer.Repositorio.TareasRespositorio
 
                 await _Contexto.SaveChangesAsync();
                 LimpiarCache();
-                _notificar(new Tarea { Descripcion = "Proceso de guardado completado" });
+                 
+                await _hubContext.Clients.All.SendAsync("RecibirNuevaTarea", entry);
 
                 return (true, "La tarea se guardo Correctamente...");
             }
@@ -200,8 +201,7 @@ namespace InfrastructureLayer.Repositorio.TareasRespositorio
                 await _Contexto.SaveChangesAsync();
                 LimpiarCache();
 
-                _notificar(entry);
-
+                await _hubContext.Clients.All.SendAsync("RecibirActualizacionTarea", entry);
 
                 return (true, "La tarea se actualizo Correctamente...");
             }
