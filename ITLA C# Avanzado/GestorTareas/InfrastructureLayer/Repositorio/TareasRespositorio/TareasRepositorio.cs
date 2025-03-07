@@ -7,8 +7,6 @@ using DomainLayer.DTO;
 using InfrastructureLayer.HUBS;
 using Microsoft.AspNetCore.SignalR;
 
-
-
 namespace InfrastructureLayer.Repositorio.TareasRespositorio
 {
     public class TareasRepositorio : IProcesoComun<Tarea>
