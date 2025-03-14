@@ -82,9 +82,9 @@ namespace PruebasxUnitGestorTareas
         public async Task ObtenerTodasLasTareas_RetornaLista()
         {
             var tareas = new List<Tarea>
-    {
-        new Tarea { Id = 1, Descripcion = "Prueba", Estatus = "Pendiente" }
-    };
+            {
+              new Tarea { Id = 1, Descripcion = "Prueba", Estatus = "Pendiente" }
+            };
 
             _mockProcesoTarea.Setup(s => s.GetAllAsync()).ReturnsAsync(tareas);
 
@@ -139,7 +139,7 @@ namespace PruebasxUnitGestorTareas
         public async Task CalcularPromedioTareasCompletadas_DevuelveValorCorrecto()
         {
             _mockProcesoTarea.Setup(s => s.GetPromedioCompletasAsync())
-       .ReturnsAsync(75.0);
+           .ReturnsAsync(75.0);
 
             var resultado = await _tareaController.GetPromedioCompletasAsync();
 
