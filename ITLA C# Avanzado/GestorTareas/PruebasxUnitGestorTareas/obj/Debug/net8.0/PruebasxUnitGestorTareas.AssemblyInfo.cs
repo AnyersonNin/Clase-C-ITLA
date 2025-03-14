@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PruebasxUnitGestorTareas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f3e2dd7a2950e8b6668bb8fc1d6b573bc8e7da49")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2343a72a26e65dc25f6286309352b3604403218b")]
 [assembly: System.Reflection.AssemblyProductAttribute("PruebasxUnitGestorTareas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PruebasxUnitGestorTareas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
