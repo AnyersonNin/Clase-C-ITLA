@@ -64,7 +64,6 @@ namespace PruebasxUnitGestorTareas
             Assert.Equal("Usuario actualizado", resultado.Value.Message);
         }
 
-
         [Fact]
         public async Task ObtenerUsuarios_RetornaLista()
         {
