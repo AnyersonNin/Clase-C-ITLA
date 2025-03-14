@@ -77,7 +77,7 @@ Desarrollo de la Etapa 7: Configuración de SignalR
 4.Conexión de los clientes a SignalR: Implementación del código necesario en los clientes para conectarse al servidor SignalR y recibir notificaciones en tiempo real.
 5.Emisión de notificaciones al crear una tarea: Configuración del servidor para que, cuando se cree una nueva tarea, envíe un mensaje a todos los clientes conectados.
 ---------------------------------------
-Pruebas unitarias con xUnit en la API
+Práctica 8: Pruebas unitarias con xUnit en la API
 ---------------------------------------
 Identificación de pruebas críticas:
 Analiza la API y selecciona al menos 10 casos de prueba que consideres más relevantes.
