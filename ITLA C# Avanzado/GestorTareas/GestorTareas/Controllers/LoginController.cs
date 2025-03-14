@@ -15,11 +15,13 @@ namespace GestorTareasAPI.Controllers
     {
         private readonly IConfiguration _configuration;
         private readonly UsuarioRepositorio _usuarioRepositorio;
+
         public LoginController(IConfiguration configuration, UsuarioRepositorio usuarioRepositorio)
         {
             _configuration = configuration;
             _usuarioRepositorio = usuarioRepositorio;
         }
+
         [HttpPost("login")]
         public async Task<IActionResult> Login(Login model)
         {

@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfrastructureLayer", "Infr
 		{83836311-C6F6-4068-BFCB-C47152D12E25} = {83836311-C6F6-4068-BFCB-C47152D12E25}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebasxUnitGestorTareas", "PruebasxUnitGestorTareas\PruebasxUnitGestorTareas.csproj", "{7EEBB6F9-0B8F-423B-A8F1-384DCE699F40}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +38,10 @@ Global
 		{195819AE-31C3-40B3-8B94-B6B7E24AE2F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{195819AE-31C3-40B3-8B94-B6B7E24AE2F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{195819AE-31C3-40B3-8B94-B6B7E24AE2F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EEBB6F9-0B8F-423B-A8F1-384DCE699F40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EEBB6F9-0B8F-423B-A8F1-384DCE699F40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EEBB6F9-0B8F-423B-A8F1-384DCE699F40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EEBB6F9-0B8F-423B-A8F1-384DCE699F40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

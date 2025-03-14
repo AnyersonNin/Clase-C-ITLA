@@ -1,0 +1,6 @@
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\TestProjectGestorTareas\obj\Debug\net8.0\TestProjectGestorTareas.csproj.AssemblyReference.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\TestProjectGestorTareas\obj\Debug\net8.0\TestProjectGestorTareas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\TestProjectGestorTareas\obj\Debug\net8.0\TestProjectGestorTareas.AssemblyInfoInputs.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\TestProjectGestorTareas\obj\Debug\net8.0\TestProjectGestorTareas.AssemblyInfo.cs
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\TestProjectGestorTareas\obj\Debug\net8.0\TestProjectGestorTareas.csproj.CoreCompileInputs.cache
+C:\Users\Anyerson Nin\Desktop\Clase-C-ITLA\ITLA C# Avanzado\GestorTareas\TestProjectGestorTareas\obj\Debug\net8.0\TestProjectGestorTareas.sourcelink.json
