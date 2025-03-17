@@ -64,5 +64,4 @@ namespace GestorTareasAPI.Controllers
          => await _Servicio.GetPromedioCompletasAsync();
 
     }
-
 }
