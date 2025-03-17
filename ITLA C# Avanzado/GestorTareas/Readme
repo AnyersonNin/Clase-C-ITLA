@@ -76,3 +76,13 @@ Desarrollo de la Etapa 7: Configuración de SignalR
 3.Registro de SignalR en el servidor: Configuración del middleware en la API para habilitar las conexiones WebSocket y permitir la transmisión de eventos en tiempo real.
 4.Conexión de los clientes a SignalR: Implementación del código necesario en los clientes para conectarse al servidor SignalR y recibir notificaciones en tiempo real.
 5.Emisión de notificaciones al crear una tarea: Configuración del servidor para que, cuando se cree una nueva tarea, envíe un mensaje a todos los clientes conectados.
+---------------------------------------
+Práctica 8: Pruebas unitarias con xUnit en la API
+---------------------------------------
+Identificación de pruebas críticas:
+Analiza la API y selecciona al menos 10 casos de prueba que consideres más relevantes.
+Prioriza aquellas partes del código que afectan el flujo principal de la aplicación, como autenticación, validaciones de datos, lógica de negocio y acceso a la base de datos.
+Implementación de pruebas:
+Utiliza xUnit para escribir y ejecutar las pruebas unitarias.
+Asegúrate de que cada prueba evalúe correctamente el comportamiento esperado de la API.
+Usa aserciones adecuadas para validar los resultados.
