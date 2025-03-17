@@ -23,43 +23,43 @@ namespace GestorTareasAPI.Controllers
             _Servicio = servicio;
         }
 
-         [HttpGet]
-        [Authorize(Roles = "Admin,User")]
+        [HttpGet]
+        [Authorize(Roles = "admin,user")]
         public async Task<ActionResult<Respuesta<Tarea>>> GetTareaAllAsync()
         => await _Servicio.GetTareaAllAsync();
 
         [HttpGet("{id}")]
-        [Authorize(Roles = "Admin,User")]
+        [Authorize(Roles = "admin,user")]
         public async Task<ActionResult<Respuesta<Tarea>>> GetTareaByIdAllAsync(int id)
         => await _Servicio.GetTareaByIdAllAsync(id);
 
         [HttpPost]
-        [Authorize(Roles = "Admin,User")]
+        [Authorize(Roles = "admin,user")]
         public async Task<ActionResult<Respuesta<string>>> AddTareaAllAsync(Tarea tarea)
         => await _Servicio.CrearTareaConPrioridad(tarea.Descripcion, tarea.DatosAdicionales);
     
         [HttpPut]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "admin")]
         public async Task<ActionResult<Respuesta<string>>> UpdateTareaAllAsync(Tarea tarea)
         => await _Servicio.UpdateTareaAllAsync(tarea);
 
         [HttpDelete("{id}")]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "admin")]
         public async Task<ActionResult<Respuesta<string>>> DeleteTareaAllAsync(int id)
         => await _Servicio.DeleteTareaAllAsync(id);
 
         [HttpGet("pendientes")]
-        [Authorize(Roles = "User,Admin")]
+        [Authorize(Roles = "admin,user")]
         public async Task<ActionResult<Respuesta<Tarea>>> GetPendientesAsync()
         => await _Servicio.GetPendientesAsync();
 
         [HttpGet("completas")]
-        [Authorize(Roles = "User,Admin")]
+        [Authorize(Roles = "admin,user")]
         public async Task<ActionResult<Respuesta<Tarea>>> GetCompletasAsync()
         => await _Servicio.GetCompletasAsync();
 
         [HttpGet("PromedioCompletas")]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "admin")]
         public async Task<ActionResult<Respuesta<object>>> GetPromedioCompletasAsync()
          => await _Servicio.GetPromedioCompletasAsync();
 
