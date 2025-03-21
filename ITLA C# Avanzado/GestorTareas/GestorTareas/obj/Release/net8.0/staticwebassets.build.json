@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "EFgzD0vc0htdXUOOJeh0gIV5g0YAO8SZ9QjNsm0dVOw=",
+  "Source": "GestorTareasAPI",
+  "BasePath": "_content/GestorTareasAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

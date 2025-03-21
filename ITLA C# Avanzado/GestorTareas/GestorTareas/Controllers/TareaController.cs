@@ -18,7 +18,7 @@ namespace GestorTareasAPI.Controllers
             _Servicio = servicio;
         }
 
-        [HttpGet]
+        [HttpGet("ListaTareas")]
         [Authorize(Roles = "admin,user")]
         public async Task<ActionResult<Respuesta<Tarea>>> GetTareaAllAsync()
         => await _Servicio.GetTareaAllAsync();
@@ -27,21 +27,6 @@ namespace GestorTareasAPI.Controllers
         [Authorize(Roles = "admin,user")]
         public async Task<ActionResult<Respuesta<Tarea>>> GetTareaByIdAllAsync(int id)
         => await _Servicio.GetTareaByIdAllAsync(id);
-
-        [HttpPost]
-        [Authorize(Roles = "admin,user")]
-        public async Task<ActionResult<Respuesta<string>>> AddTareaAllAsync(Tarea tarea)
-        => await _Servicio.CrearTareaConPrioridad(tarea.Descripcion, tarea.DatosAdicionales);
-    
-        [HttpPut]
-        [Authorize(Roles = "admin")]
-        public async Task<ActionResult<Respuesta<string>>> UpdateTareaAllAsync(Tarea tarea)
-        => await _Servicio.UpdateTareaAllAsync(tarea);
-
-        [HttpDelete("{id}")]
-        [Authorize(Roles = "admin")]
-        public async Task<ActionResult<Respuesta<string>>> DeleteTareaAllAsync(int id)
-        => await _Servicio.DeleteTareaAllAsync(id);
 
         [HttpGet("pendientes")]
         [Authorize(Roles = "admin,user")]
@@ -57,6 +42,22 @@ namespace GestorTareasAPI.Controllers
         [Authorize(Roles = "admin")]
         public async Task<ActionResult<Respuesta<object>>> GetPromedioCompletasAsync()
          => await _Servicio.GetPromedioCompletasAsync();
+
+        [HttpPost("AgregarTarea")]
+        [Authorize(Roles = "admin,user")]
+        public async Task<ActionResult<Respuesta<string>>> AddTareaAllAsync(Tarea tarea)
+        => await _Servicio.CrearTareaConPrioridad(tarea.Descripcion, tarea.DatosAdicionales);
+    
+        [HttpPut("ActualizarTarea")]
+        [Authorize(Roles = "admin")]
+        public async Task<ActionResult<Respuesta<string>>> UpdateTareaAllAsync(Tarea tarea)
+        => await _Servicio.UpdateTareaAllAsync(tarea);
+
+        [HttpDelete("{id}")]
+        [Authorize(Roles = "admin")]
+        public async Task<ActionResult<Respuesta<string>>> DeleteTareaAllAsync(int id)
+        => await _Servicio.DeleteTareaAllAsync(id);
+
 
     }
 }

@@ -36,7 +36,7 @@
         }
       }
     },
-    "/api/Tarea": {
+    "/api/Tarea/ListaTareas": {
       "get": {
         "tags": [
           "Tarea"
@@ -58,98 +58,6 @@
               "text/json": {
                 "schema": {
                   "$ref": "#/components/schemas/TareaRespuesta"
-                }
-              }
-            }
-          }
-        }
-      },
-      "post": {
-        "tags": [
-          "Tarea"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Tarea"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Tarea"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/Tarea"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "Success",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/StringRespuesta"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/StringRespuesta"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/StringRespuesta"
-                }
-              }
-            }
-          }
-        }
-      },
-      "put": {
-        "tags": [
-          "Tarea"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Tarea"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Tarea"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/Tarea"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "Success",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/StringRespuesta"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/StringRespuesta"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/StringRespuesta"
                 }
               }
             }
@@ -322,7 +230,103 @@
         }
       }
     },
-    "/api/Usuarios": {
+    "/api/Tarea/AgregarTarea": {
+      "post": {
+        "tags": [
+          "Tarea"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Tarea"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Tarea"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Tarea"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/StringRespuesta"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StringRespuesta"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StringRespuesta"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Tarea/ActualizarTarea": {
+      "put": {
+        "tags": [
+          "Tarea"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Tarea"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Tarea"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Tarea"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/StringRespuesta"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StringRespuesta"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StringRespuesta"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Usuarios/ListaUsuario": {
       "get": {
         "tags": [
           "Usuarios"
@@ -349,7 +353,9 @@
             }
           }
         }
-      },
+      }
+    },
+    "/api/Usuarios/AgregarUsuario": {
       "post": {
         "tags": [
           "Usuarios"
@@ -395,7 +401,9 @@
             }
           }
         }
-      },
+      }
+    },
+    "/api/Usuarios/ActualizarUsuario": {
       "put": {
         "tags": [
           "Usuarios"

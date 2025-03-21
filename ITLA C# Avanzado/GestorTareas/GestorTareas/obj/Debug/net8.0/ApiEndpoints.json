@@ -17,78 +17,6 @@
   },
   {
     "ContainingType": "GestorTareasAPI.Controllers.TareaController",
-    "Method": "GetTareaAllAsync",
-    "RelativePath": "api/Tarea",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "DomainLayer.DTO.Respuesta\u00601[[DomainLayer.Models.Tarea, DomainLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "GestorTareasAPI.Controllers.TareaController",
-    "Method": "AddTareaAllAsync",
-    "RelativePath": "api/Tarea",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "tarea",
-        "Type": "DomainLayer.Models.Tarea",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "DomainLayer.DTO.Respuesta\u00601[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "GestorTareasAPI.Controllers.TareaController",
-    "Method": "UpdateTareaAllAsync",
-    "RelativePath": "api/Tarea",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "tarea",
-        "Type": "DomainLayer.Models.Tarea",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "DomainLayer.DTO.Respuesta\u00601[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "GestorTareasAPI.Controllers.TareaController",
     "Method": "GetTareaByIdAllAsync",
     "RelativePath": "api/Tarea/{id}",
     "HttpMethod": "GET",
@@ -141,8 +69,80 @@
   },
   {
     "ContainingType": "GestorTareasAPI.Controllers.TareaController",
+    "Method": "UpdateTareaAllAsync",
+    "RelativePath": "api/Tarea/ActualizarTarea",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tarea",
+        "Type": "DomainLayer.Models.Tarea",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DomainLayer.DTO.Respuesta\u00601[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestorTareasAPI.Controllers.TareaController",
+    "Method": "AddTareaAllAsync",
+    "RelativePath": "api/Tarea/AgregarTarea",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tarea",
+        "Type": "DomainLayer.Models.Tarea",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DomainLayer.DTO.Respuesta\u00601[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestorTareasAPI.Controllers.TareaController",
     "Method": "GetCompletasAsync",
     "RelativePath": "api/Tarea/completas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "DomainLayer.DTO.Respuesta\u00601[[DomainLayer.Models.Tarea, DomainLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestorTareasAPI.Controllers.TareaController",
+    "Method": "GetTareaAllAsync",
+    "RelativePath": "api/Tarea/ListaTareas",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -201,35 +201,15 @@
   },
   {
     "ContainingType": "GestorTareasAPI.Controllers.UsuariosController",
-    "Method": "GetUsuarioAllAsync",
-    "RelativePath": "api/Usuarios",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "DomainLayer.DTO.Respuesta\u00601[[DomainLayer.Models.Usuario, DomainLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "GestorTareasAPI.Controllers.UsuariosController",
-    "Method": "AddTareaAllAsync",
-    "RelativePath": "api/Usuarios",
-    "HttpMethod": "POST",
+    "Method": "DeleteUsuarioAllAsync",
+    "RelativePath": "api/Usuarios/{id}",
+    "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "usuario",
-        "Type": "DomainLayer.Models.Usuario",
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
@@ -248,7 +228,7 @@
   {
     "ContainingType": "GestorTareasAPI.Controllers.UsuariosController",
     "Method": "UpdateTareaAllAsync",
-    "RelativePath": "api/Usuarios",
+    "RelativePath": "api/Usuarios/ActualizarUsuario",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -273,21 +253,41 @@
   },
   {
     "ContainingType": "GestorTareasAPI.Controllers.UsuariosController",
-    "Method": "DeleteUsuarioAllAsync",
-    "RelativePath": "api/Usuarios/{id}",
-    "HttpMethod": "DELETE",
+    "Method": "AddTareaAllAsync",
+    "RelativePath": "api/Usuarios/AgregarUsuario",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
-        "Type": "System.Int32",
+        "Name": "usuario",
+        "Type": "DomainLayer.Models.Usuario",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
         "Type": "DomainLayer.DTO.Respuesta\u00601[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestorTareasAPI.Controllers.UsuariosController",
+    "Method": "GetUsuarioAllAsync",
+    "RelativePath": "api/Usuarios/ListaUsuario",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "DomainLayer.DTO.Respuesta\u00601[[DomainLayer.Models.Usuario, DomainLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",

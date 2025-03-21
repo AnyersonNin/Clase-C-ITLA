@@ -9,6 +9,7 @@ namespace GestorTareasAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class UsuariosController : ControllerBase
     {
         private readonly UsuarioServicio _Servicio;
@@ -18,18 +19,22 @@ namespace GestorTareasAPI.Controllers
             _Servicio = servicio;
         }
 
-        [HttpGet]
+        [HttpGet("ListaUsuario")]
+        [Authorize(Roles = "admin,user")]
         public async Task<ActionResult<Respuesta<Usuario>>> GetUsuarioAllAsync()
         => await _Servicio.GetUsuarioAllAsync();
-        [HttpPost]
+        [HttpPost("AgregarUsuario")]
+        [Authorize(Roles = "admin,user")]
         public async Task<ActionResult<Respuesta<string>>> AddTareaAllAsync(Usuario usuario)
        => await _Servicio.AddUsuarioAllAsync(usuario);
 
-        [HttpPut]
+        [HttpPut("ActualizarUsuario")]
+        [Authorize(Roles = "admin")]
         public async Task<ActionResult<Respuesta<string>>> UpdateTareaAllAsync(Usuario usuario)
         => await _Servicio.UpdateTareaAllAsync(usuario);
 
         [HttpDelete("{id}")]
+        [Authorize(Roles = "admin")]
         public async Task<ActionResult<Respuesta<string>>> DeleteUsuarioAllAsync(int id)
         => await _Servicio.DeleteUsuarioAllAsync(id);
 
